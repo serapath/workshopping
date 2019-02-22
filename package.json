@@ -1,6 +1,6 @@
 {
   "name": "workshopping",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "make workshop pages",
   "main": "src/workshopping.js",
   "scripts": {
@@ -20,5 +20,10 @@
   "homepage": "https://github.com/serapath/workshopping#readme",
   "devDependencies": {
     "budo": "^11.6.0"
+  },
+  "dependencies": {
+    "bel": "^6.0.0",
+    "belmark": "^2.0.3",
+    "csjs-inject": "^1.0.1"
   }
 }
