@@ -239,14 +239,12 @@ async function _workshop ({ workshop, theme = {}, whitelabel } = {}) {
   }
 
   function iframe (src, classname) {
-    return bel`<div class=${css.sandbox}>
-      <iframe
-        class="${classname} ${css.iframe}"
-        src="${src}"
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
-    </div>`
+    return bel`<iframe
+      class="${classname} ${css.iframe}"
+      src="${src}"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>`
   }
 
   function changeView (e) {
@@ -545,10 +543,6 @@ function styles (font_url, theme) {
       overflow-y: auto;
       flex-grow: 1;
       border-top: ${others.chatbox_borderTop};
-    }
-    .sandbox {
-      overflow: hidden;
-      height: 100%;
     }
     .gitter {
       position: absolute;
