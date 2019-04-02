@@ -1,6 +1,6 @@
 {
   "name": "workshopping",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "make workshop pages",
   "main": "src/workshopping.js",
   "scripts": {
@@ -12,7 +12,17 @@
     "type": "git",
     "url": "git+https://github.com/serapath/workshopping.git"
   },
-  "keywords": [],
+  "keywords": [
+    "workshop",
+    "workshopping",
+    "lesson",
+    "lessons",
+    "tutorials",
+    "tutorial",
+    "elearning",
+    "learn",
+    "learning"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/serapath/workshopping/issues"
@@ -24,6 +34,7 @@
   "dependencies": {
     "bel": "^6.0.0",
     "belmark": "^2.0.3",
-    "csjs-inject": "^1.0.1"
+    "csjs-inject": "^1.0.1",
+    "skilltree.js": "^0.2.0"
   }
 }

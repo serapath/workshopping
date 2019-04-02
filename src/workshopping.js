@@ -1,78 +1,71 @@
 const csjs = require('csjs-inject')
 const bel = require('bel') // @TODO: replace with `elb`
 const belmark = require('belmark') // @TODO: replace with `elbmark`
+// const skilltree = require('skilltree.js')
 
-// module.exports = workshopping
+const CONFIG = default_config()
+const THEME = default_theme()
+const CSS = default_css()
 
-// workshopping.config = async ({ theme: t = {}, data: d = {}, css: c = {} } = {}) => {
-//   return async ({ theme = {}, data = {}, css = {} } = {}) => {
-//     return await _workshopping({
-//       theme: { ...t, ...theme },
-//       data: { ...d, ...data },
-//       css: {...c, ...css }
-//     })
-//   }
-// }
-// async function workshopping ({ theme = {}, data = {}, css = {} } = {}) {
-//   return await _workshopping({
-//     theme: { ...THEME, ...theme },
-//     data: { ...DATA, ...data },
-//     css: { ...CSS, ...css }
-//   })
-// }
-// async function _workshopping ({ theme, data, css }) {
-//   console.log({theme})
-//   console.log({data})
-//   console.log({css})
-//   console.log('@TODO: implement workshopping')
-//   return await make (theme, data, css)
-// }
-// const THEME = {}
-// const DATA = {}
-// const CSS = {}
+module.exports = workshopping
+module.exports.customize = customize
+module.exports.defaults = Object.freeze({
+  config: CONFIG,
+  theme: THEME,
+  css: CSS
+})
+Object.freeze(module.exports)
+
+async function workshopping ({ config = {}, theme = {}, css = {} } = {}) {
+  return await _workshopping({
+    config: { ...CONFIG, ...config },
+    theme: { ...THEME, ...theme },
+    css: { ...CSS, ...css }
+  })
+}
+function customize ({ config: x = {}, theme: y = {}, css: z = {} } = {}) {
+  const nocustoms = ![x, y, z].reduce((_, o) => Object.keys(o).length || _, 0)
+  const isdefault = x === CONFIG && y === THEME && z === CSS
+  if (nocustoms || isdefault) return workshopping
+  const _CONFIG = { ...CONFIG, ...x }
+  const _THEME = { ...THEME, ...y }
+  const _CSS = { ...CSS, ...z }
+  const custom = async ({ config = {}, theme = {}, css = {} } = {}) => {
+    const { config: CONFIG, theme: THEME, css: CSS } = custom.defaults
+    return await _workshopping({
+      config: { ...CONFIG, ...config },
+      theme: { ...THEME, ...theme },
+      css: { ...CSS, ...css }
+    })
+  }
+  // @TODO: () => customize // so `custom.customize()` can be a thing? :-)
+  custom.defaults = Object.freeze({
+    config: _CONFIG,
+    theme: _THEME,
+    css: _CSS
+  })
+  Object.freeze(custom)
+  return custom
+}
 /******************************************************************************
-  @TODO
+  WORKSHOPPING
 ******************************************************************************/
-async function make (theme, data, css) {
-  return {
-    async render () {
-      return await workshop2({ workshop: data.workshop, theme, css, whitelabel: data })
-    }
-  }
-}
+async function _workshopping ({ config, theme, css }) {
+  const href = new URL('./workshop.json', location.href).href
+  const data = await fetch(href).then(response => response.json())
 
-module.exports = workshop
+  // @TODO: validate workshop "data" and if errors:
+  // create and return "error element" with useful "error messages"
+  // e.g. if (!lessons || lessons.length === 0) throw new Error('no lessons found')
 
-// @TODO: every FIELD can be either an OBJECT or URL to a JSON
-//        and it has DEFAULTS
+  // @TODO: store "DEFAULTS" in default objects, so that data passed to:
+  // _workshopping() is already in "perfect state"
 
-workshop.customize = ({ config: co1 = {}, theme: t1 = {}, css: cs1 = {} } = {}) => {
-  return async (data, { config: co2 = {}, theme: t2 = {}, css: cs2 = {} } = {}) => {
-    const workshop = data
-    const css = { ...cs1, ...cs2 }
-    const theme = { ...t1, ...t2 }
-    const whitelabel = { ...co1, ...co2 }
-    return await _workshop({ workshop, theme, css, whitelabel })
-  }
-}
-
-async function workshop (data, { config = {}, theme = {}, css = {} } = {}) {
-  return await _workshop({ workshop: data, theme, css, whitelabel: config })
-}
-var minimap
-
-async function _workshop ({ workshop, theme = {}, whitelabel } = {}) {
-  // var data = workshop ? require(workshop) : await fetch('/workshop.json')
-  var data = (typeof workshop === 'object') ? workshop
-    : await fetch(new URL(workshop || './workshop.json', location.href).href).then(response => response.json())
   var font_url = theme['--font']
-  minimap = 'src/skilltree.png'
-  var lessons = data.lessons
-  var chat = data.chat
-  if (!chat) throw new Error('no chat found')
-  if (!lessons || lessons.length === 0) throw new Error('no lessons found')
-
   var css = styles(font_url || 'arial', theme)
+
+  var lessons = data.lessons
+  var chat = data.chat || 'https://gitter.im/wizardamigosinstitute/program/~embed'
 
   var video = iframe(lessons[0].lesson, css.video)
   var editor = iframe(lessons[0].tool, css.editor)
@@ -80,9 +73,9 @@ async function _workshop ({ workshop, theme = {}, whitelabel } = {}) {
   var title = bel`<div title=${lessons[0].title} class=${css.title}>${lessons[0].title}</div>`
   var logo_url = data.icon
 
-  var home = whitelabel.home_link
-  var home_text = whitelabel.home_text
-  var intro_prefix_text = whitelabel.intro_prefix_text
+  var home = config.home_link
+  var home_text = config.home_text
+  var intro_prefix_text = config.intro_prefix_text
 
   var lesson = 0
   var series = bel`<span class=${css.series}>${data.title}</span>`
@@ -109,7 +102,7 @@ async function _workshop ({ workshop, theme = {}, whitelabel } = {}) {
     var info = belmark`no description`
   }
   info.className = ` ${css.welcome}`
-  var infoBox = bel`<div class=${css.infoBox}>${info || xxx}</div></div>`
+  var infoBox = bel`<div class=${css.infoBox}>${info}</div></div>`
   var view = 'info'
 
   var logo = logo_url ? bel`<a href=${home} target="_blank">
@@ -126,70 +119,62 @@ async function _workshop ({ workshop, theme = {}, whitelabel } = {}) {
     Chat
   </div>`
 
-  var needsOpen = false
-  var unlocksOpen = false
-  function needs () {
-    if (needsOpen) {
-      var dropdown = document.querySelector('#needs')
+  var skilltreeOpen = false
+  function toggleSkilltree () {
+    if (skilltreeOpen) {
+      var dropdown = document.querySelector('#skilltree')
       dropdown.parentElement.removeChild(dropdown)
-      needsOpen = false
+      skilltreeOpen = false
     } else {
-      var el = bel`
-      <ul id="needs" style="position: absolute; top: 75px; left: 0; width:100px; height: 100px; background-color: pink;">
-      ${data.needs.map(url => bel`<li><a href="${url}" target="_blank">${url}</a></li>`)}
-      </ul>
-      `
+      var el = bel`<span id="skilltree" style="position: absolute; top: 90px; left: 5px; padding: 40px; background-color: pink; border: 5px dashed white;">
+        <span style="position: absolute; right:20px; top: 10px;">
+          <a href="https://play.ethereum.org" target="_blank">${'->'} skilltree</a>
+        </span>
+        <a href="${location.href}">${data.title}</a>
+        <ul>
+          <li><strong>needs</strong><ul>
+            ${data.needs.map(url => bel`<li>${'->'} <a href="${url}" target="_blank">${url}</a></li>`)}
+          </ul></li>
+          <li><strong>unlocks</strong><ul>
+            ${data.unlocks.map(url => bel`<li>${'->'} <a href="${url}" target="_blank">${url}</a></li>`)}
+          </ul></li>
+        </ul>
+      </span>`
       document.body.appendChild(el)
-      needsOpen = true
+      skilltreeOpen = true
     }
   }
-  function unlocks () {
-    if (unlocksOpen) {
-      var dropdown = document.querySelector('#unlocks')
-      dropdown.parentElement.removeChild(dropdown)
-      unlocksOpen = false
-    } else {
-      var el = bel`
-      <div id="unlocks" onclick=${unlocks} class=${css.minimapExtended}></div>
-      `
-      // var el = bel`
-      // <ul id="unlocks" style="position: absolute; top: 75px; right: 0; width:100px; height: 100px; background-color: pink;">
-      // ${data.unlocks.map(url => bel`<li><a href="${url}" target="_blank">${url}</a></li>`)}
-      // </ul>
-      // `
-      document.body.appendChild(el)
-      unlocksOpen = true
-    }
-  }
-  var app = bel`
+  var narrow, wide, top, bottom, app = bel`
     <div class="${css.content}">
       <div class=${css.menu}>
-        <div class=${css.minimap} onclick=${unlocks}><input class=${css.minimapButton} title="Skill tree" type="image" src="${data.icon}"></div>
+        <div class=${css.minimap} onclick=${toggleSkilltree}>
+          <span><input class=${css.minimapButton} title="Skill tree" type="image" src="${data.icon}"></span>
+        </div>
         <span class=${css.head}>
           <span class=${css.banner}>${intro_prefix_text}: ${series}</span>
         </span>
       </div>
       <div class=${css.container}>
-        <div class=${css.narrow}>
-          <div class=${css.top}>
+        ${narrow = bel`<div class=${css.narrow}>
+          ${top = bel`<div class=${css.top}>
             <div class=${css.switchButtons}>
               <div class="${css.previous}" title="Previous lesson" onclick=${previous}> ${'<'} </div>
-              <div class=${css.lesson}>${title} ${stats}</div>
               <div class="${css.next}" title="Next lesson" onclick=${next}> ${'>'} </div>
+              <div class=${css.lesson}>${title} ${stats}</div>
             </div>
             ${video}
-          </div>
-          <div class=${css.bottom}>
+          </div>`}
+          ${bottom = bel`<div class=${css.bottom}>
             <div class=${css.switchButtons}>
               ${infoButton}
               ${chatButton}
             </div>
             ${infoBox}
-          </div>
-        </div>
-        <div class=${css.wide}>
+          </div>`}
+        </div>`}
+        ${wide = bel`<div class=${css.wide}>
           ${editor}
-        </div>
+        </div>`}
       </div>
     </div>
   `
@@ -200,42 +185,63 @@ async function _workshop ({ workshop, theme = {}, whitelabel } = {}) {
     if (event.which === left) previous()
     else if (event.which === right) next()
   })
+  adaptView(0, lessons.length, lessons[0])
 
-  return { render() { return app }}
+  return app
+
   async function previous (event) {
     if (lesson <= 0) return
     lesson--
+    adaptView(lesson + 1, lessons.length, lessons[lesson])
+  }
+
+  async function previous (event) {
+    if (lesson <= 0) return
+    lesson--
+    adaptView(lesson + 1, lessons.length, lessons[lesson])
+  }
+
+  async function adaptView (number, max, { title: name, tool, lesson, info: text }) {
+
+    // TOOL
+    if (tool) {
+      var nextTool = iframe(tool, css.editor)
+      var oldTool = wide.children[0]
+      oldTool.replaceWith(nextTool)
+      bottom.style = ''
+      narrow.appendChild(bottom)
+      wide.style = ''
+      narrow.style = ''
+      console.log("TOOL")
+    } else {
+      wide.style.width = '49%'
+      narrow.style.width = '49%'
+      bottom.style.marginTop = '0px'
+      var nextTool = bottom
+      wide.children[0].replaceWith(nextTool)
+      console.log("NO TOOL")
+    }
+    // LESSON
     var old = video
-    video = iframe(lessons[lesson].lesson, css.video)
+    video = iframe(lesson, css.video)
     old.parentElement.replaceChild(video, old)
-    stats.innerText = `${lesson + 1}/${lessons.length}`
-    title.innerText = lessons[lesson].title || ''
+    // TITLE
+    stats.innerText = `${number}/${max}`
+    title.innerText = name || ''
     title.title = title.innerText
-    if (lessons[lesson].info) {
+    // INFO
+    if (text) {
       info.innerText = ''
-      info.appendChild(await getMarkdown(lessons[0].info))
+      info.appendChild(await getMarkdown(text))
     } else {
       info.innerText = ''
       info.appendChild(belmark`no description`)
     }
   }
-
   async function next (event) {
     if (lesson >= lessons.length - 1) return
     lesson++
-    var old = video
-    video = iframe(lessons[lesson].lesson, css.video)
-    old.parentElement.replaceChild(video, old)
-    stats.innerText = `${lesson + 1}/${lessons.length}`
-    title.innerText = lessons[lesson].title || ''
-    title.title = title.innerText
-    if (lessons[lesson].info) {
-      info.innerText = ''
-      info.appendChild(belmark(lessons[lesson].info))
-    } else {
-      info.innerText = ''
-      info.appendChild(belmark`no description`)
-    }
+    adaptView(lesson + 1, lessons.length, lessons[lesson])
   }
 
   function iframe (src, classname) {
@@ -248,10 +254,7 @@ async function _workshop ({ workshop, theme = {}, whitelabel } = {}) {
   }
 
   function changeView (e) {
-    // console.log(e.target.title)
-    // console.log('view =', view)
     var parent = document.querySelector(`.${css.bottom}`)
-    // console.log(parent)
     if (e.target.title === 'infoButton') {
       infoButton.classList.add(css.highlight)
       chatButton.classList.remove(css.highlight)
@@ -286,14 +289,12 @@ function styles (font_url, theme) {
     <style>
     @font-face {
       font-family: ${FONT};
-      src: url('${font_url}');
+      ${FONT !== font_url ? `src: url('${font_url}');` : ''}
     }
     </style>`
   document.head.appendChild(font)
 
-  var defaulttheme = require('./defaulttheme.js')
-  // console.log(theme)
-  var others = { ...defaulttheme, ...theme }
+  var others = { ...THEME, ...theme }
   var css = csjs`
     *, *:before, *:after { box-sizing: inherit; }
     .img { box-sizing: content-box; }
@@ -305,6 +306,7 @@ function styles (font_url, theme) {
       flex-direction: column;
       min-height: 100%;
       height: 100%;
+      width: 100%;
       overflow: hidden;
     }
     .menu {
@@ -314,7 +316,7 @@ function styles (font_url, theme) {
       height: ${others.menu_height};
       justify-content: space-between;
       border: ${others.menu_border};
-      background-color: ${others.menu_backgroundColor};
+      background-color: ${others.menu_and_minimap_and_wide_backgroundColor};
     }
     .container {
       display: flex;
@@ -347,7 +349,6 @@ function styles (font_url, theme) {
       height: 40px;
       padding: 0 2%;
       border-left: ${others.lesson_borderleft};
-      border-right: ${others.lesson_borderright};
       overflow: hidden;
     }
     .head {
@@ -404,14 +405,16 @@ function styles (font_url, theme) {
       padding-top: 3px;
     }
     .minimapButton {
-      border-radius: 50%;
       border: ${others.minimapbutton_border};
+      border-radius: 50%;
       cursor: pointer;
-      width: calc(10px + 1.5vmin);
-      height: calc(10px + 1.5vmin);
+      padding: 5px;
+      margin-left: 20px;
+      width: 50px;
+      height: 50px;
     }
     .minimap {
-      background-color: ${others.minimap_backgroundColor};
+      background-color: ${others.menu_and_minimap_and_wide_backgroundColor};
       width: 30px;
       height: 30px;
       margin-left: 2%;
@@ -419,19 +422,12 @@ function styles (font_url, theme) {
       justify-content: center;
       align-items: center;
     }
-    .minimapExtended {
-      background-image: url("${minimap}");
-      position: absolute;
-      top: 49px;
-      left: 0px;
-      width: 500px;
-      height: 500px;
-    }
     .wide {
       margin: 1%;
       display: flex;
       flex-direction: column;
       width: 70%;
+      background-color: ${others.menu_and_minimap_and_wide_backgroundColor};
     }
     .narrow {
       margin: 1%;
@@ -478,7 +474,6 @@ function styles (font_url, theme) {
       display: flex;
       width: 100%;
       flex-direction: row;
-      justify-content: center;
       font-size: ${others.switchbutton_fontsize};
       background-color: ${others.switchbutton_backgroundColor};
       color: ${others.switchbutton_color};
@@ -561,4 +556,77 @@ function styles (font_url, theme) {
       color: ${others.welcome_text_color};
     }`
   return css
+}
+function default_config () {
+  // @TODO: cache it locally instead of re-render and compare performance
+  return Object.freeze({ config: '@TODO: make available' })
+}
+function default_theme () {
+  // @TODO: cache it locally instead of re-render and compare performance
+  var colors = {
+  //    white: "#ffffff", // borders, font on input background
+  /**/    themeColor1: "#ffffff", //background white
+  //    themeColor1Smoke: '#21252b',  // separators
+  //    whiteSmoke: "#f5f5f5", // background light
+  /**/    lavenderGrey: "#00ffff", // inputs background
+  //    slateGrey: "#8a929b", // text
+  //    violetRed: "#b25068",  // used as red in types (bool etc.)
+  //    aquaMarine: "#90FCF9",  // used as green in types (bool etc.)
+  //    turquoise: "#14b9d5",
+  //    yellow: "#F2CD5D",
+  /**/    androidGreen: "#ff00ff"
+  }
+  return Object.freeze({
+    menu_minHeight: '90px',
+    menu_height: '10%',
+    menu_border: '5px solid #d6dbe1',
+
+    menu_and_minimap_and_wide_backgroundColor: colors.themeColor1,
+
+    container_backgroundColor: '#43409a',
+    container_border: '5px solid #d6dbe1',
+    arrow_hover_textcolor: colors.lavenderGrey,
+    lesson_borderleft: `2px solid ${colors.themeColor1}`,
+    head_textsize: '30px',
+    head_textweight: '900',
+    button_hover_backgroundColor: '#43409a',
+    button_hover_color: 'inherit',
+    series_paddingRight: '10px',
+    series_paddingLeft: '2%',
+    series_textcolor: 'black',
+    series_textsize: '30px',
+    minimapbutton_border: `1.5px solid ${colors.androidGreen}`,
+
+    // minimap_backgroundColor: colors.themeColor1,
+
+    editor_border: '5px solid #d6dbe1',
+    lesson_title_textcolor: 'grey',
+    lesson_title_textsize: '25px',
+    video_border: '5px solid #d6dbe1',
+    video_borderTop: '5px solid #d6dbe1',
+    bottom_marginTop: '2%',
+    switchbutton_fontsize: `calc(10px + 0.3vw)`,
+    switchbutton_backgroundColor: '#ffd399',
+    switchbutton_color: colors.themeColor1,
+    tab_color: 'white',
+    tab_fontsize: '20px',
+    infobutton_borderright: `invalid`, // doesnt touch it
+    chatbutton_borderleft: `invalid`, // doesnt touch it
+    tab_border: `5px solid #d6dbe1`,
+    tab_backgroundColor: '#ffd399',
+    tab_textTransform: 'uppercase',
+    tab_hover_backgroundColor: 'white',
+    tab_hover_textcolor: '#43409a',
+    infobox_backgroundColor: 'white',
+    infobox_borderTop: `0`,
+    infobox_marginTop: `calc(7px)`,
+    chatbox_borderTop: `0`,
+    welcome_font_size: 'calc(10px + 0.3vw)',
+    welcome_padding_topBottom: '10%',
+    welcome_text_color: '#43409a'
+  })
+}
+function default_css () {
+  // @TODO: cache it locally instead of re-render and compare performance
+  return Object.freeze({ css: '@TODO: make available' })
 }
