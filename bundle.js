@@ -116030,6 +116030,7 @@ function styles (font_url, theme) {
       border: ${others.container_border};
       border-top: none;
       flex-grow: 1;
+      min-height: 0%;
     }
     .previous, .next {
       display: flex;
