@@ -115592,9 +115592,10 @@ function makeSVGicon (svgURL, callback) {
     callback(null, faviconURL)
   }
   var cors = 'https://cors-anywhere.herokuapp.com/'
+  var isAbsoluteURL = /(?:^[a-z][a-z0-9+.-]*:|\/\/)/.test(svgURL)
   img.onerror = event => callback(event)
   img.setAttribute('crossOrigin', 'anonymous')
-  img.setAttribute('src', cors + svgURL)
+  img.setAttribute('src', isAbsoluteURL ? cors + svgURL : svgURL)
 }
 function setFavicon (faviconURL) {
   const favicon =  (favicon => {
