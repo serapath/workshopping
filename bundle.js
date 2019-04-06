@@ -66,6 +66,7 @@ const config = {
   intro_prefix_text: 'earn while you learn',
 }
 const theme = {
+  '--font': 'https://github.com/ethereum-play/play-workshop/blob/master/src/OverpassMono-Regular.ttf?raw=true',
   menu_padding: '5px 0px',
   menu_and_minimap_and_wide_backgroundColor: 'magenta',
 }
@@ -115566,7 +115567,26 @@ async function start(rootElemntName, dag_data, id) {
 
 module.exports = start
 
-},{"d3":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3/dist/d3.node.js","d3-dag":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dag/dist/d3-dag.js","faker":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/index.js","lodash":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/lodash/lodash.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_svg2favicon.js":[function(require,module,exports){
+},{"d3":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3/dist/d3.node.js","d3-dag":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dag/dist/d3-dag.js","faker":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/index.js","lodash":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/lodash/lodash.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_get-url.js":[function(require,module,exports){
+const cors = 'https://cors-anywhere.herokuapp.com/'
+const absoluteURLregex = /(?:^[a-z][a-z0-9+.-]*:|\/\/)/
+
+module.exports = getURL
+
+function getURL (url) {
+  const isAbsoluteURL = absoluteURLregex.test(url)
+  if (isAbsoluteURL) {
+    const islocalhost = (url.includes('//localhost')
+    || url.includes('//127.0.0.1') || url.includes('//0.0.0.0')
+    || url.includes('//10.0.0') || url.includes('//192.168'))
+    const sameorigin = new URL(url).origin === location.origin
+    return (islocalhost || sameorigin) ? url : cors + url
+  }
+  return url  
+}
+
+},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_svg2favicon.js":[function(require,module,exports){
+const getURL = require('_get-url')
 /******************************************************************************
   INTERFACE
 ******************************************************************************/
@@ -115591,11 +115611,9 @@ function makeSVGicon (svgURL, callback) {
     const faviconURL = canvas.toDataURL()
     callback(null, faviconURL)
   }
-  var cors = 'https://cors-anywhere.herokuapp.com/'
-  var isAbsoluteURL = /(?:^[a-z][a-z0-9+.-]*:|\/\/)/.test(svgURL)
   img.onerror = event => callback(event)
   img.setAttribute('crossOrigin', 'anonymous')
-  img.setAttribute('src', isAbsoluteURL ? cors + svgURL : svgURL)
+  img.setAttribute('src', getURL(svgURL))
 }
 function setFavicon (faviconURL) {
   const favicon =  (favicon => {
@@ -115641,7 +115659,7 @@ const drawTriangles = (ctx, dim) => {
   }
 }
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/crawl-workshop.js":[function(require,module,exports){
+},{"_get-url":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_get-url.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/crawl-workshop.js":[function(require,module,exports){
 
 module.exports = crawlworkshop
 
@@ -115708,6 +115726,7 @@ const bel = require('bel') // @TODO: replace with `elb`
 const belmark = require('belmark') // @TODO: replace with `elbmark`
 const skilltree = require('skilltrees')
 
+const getURL = require('_get-url')
 const svg2favicon = require('_svg2favicon')
 
 const CONFIG = default_config()
@@ -115991,12 +116010,12 @@ async function _workshopping ({ config, theme, css }) {
 }
 
 function styles (font_url, theme) {
-  var FONT = font_url.split('/').join('-').split('.').join('_')
+  var FONT = font_url.split('/').join('-').split('.').join('-').split(':').join('-').split('?').join('-').split('=').join('-')
   var font = bel`
     <style>
     @font-face {
       font-family: ${FONT};
-      ${FONT !== font_url ? `src: url('${font_url}');` : ''}
+      ${FONT !== font_url ? `src: url('${getURL(font_url)}');` : ''}
     }
     </style>`
   document.head.appendChild(font)
@@ -116353,4 +116372,4 @@ function default_css () {
   return Object.freeze({ css: '@TODO: make available' })
 }
 
-},{"_svg2favicon":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_svg2favicon.js","bel":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/bel/browser.js","belmark":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/belmark/source/belmark.js","csjs-inject":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/index.js","skilltrees":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/skilltrees.js"}]},{},["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/demo/demo.js"]);
+},{"_get-url":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_get-url.js","_svg2favicon":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_svg2favicon.js","bel":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/bel/browser.js","belmark":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/belmark/source/belmark.js","csjs-inject":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/index.js","skilltrees":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/skilltrees.js"}]},{},["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/demo/demo.js"]);

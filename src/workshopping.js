@@ -3,6 +3,7 @@ const bel = require('bel') // @TODO: replace with `elb`
 const belmark = require('belmark') // @TODO: replace with `elbmark`
 const skilltree = require('skilltrees')
 
+const getURL = require('_get-url')
 const svg2favicon = require('_svg2favicon')
 
 const CONFIG = default_config()
@@ -286,12 +287,12 @@ async function _workshopping ({ config, theme, css }) {
 }
 
 function styles (font_url, theme) {
-  var FONT = font_url.split('/').join('-').split('.').join('_')
+  var FONT = font_url.split('/').join('-').split('.').join('-').split(':').join('-').split('?').join('-').split('=').join('-')
   var font = bel`
     <style>
     @font-face {
       font-family: ${FONT};
-      ${FONT !== font_url ? `src: url('${font_url}');` : ''}
+      ${FONT !== font_url ? `src: url('${getURL(font_url)}');` : ''}
     }
     </style>`
   document.head.appendChild(font)

@@ -13,6 +13,7 @@ const config = {
   intro_prefix_text: 'earn while you learn',
 }
 const theme = {
+  '--font': 'https://github.com/ethereum-play/play-workshop/blob/master/src/OverpassMono-Regular.ttf?raw=true',
   menu_padding: '5px 0px',
   menu_and_minimap_and_wide_backgroundColor: 'magenta',
 }
