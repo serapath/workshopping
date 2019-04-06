@@ -1,7 +1,9 @@
 const csjs = require('csjs-inject')
 const bel = require('bel') // @TODO: replace with `elb`
 const belmark = require('belmark') // @TODO: replace with `elbmark`
-// const skilltree = require('skilltree.js')
+const skilltree = require('skilltrees')
+
+const svg2favicon = require('_svg2favicon')
 
 const CONFIG = default_config()
 const THEME = default_theme()
@@ -78,7 +80,7 @@ async function _workshopping ({ config, theme, css }) {
   var intro_prefix_text = config.intro_prefix_text
 
   var lesson = 0
-  var series = bel`<span class=${css.series}>${data.title}</span>`
+  var series = bel`<span class=${css.series}>"${data.title.trim()}"</span>`
 
   var chatBox = bel`<div class=${css.chatBox}>
     <div style="width: 100%; height: 100%; flex-grow: 1; display: flex; justify-content: center; align-items: center">
@@ -105,6 +107,8 @@ async function _workshopping ({ config, theme, css }) {
   var infoBox = bel`<div class=${css.infoBox}>${info}</div></div>`
   var view = 'info'
 
+  svg2favicon.makeSVGicon(logo_url, (err, svgURL) => svg2favicon.setFavicon(svgURL))
+
   var logo = logo_url ? bel`<a href=${home} target="_blank">
     <img class="${css.logo} ${css.img}" title="${home_text}" src="${logo_url}">
   </a>` : ''
@@ -119,39 +123,43 @@ async function _workshopping ({ config, theme, css }) {
     Chat
   </div>`
 
+  var skilltree_element = bel`<div class=${css.curriculum}>
+    ${await skilltree(data, href)}
+  </div>`
   var skilltreeOpen = false
-  function toggleSkilltree () {
+
+  async function toggleSkilltree () {
     if (skilltreeOpen) {
-      var dropdown = document.querySelector('#skilltree')
-      dropdown.parentElement.removeChild(dropdown)
+      map.removeChild(skilltree_element)
       skilltreeOpen = false
     } else {
-      var el = bel`<span id="skilltree" style="position: absolute; top: 90px; left: 5px; padding: 40px; background-color: pink; border: 5px dashed white;">
-        <span style="position: absolute; right:20px; top: 10px;">
-          <a href="https://play.ethereum.org" target="_blank">${'->'} skilltree</a>
-        </span>
-        <a href="${location.href}">${data.title}</a>
-        <ul>
-          <li><strong>needs</strong><ul>
-            ${data.needs.map(url => bel`<li>${'->'} <a href="${url}" target="_blank">${url}</a></li>`)}
-          </ul></li>
-          <li><strong>unlocks</strong><ul>
-            ${data.unlocks.map(url => bel`<li>${'->'} <a href="${url}" target="_blank">${url}</a></li>`)}
-          </ul></li>
-        </ul>
-      </span>`
-      document.body.appendChild(el)
+      // var el = bel`<span id="skilltree" style="position: absolute; top: 90px; left: 5px; padding: 40px; background-color: pink; border: 5px dashed white;">
+      //   <span style="position: absolute; right:20px; top: 10px;">
+      //     <a href="https://play.ethereum.org" target="_blank">${'->'} skilltree</a>
+      //   </span>
+      //   <a href="${location.href}">${data.title}</a>
+      //   <ul>
+      //     <li><strong>needs</strong><ul>
+      //       ${data.needs.map(url => bel`<li>${'->'} <a href="${url}" target="_blank">${url}</a></li>`)}
+      //     </ul></li>
+      //     <li><strong>unlocks</strong><ul>
+      //       ${data.unlocks.map(url => bel`<li>${'->'} <a href="${url}" target="_blank">${url}</a></li>`)}
+      //     </ul></li>
+      //   </ul>
+      // </span>`
+      map.appendChild(skilltree_element)
       skilltreeOpen = true
     }
   }
-  var narrow, wide, top, bottom, app = bel`
+  var narrow, wide, top, bottom, map, app = bel`
     <div class="${css.content}">
       <div class=${css.menu}>
         <div class=${css.minimap} onclick=${toggleSkilltree}>
           <span><input class=${css.minimapButton} title="Skill tree" type="image" src="${data.icon}"></span>
+          ${map = bel`<div class=${css.map}></div>`}
         </div>
         <span class=${css.head}>
-          <span class=${css.banner}>${intro_prefix_text}: ${series}</span>
+          <span class=${css.banner}>${intro_prefix_text} ${series}</span>
         </span>
       </div>
       <div class=${css.container}>
@@ -202,7 +210,6 @@ async function _workshopping ({ config, theme, css }) {
   }
 
   async function adaptView (number, max, { title: name, tool, lesson, info: text }) {
-
     // TOOL
     if (tool) {
       var nextTool = iframe(tool, css.editor)
@@ -212,14 +219,12 @@ async function _workshopping ({ config, theme, css }) {
       narrow.appendChild(bottom)
       wide.style = ''
       narrow.style = ''
-      console.log("TOOL")
     } else {
       wide.style.width = '49%'
       narrow.style.width = '49%'
       bottom.style.marginTop = '0px'
       var nextTool = bottom
       wide.children[0].replaceWith(nextTool)
-      console.log("NO TOOL")
     }
     // LESSON
     var old = video
@@ -421,6 +426,17 @@ function styles (font_url, theme) {
       display: flex;
       justify-content: center;
       align-items: center;
+      position: relative;
+    }
+    .curriculum {
+      background-color: white;
+      border: 5px dashed black;
+    }
+    .map {
+      position: absolute;
+      top: 45px;
+      left: 20px;
+      margin: 0;
     }
     .wide {
       margin: 1%;

@@ -10,7 +10,7 @@ document.head.innerHTML = `<style> body, html {
 }</style>`
 
 ;(async () => {
-  if (location.pathname === '/demo/') {
+  if (location.pathname.endsWith('/demo/')) {
     if (location.search === '?demo1') {
       document.body.style = document.documentElement.style = 'padding: 0px;'
       document.body.innerHTML = ''
@@ -23,12 +23,13 @@ document.head.innerHTML = `<style> body, html {
     } else {
       document.body.style = document.documentElement.style = ''
       const href = location.href.replace(location.search, '')
+      const home = href.replace('/demo/', '/')
       document.body.innerHTML = `<div>
         <h1> see demos </h1>
-        <a href="${new URL('demo?demo1', location.origin).href}">demo1</a>
-        <a href="${new URL('demo?demo2', location.origin).href}">demo2</a>
+        <a href="${new URL('demo?demo1', home).href}">demo1</a>
+        <a href="${new URL('demo?demo2', home).href}">demo2</a>
         <br>or<br>
-        <a href="${location.origin}">back</a>
+        <a href="${home}">back</a>
       </div>`
     }
   } else {

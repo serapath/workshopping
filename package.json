@@ -1,6 +1,6 @@
 {
   "name": "workshopping",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "make workshop pages",
   "main": "src/workshopping.js",
   "scripts": {
@@ -35,6 +35,6 @@
     "bel": "^6.0.0",
     "belmark": "^2.0.3",
     "csjs-inject": "^1.0.1",
-    "skilltree.js": "^0.2.0"
+    "skilltree.js": "^0.5.0"
   }
 }
