@@ -21,11 +21,16 @@ const config = {
   // home_text: 'powered by love',
   intro_prefix_text: 'workshop',
 }
+
+// --------------------------------------------
+
+// @TODO: `theme` example below is out of date
 const theme = {
   '--lessonBGcolor' : '#0000ff',
   '--arrowColor'    : 'magenta',
   '--titleSize'     : '50px',
 }
+// @TODO: `css` example below is out of date
 const css = csjs`
 .workshop          {
   --lessonBGcolor  : ${theme['--lessonBGcolor']};

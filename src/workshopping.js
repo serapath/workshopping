@@ -151,7 +151,7 @@ async function _workshopping ({ config, theme, css }) {
       skilltreeOpen = true
     }
   }
-  var narrow, wide, top, bottom, map, app = bel`
+  var narrow, wide, top, bottom, map, prevEl, nextEl, app = bel`
     <div class="${css.content}">
       <div class=${css.menu}>
         <div class=${css.minimap} onclick=${toggleSkilltree}>
@@ -166,8 +166,8 @@ async function _workshopping ({ config, theme, css }) {
         ${narrow = bel`<div class=${css.narrow}>
           ${top = bel`<div class=${css.top}>
             <div class=${css.switchButtons}>
-              <div class="${css.previous}" title="Previous lesson" onclick=${previous}> ${'<'} </div>
-              <div class="${css.next}" title="Next lesson" onclick=${next}> ${'>'} </div>
+              ${prevEl = bel`<div class="${css.previous} ${css.disabled}" title="Previous lesson" onclick=${previous}> ${'<'} </div>`}
+              ${nextEl = bel`<div class="${css.next} ${lessons.length ? '' : css.disabled}" title="Next lesson" onclick=${next}> ${'>'} </div>`}
               <div class=${css.lesson}>${title} ${stats}</div>
             </div>
             ${video}
@@ -193,20 +193,22 @@ async function _workshopping ({ config, theme, css }) {
     if (event.which === left) previous()
     else if (event.which === right) next()
   })
-  adaptView(0, lessons.length, lessons[0])
+  adaptView(1, lessons.length, lessons[0])
 
   return app
 
   async function previous (event) {
-    if (lesson <= 0) return
+    if (lesson <= 1) prevEl.classList.add(css.disabled)
     lesson--
     adaptView(lesson + 1, lessons.length, lessons[lesson])
+    nextEl.classList.remove(css.disabled)
   }
-
-  async function previous (event) {
-    if (lesson <= 0) return
-    lesson--
+  async function next (event) {
+    if (lesson >= lessons.length - 2) nextEl.classList.add(css.disabled)
+    lesson++
     adaptView(lesson + 1, lessons.length, lessons[lesson])
+    prevEl.classList.remove(css.disabled)
+
   }
 
   async function adaptView (number, max, { title: name, tool, lesson, info: text }) {
@@ -242,11 +244,6 @@ async function _workshopping ({ config, theme, css }) {
       info.innerText = ''
       info.appendChild(belmark`no description`)
     }
-  }
-  async function next (event) {
-    if (lesson >= lessons.length - 1) return
-    lesson++
-    adaptView(lesson + 1, lessons.length, lessons[lesson])
   }
 
   function iframe (src, classname) {
@@ -319,6 +316,7 @@ function styles (font_url, theme) {
       align-items: center;
       min-height: ${others.menu_minHeight};
       height: ${others.menu_height};
+      padding: ${others.menu_padding};
       justify-content: space-between;
       border: ${others.menu_border};
       background-color: ${others.menu_and_minimap_and_wide_backgroundColor};
@@ -343,11 +341,13 @@ function styles (font_url, theme) {
     .previous:hover, .next:hover {
       color: ${others.arrow_hover_textcolor};
     }
+    .disabled {
+      visibility: hidden;
+    }
     .lesson {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      justify-content: space-evenly;
+      flex-grow: 1;
+      justify-content: space-between;
       align-items: center;
       min-width: 50%;
       max-width: 100%;

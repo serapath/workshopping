@@ -6,12 +6,16 @@
     "title": "Set up Bitcoin Wallet (Electrum)",
     "lesson": "https://www.youtube.com/embed/DEH0eoppbyc",
     "tool": "",
-    "info": "/demo/docs/set-up-bitcoin-wallet.md"
+    "info": "docs/set-up-bitcoin-wallet.md"
   },{
     "title": "Buy Bitcoin on Coinbase",
     "lesson": "https://www.youtube.com/embed/FPVr59ThnHE",
-    "tool": "https://codepen.io/pBun/pen/sHCzt",
-    "info": "docs/buy-bitcoin-on-coinbase.md"
+    "tool": "https://codesandbox.io/embed/4x4lmpqz1w?fontsize=14",
+    "info": [
+      "# buy-bitcoin-on-coinbase.md",
+      "* foo",
+      "* `bar`"
+    ]
   },{
     "title": "Move Bitcoin from Coinbase to Electrum",
     "lesson": "https://www.youtube.com/embed/9fvDp43rShA",

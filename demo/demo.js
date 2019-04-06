@@ -1,7 +1,8 @@
-const demo1 = require('./demo1.js')
-const demo2 = require('./demo2.js')
 const bel = require('bel')
 const belmark = require('belmark')
+
+const demo1 = require('./demo1.js')
+const demo2 = require('./demo2.js')
 
 document.head.innerHTML = `<style> body, html {
   box-sizing: border-box; display: flex;
@@ -34,8 +35,8 @@ document.head.innerHTML = `<style> body, html {
     }
   } else {
     const href = location.href.replace(location.search, '')
-    const href_demo = new URL('demo', location.origin).href
-    const href_readme = new URL('/README.md', location.origin).href
+    const href_demo = new URL('demo', location.href).href
+    const href_readme = new URL('README.md', location.href).href
     const content = await fetch(href_readme).then(response => response.text())
     const markdown = belmark(content)
     const codes = markdown.querySelectorAll('pre > code')
