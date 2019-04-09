@@ -1,4 +1,4 @@
-(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/demo/demo.js":[function(require,module,exports){
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({"/home/ninabreznik/Documents/code/ethereum/play/workshopping/demo/demo.js":[function(require,module,exports){
 const bel = require('bel')
 const belmark = require('belmark')
 
@@ -50,7 +50,7 @@ document.head.innerHTML = `<style> body, html {
   }
 })()
 
-},{"./demo1.js":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/demo/demo1.js","./demo2.js":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/demo/demo2.js","bel":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/bel/browser.js","belmark":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/belmark/source/belmark.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/demo/demo1.js":[function(require,module,exports){
+},{"./demo1.js":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/demo/demo1.js","./demo2.js":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/demo/demo2.js","bel":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/bel/browser.js","belmark":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/belmark/source/belmark.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/demo/demo1.js":[function(require,module,exports){
 const workshop = require('../')
 // const logo = require('play-logo') // @TODO: play-logo + default logo
 const csjs = require('csjs-inject')
@@ -72,7 +72,7 @@ const theme = {
 }
 const css = { }
 
-},{"../":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/workshopping.js","csjs-inject":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/demo/demo2.js":[function(require,module,exports){
+},{"../":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/workshopping.js","csjs-inject":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs-inject/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/demo/demo2.js":[function(require,module,exports){
 const workshop = require('../')
 // const logo = require('play-logo')
 const csjs = require('csjs-inject')
@@ -155,7 +155,7 @@ const css = csjs`
   flex-grow        : 1;
 }`
 
-},{"../":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/workshopping.js","csjs-inject":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/bel/appendChild.js":[function(require,module,exports){
+},{"../":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/workshopping.js","csjs-inject":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs-inject/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/bel/appendChild.js":[function(require,module,exports){
 var trailingNewlineRegex = /\n[\s]+$/
 var leadingNewlineRegex = /^\n[\s]+/
 var trailingSpaceRegex = /[\s]+$/
@@ -288,7 +288,7 @@ module.exports = function appendChild (el, childs) {
   }
 }
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/bel/browser.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/bel/browser.js":[function(require,module,exports){
 var hyperx = require('hyperx')
 var appendChild = require('./appendChild')
 
@@ -389,7 +389,7 @@ module.exports = hyperx(belCreateElement, {comments: true})
 module.exports.default = module.exports
 module.exports.createElement = belCreateElement
 
-},{"./appendChild":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/bel/appendChild.js","hyperx":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/hyperx/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/belmark/node_modules/bel/index.js":[function(require,module,exports){
+},{"./appendChild":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/bel/appendChild.js","hyperx":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/hyperx/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/belmark/node_modules/bel/index.js":[function(require,module,exports){
 var document = require('global/document')
 var hyperx = require('hyperx')
 var onload = require('on-load')
@@ -544,7 +544,7 @@ module.exports = hyperx(belCreateElement, {comments: true})
 module.exports.default = module.exports
 module.exports.createElement = belCreateElement
 
-},{"global/document":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/global/document.js","hyperx":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/hyperx/index.js","on-load":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/on-load/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/belmark/source/belmark.js":[function(require,module,exports){
+},{"global/document":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/global/document.js","hyperx":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/hyperx/index.js","on-load":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/on-load/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/belmark/source/belmark.js":[function(require,module,exports){
 var bel = require('bel')
 var marked = require('marked')
 
@@ -572,9 +572,9 @@ function belmark (source = '', ...values) {
   return render(bel, values)
 }
 
-},{"bel":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/belmark/node_modules/bel/index.js","marked":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/marked/lib/marked.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/browser-resolve/empty.js":[function(require,module,exports){
+},{"bel":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/belmark/node_modules/bel/index.js","marked":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/marked/lib/marked.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/browser-resolve/empty.js":[function(require,module,exports){
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/csjs.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs-inject/csjs.js":[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -593,12 +593,12 @@ function csjsInserter() {
 module.exports = csjsInserter;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"csjs":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/index.js","insert-css":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/insert-css/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/get-css.js":[function(require,module,exports){
+},{"csjs":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/index.js","insert-css":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/insert-css/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs-inject/get-css.js":[function(require,module,exports){
 'use strict';
 
 module.exports = require('csjs/get-css');
 
-},{"csjs/get-css":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/get-css.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/index.js":[function(require,module,exports){
+},{"csjs/get-css":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/get-css.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs-inject/index.js":[function(require,module,exports){
 'use strict';
 
 var csjs = require('./csjs');
@@ -607,17 +607,17 @@ module.exports = csjs;
 module.exports.csjs = csjs;
 module.exports.getCss = require('./get-css');
 
-},{"./csjs":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/csjs.js","./get-css":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/get-css.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/csjs.js":[function(require,module,exports){
+},{"./csjs":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs-inject/csjs.js","./get-css":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs-inject/get-css.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/csjs.js":[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/csjs');
 
-},{"./lib/csjs":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/csjs.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/get-css.js":[function(require,module,exports){
+},{"./lib/csjs":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/csjs.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/get-css.js":[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/get-css');
 
-},{"./lib/get-css":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/get-css.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/index.js":[function(require,module,exports){
+},{"./lib/get-css":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/get-css.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/index.js":[function(require,module,exports){
 'use strict';
 
 var csjs = require('./csjs');
@@ -627,7 +627,7 @@ module.exports.csjs = csjs;
 module.exports.noScope = csjs({ noscope: true });
 module.exports.getCss = require('./get-css');
 
-},{"./csjs":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/csjs.js","./get-css":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/get-css.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/base62-encode.js":[function(require,module,exports){
+},{"./csjs":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/csjs.js","./get-css":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/get-css.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/base62-encode.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -649,7 +649,7 @@ module.exports = function encode(integer) {
   return str;
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/build-exports.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/build-exports.js":[function(require,module,exports){
 'use strict';
 
 var makeComposition = require('./composition').makeComposition;
@@ -693,7 +693,7 @@ function getClassChain(obj) {
   return acc;
 }
 
-},{"./composition":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/composition.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/composition.js":[function(require,module,exports){
+},{"./composition":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/composition.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/composition.js":[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -773,7 +773,7 @@ function ignoreComposition(values) {
  */
 function Composition() {}
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/csjs.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/csjs.js":[function(require,module,exports){
 'use strict';
 
 var extractExtends = require('./css-extract-extends');
@@ -851,7 +851,7 @@ function without(obj, unwanted) {
   }, {});
 }
 
-},{"./build-exports":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/build-exports.js","./composition":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/composition.js","./css-extract-extends":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/css-extract-extends.js","./css-key":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/css-key.js","./extract-exports":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/extract-exports.js","./scopeify":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/scopeify.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/css-extract-extends.js":[function(require,module,exports){
+},{"./build-exports":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/build-exports.js","./composition":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/composition.js","./css-extract-extends":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/css-extract-extends.js","./css-key":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/css-key.js","./extract-exports":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/extract-exports.js","./scopeify":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/scopeify.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/css-extract-extends.js":[function(require,module,exports){
 'use strict';
 
 var makeComposition = require('./composition').makeComposition;
@@ -904,7 +904,7 @@ function getClassName(str) {
   return trimmed[0] === '.' ? trimmed.substr(1) : trimmed;
 }
 
-},{"./composition":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/composition.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/css-key.js":[function(require,module,exports){
+},{"./composition":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/composition.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/css-key.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -914,7 +914,7 @@ function getClassName(str) {
 
 module.exports = ' css ';
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/extract-exports.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/extract-exports.js":[function(require,module,exports){
 'use strict';
 
 var regex = require('./regex');
@@ -941,7 +941,7 @@ function getExport(css, regex) {
   return prop;
 }
 
-},{"./regex":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/regex.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/get-css.js":[function(require,module,exports){
+},{"./regex":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/regex.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/get-css.js":[function(require,module,exports){
 'use strict';
 
 var cssKey = require('./css-key');
@@ -950,7 +950,7 @@ module.exports = function getCss(csjs) {
   return csjs[cssKey];
 };
 
-},{"./css-key":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/css-key.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/hash-string.js":[function(require,module,exports){
+},{"./css-key":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/css-key.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/hash-string.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -968,7 +968,7 @@ module.exports = function hashStr(str) {
   return hash >>> 0;
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/regex.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/regex.js":[function(require,module,exports){
 'use strict';
 
 var findClasses = /(\.)(?!\d)([^\s\.,{\[>+~#:)]*)(?![^{]*})/.source;
@@ -984,7 +984,7 @@ module.exports = {
   ignoreComments: ignoreComments,
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/replace-animations.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/replace-animations.js":[function(require,module,exports){
 var ignoreComments = require('./regex').ignoreComments;
 
 module.exports = replaceAnimations;
@@ -1015,7 +1015,7 @@ function replaceAnimations(result) {
   return result;
 }
 
-},{"./regex":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/regex.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/scoped-name.js":[function(require,module,exports){
+},{"./regex":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/regex.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/scoped-name.js":[function(require,module,exports){
 'use strict';
 
 var encode = require('./base62-encode');
@@ -1029,7 +1029,7 @@ module.exports = function fileScoper(fileSrc) {
   }
 };
 
-},{"./base62-encode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/base62-encode.js","./hash-string":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/hash-string.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/scopeify.js":[function(require,module,exports){
+},{"./base62-encode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/base62-encode.js","./hash-string":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/hash-string.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/scopeify.js":[function(require,module,exports){
 'use strict';
 
 var fileScoper = require('./scoped-name');
@@ -1070,7 +1070,7 @@ function scopify(css, ignores) {
   return replaceAnimations(result);
 }
 
-},{"./regex":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/regex.js","./replace-animations":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/replace-animations.js","./scoped-name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs/lib/scoped-name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-array/dist/d3-array.js":[function(require,module,exports){
+},{"./regex":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/regex.js","./replace-animations":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/replace-animations.js","./scoped-name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs/lib/scoped-name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-array/dist/d3-array.js":[function(require,module,exports){
 // https://d3js.org/d3-array/ v1.2.4 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -1662,7 +1662,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-axis/dist/d3-axis.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-axis/dist/d3-axis.js":[function(require,module,exports){
 // https://d3js.org/d3-axis/ v1.0.12 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -1857,7 +1857,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-brush/dist/d3-brush.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-brush/dist/d3-brush.js":[function(require,module,exports){
 // https://d3js.org/d3-brush/ v1.0.6 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-selection'), require('d3-dispatch'), require('d3-drag'), require('d3-interpolate'), require('d3-transition')) :
@@ -2426,7 +2426,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-dispatch":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-drag":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-drag/dist/d3-drag.js","d3-interpolate":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js","d3-selection":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-selection/dist/d3-selection.js","d3-transition":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-transition/dist/d3-transition.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-chord/dist/d3-chord.js":[function(require,module,exports){
+},{"d3-dispatch":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-drag":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-drag/dist/d3-drag.js","d3-interpolate":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js","d3-selection":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-selection/dist/d3-selection.js","d3-transition":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-transition/dist/d3-transition.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-chord/dist/d3-chord.js":[function(require,module,exports){
 // https://d3js.org/d3-chord/ v1.0.6 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-array'), require('d3-path')) :
@@ -2658,7 +2658,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-array":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-array/dist/d3-array.js","d3-path":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-path/dist/d3-path.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-collection/dist/d3-collection.js":[function(require,module,exports){
+},{"d3-array":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-array/dist/d3-array.js","d3-path":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-path/dist/d3-path.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-collection/dist/d3-collection.js":[function(require,module,exports){
 // https://d3js.org/d3-collection/ v1.0.7 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -2877,7 +2877,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-color/dist/d3-color.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-color/dist/d3-color.js":[function(require,module,exports){
 // https://d3js.org/d3-color/ v1.2.3 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -3428,7 +3428,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-contour/dist/d3-contour.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-contour/dist/d3-contour.js":[function(require,module,exports){
 // https://d3js.org/d3-contour/ v1.3.2 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-array')) :
@@ -3861,7 +3861,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-array":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-array/dist/d3-array.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dag/dist/d3-dag.js":[function(require,module,exports){
+},{"d3-array":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-array/dist/d3-array.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dag/dist/d3-dag.js":[function(require,module,exports){
 // d3-dag Version 0.2.3. Copyright 2019 undefined.
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -9659,7 +9659,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js":[function(require,module,exports){
 // https://d3js.org/d3-dispatch/ v1.0.5 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -9756,7 +9756,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-drag/dist/d3-drag.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-drag/dist/d3-drag.js":[function(require,module,exports){
 // https://d3js.org/d3-drag/ v1.2.3 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-selection'), require('d3-dispatch')) :
@@ -9992,7 +9992,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-dispatch":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-selection":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-selection/dist/d3-selection.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dsv/dist/d3-dsv.js":[function(require,module,exports){
+},{"d3-dispatch":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-selection":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-selection/dist/d3-selection.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dsv/dist/d3-dsv.js":[function(require,module,exports){
 // https://d3js.org/d3-dsv/ v1.1.1 Copyright 2019 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -10211,7 +10211,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-ease/dist/d3-ease.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-ease/dist/d3-ease.js":[function(require,module,exports){
 // https://d3js.org/d3-ease/ v1.0.5 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -10472,7 +10472,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-fetch/dist/d3-fetch.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-fetch/dist/d3-fetch.js":[function(require,module,exports){
 // https://d3js.org/d3-fetch/ v1.1.2 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-dsv')) :
@@ -10576,7 +10576,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-dsv":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dsv/dist/d3-dsv.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-force/dist/d3-force.js":[function(require,module,exports){
+},{"d3-dsv":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dsv/dist/d3-dsv.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-force/dist/d3-force.js":[function(require,module,exports){
 // https://d3js.org/d3-force/ v1.2.1 Copyright 2019 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-quadtree'), require('d3-collection'), require('d3-dispatch'), require('d3-timer')) :
@@ -11246,7 +11246,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-collection":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-collection/dist/d3-collection.js","d3-dispatch":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-quadtree":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-quadtree/dist/d3-quadtree.js","d3-timer":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-timer/dist/d3-timer.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-format/dist/d3-format.js":[function(require,module,exports){
+},{"d3-collection":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-collection/dist/d3-collection.js","d3-dispatch":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-quadtree":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-quadtree/dist/d3-quadtree.js","d3-timer":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-timer/dist/d3-timer.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-format/dist/d3-format.js":[function(require,module,exports){
 // https://d3js.org/d3-format/ v1.3.2 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -11568,7 +11568,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-geo/dist/d3-geo.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-geo/dist/d3-geo.js":[function(require,module,exports){
 // https://d3js.org/d3-geo/ v1.11.3 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-array')) :
@@ -14673,7 +14673,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-array":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-array/dist/d3-array.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-hierarchy/dist/d3-hierarchy.js":[function(require,module,exports){
+},{"d3-array":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-array/dist/d3-array.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-hierarchy/dist/d3-hierarchy.js":[function(require,module,exports){
 // https://d3js.org/d3-hierarchy/ v1.1.8 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -15965,7 +15965,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js":[function(require,module,exports){
 // https://d3js.org/d3-interpolate/ v1.3.2 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-color')) :
@@ -16539,7 +16539,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-color":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-color/dist/d3-color.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-path/dist/d3-path.js":[function(require,module,exports){
+},{"d3-color":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-color/dist/d3-color.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-path/dist/d3-path.js":[function(require,module,exports){
 // https://d3js.org/d3-path/ v1.0.7 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -16682,7 +16682,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-polygon/dist/d3-polygon.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-polygon/dist/d3-polygon.js":[function(require,module,exports){
 // https://d3js.org/d3-polygon/ v1.0.5 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -16834,7 +16834,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-quadtree/dist/d3-quadtree.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-quadtree/dist/d3-quadtree.js":[function(require,module,exports){
 // https://d3js.org/d3-quadtree/ v1.0.6 Copyright 2019 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -17255,7 +17255,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-random/dist/d3-random.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-random/dist/d3-random.js":[function(require,module,exports){
 // https://d3js.org/d3-random/ v1.1.2 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -17372,7 +17372,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-scale-chromatic/dist/d3-scale-chromatic.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-scale-chromatic/dist/d3-scale-chromatic.js":[function(require,module,exports){
 // https://d3js.org/d3-scale-chromatic/ v1.3.3 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-interpolate'), require('d3-color')) :
@@ -17872,7 +17872,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-color":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-color/dist/d3-color.js","d3-interpolate":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-scale/dist/d3-scale.js":[function(require,module,exports){
+},{"d3-color":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-color/dist/d3-color.js","d3-interpolate":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-scale/dist/d3-scale.js":[function(require,module,exports){
 // https://d3js.org/d3-scale/ v2.2.2 Copyright 2019 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-collection'), require('d3-array'), require('d3-interpolate'), require('d3-format'), require('d3-time'), require('d3-time-format')) :
@@ -19039,7 +19039,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-array":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-array/dist/d3-array.js","d3-collection":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-collection/dist/d3-collection.js","d3-format":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-format/dist/d3-format.js","d3-interpolate":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js","d3-time":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-time/dist/d3-time.js","d3-time-format":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-time-format/dist/d3-time-format.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-selection/dist/d3-selection.js":[function(require,module,exports){
+},{"d3-array":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-array/dist/d3-array.js","d3-collection":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-collection/dist/d3-collection.js","d3-format":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-format/dist/d3-format.js","d3-interpolate":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js","d3-time":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-time/dist/d3-time.js","d3-time-format":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-time-format/dist/d3-time-format.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-selection/dist/d3-selection.js":[function(require,module,exports){
 // https://d3js.org/d3-selection/ v1.4.0 Copyright 2019 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -20028,7 +20028,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-shape/dist/d3-shape.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-shape/dist/d3-shape.js":[function(require,module,exports){
 // https://d3js.org/d3-shape/ v1.3.5 Copyright 2019 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-path')) :
@@ -21979,7 +21979,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-path":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-path/dist/d3-path.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-time-format/dist/d3-time-format.js":[function(require,module,exports){
+},{"d3-path":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-path/dist/d3-path.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-time-format/dist/d3-time-format.js":[function(require,module,exports){
 // https://d3js.org/d3-time-format/ v2.1.3 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-time')) :
@@ -22665,7 +22665,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-time":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-time/dist/d3-time.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-time/dist/d3-time.js":[function(require,module,exports){
+},{"d3-time":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-time/dist/d3-time.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-time/dist/d3-time.js":[function(require,module,exports){
 // https://d3js.org/d3-time/ v1.0.11 Copyright 2019 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -23038,7 +23038,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-timer/dist/d3-timer.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-timer/dist/d3-timer.js":[function(require,module,exports){
 // https://d3js.org/d3-timer/ v1.0.9 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -23189,7 +23189,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-transition/dist/d3-transition.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-transition/dist/d3-transition.js":[function(require,module,exports){
 // https://d3js.org/d3-transition/ v1.2.0 Copyright 2019 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-dispatch'), require('d3-timer'), require('d3-color'), require('d3-interpolate'), require('d3-selection'), require('d3-ease')) :
@@ -24045,7 +24045,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-color":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-color/dist/d3-color.js","d3-dispatch":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-ease":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-ease/dist/d3-ease.js","d3-interpolate":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js","d3-selection":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-selection/dist/d3-selection.js","d3-timer":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-timer/dist/d3-timer.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-voronoi/dist/d3-voronoi.js":[function(require,module,exports){
+},{"d3-color":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-color/dist/d3-color.js","d3-dispatch":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-ease":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-ease/dist/d3-ease.js","d3-interpolate":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js","d3-selection":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-selection/dist/d3-selection.js","d3-timer":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-timer/dist/d3-timer.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-voronoi/dist/d3-voronoi.js":[function(require,module,exports){
 // https://d3js.org/d3-voronoi/ v1.1.4 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -25046,7 +25046,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-zoom/dist/d3-zoom.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-zoom/dist/d3-zoom.js":[function(require,module,exports){
 // https://d3js.org/d3-zoom/ v1.7.3 Copyright 2018 Mike Bostock
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3-selection'), require('d3-dispatch'), require('d3-drag'), require('d3-interpolate'), require('d3-transition')) :
@@ -25550,7 +25550,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
-},{"d3-dispatch":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-drag":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-drag/dist/d3-drag.js","d3-interpolate":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js","d3-selection":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-selection/dist/d3-selection.js","d3-transition":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-transition/dist/d3-transition.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3/dist/d3.node.js":[function(require,module,exports){
+},{"d3-dispatch":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-drag":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-drag/dist/d3-drag.js","d3-interpolate":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js","d3-selection":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-selection/dist/d3-selection.js","d3-transition":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-transition/dist/d3-transition.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3/dist/d3.node.js":[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', { value: true });
@@ -25623,12 +25623,12 @@ Object.keys(d3Zoom).forEach(function (key) { exports[key] = d3Zoom[key]; });
 exports.version = version;
 Object.defineProperty(exports, "event", {get: function() { return d3Selection.event; }});
 
-},{"d3-array":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-array/dist/d3-array.js","d3-axis":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-axis/dist/d3-axis.js","d3-brush":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-brush/dist/d3-brush.js","d3-chord":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-chord/dist/d3-chord.js","d3-collection":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-collection/dist/d3-collection.js","d3-color":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-color/dist/d3-color.js","d3-contour":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-contour/dist/d3-contour.js","d3-dispatch":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-drag":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-drag/dist/d3-drag.js","d3-dsv":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dsv/dist/d3-dsv.js","d3-ease":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-ease/dist/d3-ease.js","d3-fetch":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-fetch/dist/d3-fetch.js","d3-force":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-force/dist/d3-force.js","d3-format":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-format/dist/d3-format.js","d3-geo":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-geo/dist/d3-geo.js","d3-hierarchy":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-hierarchy/dist/d3-hierarchy.js","d3-interpolate":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js","d3-path":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-path/dist/d3-path.js","d3-polygon":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-polygon/dist/d3-polygon.js","d3-quadtree":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-quadtree/dist/d3-quadtree.js","d3-random":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-random/dist/d3-random.js","d3-scale":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-scale/dist/d3-scale.js","d3-scale-chromatic":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-scale-chromatic/dist/d3-scale-chromatic.js","d3-selection":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-selection/dist/d3-selection.js","d3-shape":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-shape/dist/d3-shape.js","d3-time":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-time/dist/d3-time.js","d3-time-format":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-time-format/dist/d3-time-format.js","d3-timer":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-timer/dist/d3-timer.js","d3-transition":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-transition/dist/d3-transition.js","d3-voronoi":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-voronoi/dist/d3-voronoi.js","d3-zoom":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-zoom/dist/d3-zoom.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/index.js":[function(require,module,exports){
+},{"d3-array":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-array/dist/d3-array.js","d3-axis":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-axis/dist/d3-axis.js","d3-brush":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-brush/dist/d3-brush.js","d3-chord":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-chord/dist/d3-chord.js","d3-collection":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-collection/dist/d3-collection.js","d3-color":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-color/dist/d3-color.js","d3-contour":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-contour/dist/d3-contour.js","d3-dispatch":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dispatch/dist/d3-dispatch.js","d3-drag":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-drag/dist/d3-drag.js","d3-dsv":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dsv/dist/d3-dsv.js","d3-ease":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-ease/dist/d3-ease.js","d3-fetch":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-fetch/dist/d3-fetch.js","d3-force":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-force/dist/d3-force.js","d3-format":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-format/dist/d3-format.js","d3-geo":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-geo/dist/d3-geo.js","d3-hierarchy":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-hierarchy/dist/d3-hierarchy.js","d3-interpolate":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-interpolate/dist/d3-interpolate.js","d3-path":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-path/dist/d3-path.js","d3-polygon":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-polygon/dist/d3-polygon.js","d3-quadtree":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-quadtree/dist/d3-quadtree.js","d3-random":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-random/dist/d3-random.js","d3-scale":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-scale/dist/d3-scale.js","d3-scale-chromatic":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-scale-chromatic/dist/d3-scale-chromatic.js","d3-selection":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-selection/dist/d3-selection.js","d3-shape":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-shape/dist/d3-shape.js","d3-time":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-time/dist/d3-time.js","d3-time-format":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-time-format/dist/d3-time-format.js","d3-timer":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-timer/dist/d3-timer.js","d3-transition":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-transition/dist/d3-transition.js","d3-voronoi":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-voronoi/dist/d3-voronoi.js","d3-zoom":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-zoom/dist/d3-zoom.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/index.js":[function(require,module,exports){
 // since we are requiring the top level of faker, load all locales by default
 var Faker = require('./lib');
 var faker = new Faker({ locales: require('./lib/locales') });
 module['exports'] = faker;
-},{"./lib":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/index.js","./lib/locales":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/address.js":[function(require,module,exports){
+},{"./lib":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/index.js","./lib/locales":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/address.js":[function(require,module,exports){
 /**
  *
  * @namespace faker.address
@@ -25856,7 +25856,7 @@ function Address (faker) {
 
 module.exports = Address;
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/commerce.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/commerce.js":[function(require,module,exports){
 /**
  *
  * @namespace faker.commerce
@@ -25977,7 +25977,7 @@ var Commerce = function (faker) {
 
 module['exports'] = Commerce;
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/company.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/company.js":[function(require,module,exports){
 /**
  *
  * @namespace faker.company
@@ -26102,7 +26102,7 @@ var Company = function (faker) {
 }
 
 module['exports'] = Company;
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/database.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/database.js":[function(require,module,exports){
 /**
  *
  * @namespace faker.database
@@ -26168,7 +26168,7 @@ var Database = function (faker) {
 
 module["exports"] = Database;
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/date.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/date.js":[function(require,module,exports){
 /**
  *
  * @namespace faker.date
@@ -26302,7 +26302,7 @@ var _Date = function (faker) {
 };
 
 module['exports'] = _Date;
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/fake.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/fake.js":[function(require,module,exports){
 /*
   fake.js - generator method for combining faker methods based on string input
 
@@ -26411,7 +26411,7 @@ function Fake (faker) {
 }
 
 module['exports'] = Fake;
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/finance.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/finance.js":[function(require,module,exports){
 /**
  * @namespace faker.finance
  */
@@ -26632,7 +26632,7 @@ var Finance = function (faker) {
 
 module['exports'] = Finance;
 
-},{"./iban":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/iban.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/hacker.js":[function(require,module,exports){
+},{"./iban":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/iban.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/hacker.js":[function(require,module,exports){
 /**
  *
  * @namespace faker.hacker
@@ -26718,7 +26718,7 @@ var Hacker = function (faker) {
 };
 
 module['exports'] = Hacker;
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/helpers.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/helpers.js":[function(require,module,exports){
 /**
  *
  * @namespace faker.helpers
@@ -26981,7 +26981,7 @@ String.prototype.capitalize = function () { //v1.0
 
 module['exports'] = Helpers;
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/iban.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/iban.js":[function(require,module,exports){
 module["exports"] = {
   alpha: [
     'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'
@@ -28118,7 +28118,7 @@ module["exports"] = {
     "YE", "YT", "YU", "ZA", "ZM", "ZR", "ZW"
   ]
 }
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/image.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/image.js":[function(require,module,exports){
 /**
  *
  * @namespace faker.image
@@ -28332,7 +28332,7 @@ var Image = function (faker) {
 }
 
 module["exports"] = Image;
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/index.js":[function(require,module,exports){
 /*
 
    this index.js file is used for including the faker library as a CommonJS module, instead of a bundle
@@ -28484,7 +28484,7 @@ Faker.prototype.seed = function(value) {
 }
 module['exports'] = Faker;
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/address.js","./commerce":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/commerce.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/company.js","./database":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/database.js","./date":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/date.js","./fake":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/fake.js","./finance":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/finance.js","./hacker":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/hacker.js","./helpers":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/helpers.js","./image":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/image.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/internet.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/lorem.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/name.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/phone_number.js","./random":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/random.js","./system":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/system.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/internet.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/address.js","./commerce":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/commerce.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/company.js","./database":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/database.js","./date":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/date.js","./fake":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/fake.js","./finance":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/finance.js","./hacker":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/hacker.js","./helpers":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/helpers.js","./image":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/image.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/internet.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/lorem.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/name.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/phone_number.js","./random":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/random.js","./system":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/system.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/internet.js":[function(require,module,exports){
 var random_ua = require('../vendor/user-agent');
 
 /**
@@ -28904,7 +28904,7 @@ var Internet = function (faker) {
 
 module["exports"] = Internet;
 
-},{"../vendor/user-agent":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/vendor/user-agent.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales.js":[function(require,module,exports){
+},{"../vendor/user-agent":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/vendor/user-agent.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales.js":[function(require,module,exports){
 exports['az'] = require('./locales/az');
 exports['cz'] = require('./locales/cz');
 exports['de'] = require('./locales/de');
@@ -28943,17 +28943,17 @@ exports['vi'] = require('./locales/vi');
 exports['zh_CN'] = require('./locales/zh_CN');
 exports['zh_TW'] = require('./locales/zh_TW');
 
-},{"./locales/az":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/index.js","./locales/cz":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/index.js","./locales/de":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/index.js","./locales/de_AT":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/index.js","./locales/de_CH":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/index.js","./locales/en":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/index.js","./locales/en_AU":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/index.js","./locales/en_BORK":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_BORK/index.js","./locales/en_CA":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/index.js","./locales/en_GB":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/index.js","./locales/en_IE":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/index.js","./locales/en_IND":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/index.js","./locales/en_US":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/index.js","./locales/en_au_ocker":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/index.js","./locales/es":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/index.js","./locales/es_MX":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/index.js","./locales/fa":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fa/index.js","./locales/fr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/index.js","./locales/fr_CA":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/index.js","./locales/ge":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/index.js","./locales/id_ID":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/index.js","./locales/it":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/index.js","./locales/ja":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/index.js","./locales/ko":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/index.js","./locales/nb_NO":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/index.js","./locales/nep":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/index.js","./locales/nl":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/index.js","./locales/pl":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/index.js","./locales/pt_BR":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/index.js","./locales/ru":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/index.js","./locales/sk":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/index.js","./locales/sv":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/index.js","./locales/tr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/index.js","./locales/uk":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/index.js","./locales/vi":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/index.js","./locales/zh_CN":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/index.js","./locales/zh_TW":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/building_number.js":[function(require,module,exports){
+},{"./locales/az":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/index.js","./locales/cz":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/index.js","./locales/de":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/index.js","./locales/de_AT":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/index.js","./locales/de_CH":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/index.js","./locales/en":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/index.js","./locales/en_AU":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/index.js","./locales/en_BORK":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_BORK/index.js","./locales/en_CA":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/index.js","./locales/en_GB":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/index.js","./locales/en_IE":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/index.js","./locales/en_IND":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/index.js","./locales/en_US":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/index.js","./locales/en_au_ocker":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/index.js","./locales/es":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/index.js","./locales/es_MX":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/index.js","./locales/fa":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fa/index.js","./locales/fr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/index.js","./locales/fr_CA":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/index.js","./locales/ge":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/index.js","./locales/id_ID":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/index.js","./locales/it":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/index.js","./locales/ja":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/index.js","./locales/ko":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/index.js","./locales/nb_NO":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/index.js","./locales/nep":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/index.js","./locales/nl":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/index.js","./locales/pl":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/index.js","./locales/pt_BR":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/index.js","./locales/ru":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/index.js","./locales/sk":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/index.js","./locales/sv":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/index.js","./locales/tr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/index.js","./locales/uk":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/index.js","./locales/vi":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/index.js","./locales/zh_CN":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/index.js","./locales/zh_TW":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   "###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{Address.city_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "Ağcabədi",
   "Ağdam",
@@ -29035,7 +29035,7 @@ module["exports"] = [
   "Zərdab"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Akrotiri və Dekeliya",
   "Aland adaları",
@@ -29278,12 +29278,12 @@ module["exports"] = [
   "Zimbabve"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Azərbaycan"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.country = require("./country");
@@ -29299,33 +29299,33 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/city_name.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/state.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_name.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_suffix.js","./street_title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/city_name.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/state.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_name.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_suffix.js","./street_title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "AZ####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/secondary_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "m. ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/state.js":[function(require,module,exports){
 module["exports"] = [
 
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_address.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_name}, #{building_number}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_suffix} #{Address.street_title}",
   "#{Address.street_title} #{street_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "küç.",
   "küçəsi",
@@ -29335,7 +29335,7 @@ module["exports"] = [
   "sh."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_title.js":[function(require,module,exports){
 module["exports"] = [
   "Abbas Fətullayev",
   "Abbas Mirzə Şərifzadə",
@@ -29574,7 +29574,7 @@ module["exports"] = [
   "Zərgərpalan"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/color.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/color.js":[function(require,module,exports){
 module["exports"] = [
   "ala",
   "açıq bənövşəyi",
@@ -29596,7 +29596,7 @@ module["exports"] = [
   "çəhrayı"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/department.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/department.js":[function(require,module,exports){
 module["exports"] = [
   "Kitablar",
   "Filmlər",
@@ -29618,14 +29618,14 @@ module["exports"] = [
   "Avtomobil",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/index.js":[function(require,module,exports){
 var commerce = {};
 module['exports'] = commerce;
 commerce.color = require("./color");
 commerce.department = require("./department");
 commerce.product_name = require("./product_name");
 
-},{"./color":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/color.js","./department":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/department.js","./product_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/product_name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/product_name.js":[function(require,module,exports){
+},{"./color":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/color.js","./department":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/department.js","./product_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/product_name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/product_name.js":[function(require,module,exports){
 module["exports"] = {
   "adjective": [
     "Balaca",
@@ -29660,14 +29660,14 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.prefix = require("./prefix");
 company.suffix = require("./suffix");
 company.name = require("./name");
 
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/name.js":[function(require,module,exports){
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{Name.female_first_name}",
   "#{prefix} #{Name.male_first_name}",
@@ -29679,22 +29679,22 @@ module["exports"] = [
   "#{prefix} #{Address.city_name}#{suffix}#{suffix}#{suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "ASC",
   "MMC",
   "QSC",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/state.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/state.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/index.js":[function(require,module,exports){
 var date = {};
 module["exports"] = date;
 date.month = require("./month");
 date.weekday = require("./weekday");
 
-},{"./month":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/month.js","./weekday":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/weekday.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/month.js":[function(require,module,exports){
+},{"./month":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/month.js","./weekday":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/weekday.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/month.js":[function(require,module,exports){
 // source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/ru.xml#L1734
 module["exports"] = {
   wide: [
@@ -29755,7 +29755,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/weekday.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/weekday.js":[function(require,module,exports){
 // source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/ru.xml#L1825
 module["exports"] = {
   wide: [
@@ -29796,7 +29796,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/index.js":[function(require,module,exports){
 var az = {};
 module['exports'] = az;
 az.title = "Azerbaijani";
@@ -29809,7 +29809,7 @@ az.commerce = require("./commerce");
 az.company = require("./company");
 az.date = require("./date");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/index.js","./commerce":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/index.js","./date":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/index.js","./commerce":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/index.js","./date":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "az",
@@ -29819,7 +29819,7 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "box.az",
   "mail.az",
@@ -29828,13 +29828,13 @@ module["exports"] = [
   "hotmail.com"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js":[function(require,module,exports){
 var internet = {};
 module['exports'] = internet;
 internet.free_email = require("./free_email");
 internet.domain_suffix = require("./domain_suffix");
 
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/female_first_name.js":[function(require,module,exports){
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/female_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Anna",
   "Adeliya",
@@ -29911,7 +29911,7 @@ module["exports"] = [
   "Ülkər"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/female_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/female_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Qasımova",
   "Əfəndiyeva",
@@ -29925,7 +29925,7 @@ module["exports"] = [
   "Vəsiyeva"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.male_first_name = require("./male_first_name");
@@ -29936,7 +29936,7 @@ name.prefix = require("./prefix");
 name.suffix = require("./suffix");
 name.name = require("./name");
 
-},{"./female_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/female_first_name.js","./female_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/female_last_name.js","./male_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/male_first_name.js","./male_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/male_last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/male_first_name.js":[function(require,module,exports){
+},{"./female_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/female_first_name.js","./female_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/female_last_name.js","./male_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/male_first_name.js","./male_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/male_last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/male_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Anar",
   "Amid",
@@ -29975,7 +29975,7 @@ module["exports"] = [
   "Nadir"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/male_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/male_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Əhmədov",
   "Ələkbərov",
@@ -29989,7 +29989,7 @@ module["exports"] = [
   "Rəhimov"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{male_first_name}",
   "#{male_last_name} #{male_first_name}",
@@ -29999,34 +29999,34 @@ module["exports"] = [
   "#{female_last_name} #{female_first_name}",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/prefix.js":[function(require,module,exports){
 module["exports"] = [];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "(9##)###-##-##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js":[function(require,module,exports){
 var phone_number = {};
 module['exports'] = phone_number;
 phone_number.formats = require("./formats");
 
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/building_number.js":[function(require,module,exports){
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   "#",
   "##",
   "###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "Abertamy",
   "Adamov",
@@ -30632,7 +30632,7 @@ module["exports"] = [
   "Žulová",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Afghánistán",
   "Albánie",
@@ -30831,12 +30831,12 @@ module["exports"] = [
   "Zimbabwe",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Česká republika"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.country = require("./country");
@@ -30853,24 +30853,24 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/city_name.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/state_abbr.js","./street":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_name.js","./time_zone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/time_zone.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/city_name.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/state_abbr.js","./street":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_name.js","./time_zone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/time_zone.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "#####",
   "### ##",
   "###-##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/secondary_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "Apt. ###",
   "Suite ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/state.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/state_abbr.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/state.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/state_abbr.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street.js":[function(require,module,exports){
 module["exports"] = [
   "17. Listopadu",
   "17. Listopadu",
@@ -39185,17 +39185,17 @@ module["exports"] = [
   "Žďárská",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_name} #{building_number}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/time_zone.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/time_zone.js":[function(require,module,exports){
 module["exports"] = [
   "Pacific/Midway",
   "Pacific/Pago_Pago",
@@ -39342,7 +39342,7 @@ module["exports"] = [
   "Pacific/Apia"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js":[function(require,module,exports){
 module["exports"] = [
   "Adaptive",
   "Advanced",
@@ -39446,7 +39446,7 @@ module["exports"] = [
   "Vision-oriented"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/bs_noun.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/bs_noun.js":[function(require,module,exports){
 module["exports"] = [
   "clicks-and-mortar",
   "value-added",
@@ -39559,7 +39559,7 @@ module["exports"] = [
   "methodologies"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js":[function(require,module,exports){
 module["exports"] = [
   "implement",
   "utilize",
@@ -39623,7 +39623,7 @@ module["exports"] = [
   "recontextualize"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js":[function(require,module,exports){
 module["exports"] = [
   "24 hour",
   "24/7",
@@ -39728,7 +39728,7 @@ module["exports"] = [
   "zero tolerance"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.suffix = require("./suffix");
@@ -39739,14 +39739,14 @@ company.bs_verb = require("./bs_verb");
 company.bs_noun = require("./bs_noun");
 company.name = require("./name");
 
-},{"./adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js","./bs_noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/bs_noun.js","./bs_verb":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js","./descriptor":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/name.js","./noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/noun.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/name.js":[function(require,module,exports){
+},{"./adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js","./bs_noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/bs_noun.js","./bs_verb":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js","./descriptor":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/name.js","./noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/noun.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name} #{suffix}",
   "#{Name.last_name} #{suffix}",
   "#{Name.man_last_name} a #{Name.man_last_name} #{suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/noun.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/noun.js":[function(require,module,exports){
 module["exports"] = [
   "ability",
   "access",
@@ -39854,16 +39854,16 @@ module["exports"] = [
   "workforce"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "s.r.o.",
   "a.s.",
   "v.o.s."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/date/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/index.js"][0].apply(exports,arguments)
-},{"./month":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/date/month.js","./weekday":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/date/weekday.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/date/month.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/date/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/index.js"][0].apply(exports,arguments)
+},{"./month":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/date/month.js","./weekday":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/date/weekday.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/date/month.js":[function(require,module,exports){
 // Source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/en.xml#L1799
 module["exports"] = {
   wide: [
@@ -39928,7 +39928,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/date/weekday.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/date/weekday.js":[function(require,module,exports){
 // Source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/en.xml#L1847
 module["exports"] = {
   wide: [
@@ -39973,7 +39973,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/index.js":[function(require,module,exports){
 var cz = {};
 module['exports'] = cz;
 cz.title = "Czech";
@@ -39985,7 +39985,7 @@ cz.name = require("./name");
 cz.phone_number = require("./phone_number");
 cz.date = require("./date");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/index.js","./date":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/date/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/index.js","./date":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/date/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "cz",
   "com",
@@ -39994,7 +39994,7 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "seznam.cz",
@@ -40003,15 +40003,15 @@ module["exports"] = [
   "atlas.cz"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js":[function(require,module,exports){
 var lorem = {};
 module['exports'] = lorem;
 lorem.words = require("./words");
 lorem.supplemental = require("./supplemental");
 
-},{"./supplemental":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js","./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js":[function(require,module,exports){
+},{"./supplemental":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js","./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js":[function(require,module,exports){
 module["exports"] = [
   "abbas",
   "abduco",
@@ -40855,7 +40855,7 @@ module["exports"] = [
   "xiphias"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js":[function(require,module,exports){
 module["exports"] = [
   "alias",
   "consequatur",
@@ -41108,7 +41108,7 @@ module["exports"] = [
   "repellat"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/female_first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/female_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Abigail",
   "Ada",
@@ -41898,7 +41898,7 @@ module["exports"] = [
   "Žofie",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/female_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/female_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Adamová",
   "Adamcová",
@@ -42901,7 +42901,7 @@ module["exports"] = [
   "Zvěřinová",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.male_first_name = require("./male_first_name");
@@ -42913,7 +42913,7 @@ name.suffix = require("./suffix");
 name.title = require("./title");
 name.name = require("./name");
 
-},{"./female_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/female_first_name.js","./female_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/female_last_name.js","./male_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/male_first_name.js","./male_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/male_last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/suffix.js","./title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/male_first_name.js":[function(require,module,exports){
+},{"./female_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/female_first_name.js","./female_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/female_last_name.js","./male_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/male_first_name.js","./male_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/male_last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/suffix.js","./title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/male_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Abadon",
   "Abdon",
@@ -43713,7 +43713,7 @@ module["exports"] = [
   "Živan",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/male_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/male_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Adam",
   "Adamec",
@@ -44716,7 +44716,7 @@ module["exports"] = [
   "Zvěřina",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{man_first_name} #{man_last_name}",
   "#{prefix} #{woman_first_name} #{woman_last_name}",
@@ -44730,7 +44730,7 @@ module["exports"] = [
   "#{woman_first_name} #{woman_last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Ing.",
   "Mgr.",
@@ -44738,12 +44738,12 @@ module["exports"] = [
   "MUDr."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Phd."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/title.js":[function(require,module,exports){
 module["exports"] = {
   "descriptor": [
     "Lead",
@@ -44837,7 +44837,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "601 ### ###",
   "737 ### ###",
@@ -44847,9 +44847,9 @@ module["exports"] = [
   "00420 ### ### ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   "###",
   "##",
@@ -44859,7 +44859,7 @@ module["exports"] = [
   "##c"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_prefix} #{Name.first_name}#{city_suffix}",
   "#{city_prefix} #{Name.first_name}",
@@ -44867,7 +44867,7 @@ module["exports"] = [
   "#{Name.last_name}#{city_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Nord",
   "Ost",
@@ -44878,7 +44878,7 @@ module["exports"] = [
   "Bad"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "stadt",
   "dorf",
@@ -44887,7 +44887,7 @@ module["exports"] = [
   "burg"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Ägypten",
   "Äquatorialguinea",
@@ -45128,12 +45128,12 @@ module["exports"] = [
   "Zypern"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Deutschland"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -45150,20 +45150,20 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/city_suffix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/state_abbr.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/street_name.js","./street_root":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/street_root.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/city_suffix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/state_abbr.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/street_name.js","./street_root":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/street_root.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "#####",
   "#####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/secondary_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "Apt. ###",
   "Zimmer ###",
   "# OG"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Baden-Württemberg",
   "Bayern",
@@ -45183,7 +45183,7 @@ module["exports"] = [
   "Thüringen"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "BW",
   "BY",
@@ -45203,14 +45203,14 @@ module["exports"] = [
   "TH"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_root}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/street_root.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/street_root.js":[function(require,module,exports){
 module["exports"] = [
   "Ackerweg",
   "Adalbert-Stifter-Str.",
@@ -46245,25 +46245,25 @@ module["exports"] = [
   "Zur alten Fabrik"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "+49-1##-#######",
   "+49-1###-########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js":[function(require,module,exports){
 var cell_phone = {};
 module['exports'] = cell_phone;
 cell_phone.formats = require("./formats");
 
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/index.js":[function(require,module,exports){
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.suffix = require("./suffix");
 company.legal_form = require("./legal_form");
 company.name = require("./name");
 
-},{"./legal_form":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/legal_form.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/name.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/legal_form.js":[function(require,module,exports){
+},{"./legal_form":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/legal_form.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/name.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/legal_form.js":[function(require,module,exports){
 module["exports"] = [
   "GmbH",
   "AG",
@@ -46274,16 +46274,16 @@ module["exports"] = [
   "OHG"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name} #{suffix}",
   "#{Name.last_name}-#{Name.last_name}",
   "#{Name.last_name}, #{Name.last_name} und #{Name.last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/legal_form.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/legal_form.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/index.js":[function(require,module,exports){
 var de = {};
 module['exports'] = de;
 de.title = "German";
@@ -46294,7 +46294,7 @@ de.lorem = require("./lorem");
 de.name = require("./name");
 de.phone_number = require("./phone_number");
 de.cell_phone = require("./cell_phone");
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "info",
@@ -46305,23 +46305,23 @@ module["exports"] = [
   "ch"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "yahoo.com",
   "hotmail.com"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/lorem/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/lorem/index.js":[function(require,module,exports){
 var lorem = {};
 module['exports'] = lorem;
 lorem.words = require("./words");
 
-},{"./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/lorem/words.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/first_name.js":[function(require,module,exports){
+},{"./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/lorem/words.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Aaron",
   "Abdul",
@@ -47480,7 +47480,7 @@ module["exports"] = [
   "Zoé"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
@@ -47489,7 +47489,7 @@ name.prefix = require("./prefix");
 name.nobility_title_prefix = require("./nobility_title_prefix");
 name.name = require("./name");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/name.js","./nobility_title_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/nobility_title_prefix.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/prefix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/name.js","./nobility_title_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/nobility_title_prefix.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/prefix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Abel",
   "Abicht",
@@ -49182,7 +49182,7 @@ module["exports"] = [
   "Überacker"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{first_name} #{last_name}",
   "#{first_name} #{nobility_title_prefix} #{last_name}",
@@ -49192,7 +49192,7 @@ module["exports"] = [
   "#{first_name} #{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/nobility_title_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/nobility_title_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "zu",
   "von",
@@ -49200,7 +49200,7 @@ module["exports"] = [
   "von der"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Hr.",
   "Fr.",
@@ -49208,7 +49208,7 @@ module["exports"] = [
   "Prof. Dr."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "(0###) #########",
   "(0####) #######",
@@ -49216,13 +49216,13 @@ module["exports"] = [
   "+49-####-########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "Aigen im Mühlkreis",
   "Allerheiligen bei Wildon",
@@ -49344,14 +49344,14 @@ module["exports"] = [
   "Übersbach"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/country.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/country.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/country.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/country.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Österreich"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.country = require("./country");
@@ -49367,14 +49367,14 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/city_name.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/state_abbr.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/street_name.js","./street_root":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/street_root.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/city_name.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/state_abbr.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/street_name.js","./street_root":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/street_root.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/secondary_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/secondary_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/secondary_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/secondary_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Burgenland",
   "Kärnten",
@@ -49387,7 +49387,7 @@ module["exports"] = [
   "Wien"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "Bgld.",
   "Ktn.",
@@ -49400,11 +49400,11 @@ module["exports"] = [
   "W"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/street_name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/street_name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/street_root.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/street_name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/street_name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/street_root.js":[function(require,module,exports){
 module["exports"] = [
   "Ahorn",
   "Ahorngasse (St. Andrä)",
@@ -49606,7 +49606,7 @@ module["exports"] = [
   "Ötzbruck"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/cell_phone/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "+43-6##-#######",
   "06##-########",
@@ -49614,17 +49614,17 @@ module["exports"] = [
   "06##########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/index.js"][0].apply(exports,arguments)
-},{"./legal_form":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/company/legal_form.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/company/name.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/company/legal_form.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/legal_form.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/company/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/company/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/legal_form.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/index.js"][0].apply(exports,arguments)
+},{"./legal_form":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/company/legal_form.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/company/name.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/company/legal_form.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/legal_form.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/company/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/company/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/legal_form.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/index.js":[function(require,module,exports){
 var de_AT = {};
 module['exports'] = de_AT;
 de_AT.title = "German (Austria)";
@@ -49635,7 +49635,7 @@ de_AT.name = require("./name");
 de_AT.phone_number = require("./phone_number");
 de_AT.cell_phone = require("./cell_phone");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/cell_phone/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/cell_phone/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "info",
@@ -49647,27 +49647,27 @@ module["exports"] = [
   "at"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/internet/free_email.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/first_name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/first_name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/name.js","./nobility_title_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/nobility_title_prefix.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/prefix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/last_name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/last_name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/nobility_title_prefix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/name/nobility_title_prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/internet/free_email.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/first_name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/first_name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/name.js","./nobility_title_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/nobility_title_prefix.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/prefix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/last_name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/last_name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/nobility_title_prefix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/name/nobility_title_prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Dr.",
   "Prof. Dr."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "01 #######",
   "01#######",
@@ -49679,9 +49679,9 @@ module["exports"] = [
   "+43 ########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_AT/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/address/country_code.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_AT/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/address/country_code.js":[function(require,module,exports){
 module["exports"] = [
   "CH",
   "CH",
@@ -49695,19 +49695,19 @@ module["exports"] = [
   "VN"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Schweiz"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.country_code = require("./country_code");
 address.postcode = require("./postcode");
 address.default_country = require("./default_country");
 
-},{"./country_code":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/address/country_code.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/address/postcode.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/address/postcode.js":[function(require,module,exports){
+},{"./country_code":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/address/country_code.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/address/postcode.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "1###",
   "2###",
@@ -49720,15 +49720,15 @@ module["exports"] = [
   "9###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/company/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.suffix = require("./suffix");
 company.name = require("./name");
 
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/company/name.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/company/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/company/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/company/suffix.js":[function(require,module,exports){
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/company/name.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/company/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/company/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "AG",
   "GmbH",
@@ -49740,7 +49740,7 @@ module["exports"] = [
   "Inc."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/index.js":[function(require,module,exports){
 var de_CH = {};
 module['exports'] = de_CH;
 de_CH.title = "German (Switzerland)";
@@ -49750,7 +49750,7 @@ de_CH.internet = require("./internet");
 de_CH.name = require("./name");
 de_CH.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "net",
@@ -49763,12 +49763,12 @@ module["exports"] = [
   "ch"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js":[function(require,module,exports){
 var internet = {};
 module['exports'] = internet;
 internet.domain_suffix = require("./domain_suffix");
 
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/domain_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/first_name.js":[function(require,module,exports){
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/domain_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
     "Adolf",
     "Adrian",
@@ -50109,7 +50109,7 @@ module["exports"] = [
 
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
@@ -50117,7 +50117,7 @@ name.last_name = require("./last_name");
 name.prefix = require("./prefix");
 name.name = require("./name");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/prefix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/prefix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
     "Ackermann",
     "Aebi",
@@ -50330,7 +50330,7 @@ module["exports"] = [
     "Zürcher"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{first_name} #{last_name}",
   "#{first_name} #{last_name}",
@@ -50340,14 +50340,14 @@ module["exports"] = [
   "#{first_name} #{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Hr.",
   "Fr.",
   "Dr."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "0800 ### ###",
   "0800 ## ## ##",
@@ -50360,18 +50360,18 @@ module["exports"] = [
   "0041 79 ### ## ##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   "#####",
   "####",
   "###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "North",
   "East",
@@ -50382,7 +50382,7 @@ module["exports"] = [
   "Port"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "town",
   "ton",
@@ -50405,7 +50405,7 @@ module["exports"] = [
   "shire"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Afghanistan",
   "Albania",
@@ -50653,7 +50653,7 @@ module["exports"] = [
   "Zimbabwe"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/country_code.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/country_code.js":[function(require,module,exports){
 module["exports"] = [
   "AD",
   "AE",
@@ -50907,7 +50907,7 @@ module["exports"] = [
   "ZW"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/county.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/county.js":[function(require,module,exports){
 module["exports"] = [
   "Avon",
   "Bedfordshire",
@@ -50917,12 +50917,12 @@ module["exports"] = [
   "Cambridgeshire"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "United States of America"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -50943,17 +50943,17 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/city_suffix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/country.js","./country_code":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/country_code.js","./county":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/county.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/postcode.js","./postcode_by_state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/postcode_by_state.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/state_abbr.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/street_name.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/street_suffix.js","./time_zone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/time_zone.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/city_suffix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/country.js","./country_code":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/country_code.js","./county":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/county.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/postcode.js","./postcode_by_state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/postcode_by_state.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/state_abbr.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/street_name.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/street_suffix.js","./time_zone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/time_zone.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "#####",
   "#####-####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/postcode_by_state.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/secondary_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/secondary_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/postcode_by_state.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/secondary_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/secondary_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Alabama",
   "Alaska",
@@ -51007,7 +51007,7 @@ module["exports"] = [
   "Wyoming"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "AL",
   "AK",
@@ -51061,18 +51061,18 @@ module["exports"] = [
   "WY"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/street_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/street_address.js":[function(require,module,exports){
 module["exports"] = [
   "#{building_number} #{street_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.first_name} #{street_suffix}",
   "#{Name.last_name} #{street_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Alley",
   "Avenue",
@@ -51301,22 +51301,22 @@ module["exports"] = [
   "Wells"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/time_zone.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/time_zone.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/app/author.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/time_zone.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/time_zone.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/app/author.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.name}",
   "#{Company.name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/app/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/app/index.js":[function(require,module,exports){
 var app = {};
 module['exports'] = app;
 app.name = require("./name");
 app.version = require("./version");
 app.author = require("./author");
 
-},{"./author":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/app/author.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/app/name.js","./version":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/app/version.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/app/name.js":[function(require,module,exports){
+},{"./author":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/app/author.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/app/name.js","./version":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/app/version.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/app/name.js":[function(require,module,exports){
 module["exports"] = [
   "Redhold",
   "Treeflex",
@@ -51382,7 +51382,7 @@ module["exports"] = [
   "Keylex"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/app/version.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/app/version.js":[function(require,module,exports){
 module["exports"] = [
   "0.#.#",
   "0.##",
@@ -51391,7 +51391,7 @@ module["exports"] = [
   "#.#.#"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/business/credit_card_expiry_dates.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/business/credit_card_expiry_dates.js":[function(require,module,exports){
 module["exports"] = [
   "2011-10-12",
   "2012-11-12",
@@ -51399,7 +51399,7 @@ module["exports"] = [
   "2013-9-12"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/business/credit_card_numbers.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/business/credit_card_numbers.js":[function(require,module,exports){
 module["exports"] = [
   "1234-2121-1221-1211",
   "1212-1221-1121-1234",
@@ -51407,7 +51407,7 @@ module["exports"] = [
   "1228-1221-1221-1431"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/business/credit_card_types.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/business/credit_card_types.js":[function(require,module,exports){
 module["exports"] = [
   "visa",
   "mastercard",
@@ -51415,14 +51415,14 @@ module["exports"] = [
   "discover"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/business/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/business/index.js":[function(require,module,exports){
 var business = {};
 module['exports'] = business;
 business.credit_card_numbers = require("./credit_card_numbers");
 business.credit_card_expiry_dates = require("./credit_card_expiry_dates");
 business.credit_card_types = require("./credit_card_types");
 
-},{"./credit_card_expiry_dates":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/business/credit_card_expiry_dates.js","./credit_card_numbers":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/business/credit_card_numbers.js","./credit_card_types":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/business/credit_card_types.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/cell_phone/formats.js":[function(require,module,exports){
+},{"./credit_card_expiry_dates":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/business/credit_card_expiry_dates.js","./credit_card_numbers":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/business/credit_card_numbers.js","./credit_card_types":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/business/credit_card_types.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "###-###-####",
   "(###) ###-####",
@@ -51430,9 +51430,9 @@ module["exports"] = [
   "###.###.####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/commerce/color.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/commerce/color.js":[function(require,module,exports){
 module["exports"] = [
   "red",
   "green",
@@ -51467,7 +51467,7 @@ module["exports"] = [
   "silver"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/commerce/department.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/commerce/department.js":[function(require,module,exports){
 module["exports"] = [
   "Books",
   "Movies",
@@ -51493,9 +51493,9 @@ module["exports"] = [
   "Industrial"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/commerce/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/index.js"][0].apply(exports,arguments)
-},{"./color":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/commerce/color.js","./department":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/commerce/department.js","./product_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/commerce/product_name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/commerce/product_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/commerce/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/index.js"][0].apply(exports,arguments)
+},{"./color":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/commerce/color.js","./department":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/commerce/department.js","./product_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/commerce/product_name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/commerce/product_name.js":[function(require,module,exports){
 module["exports"] = {
   "adjective": [
     "Small",
@@ -51557,9 +51557,9 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/adjective.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/bs_adjective.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/adjective.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/bs_adjective.js":[function(require,module,exports){
 module["exports"] = [
   "clicks-and-mortar",
   "value-added",
@@ -51628,7 +51628,7 @@ module["exports"] = [
   "rich"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/bs_noun.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/bs_noun.js":[function(require,module,exports){
 module["exports"] = [
   "synergies",
   "web-readiness",
@@ -51676,11 +51676,11 @@ module["exports"] = [
   "methodologies"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/bs_verb.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/descriptor.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/bs_verb.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/descriptor.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.suffix = require("./suffix");
@@ -51692,16 +51692,16 @@ company.bs_adjective = require("./bs_adjective");
 company.bs_noun = require("./bs_noun");
 company.name = require("./name");
 
-},{"./adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/adjective.js","./bs_adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/bs_adjective.js","./bs_noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/bs_noun.js","./bs_verb":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/bs_verb.js","./descriptor":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/descriptor.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/name.js","./noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/noun.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/name.js":[function(require,module,exports){
+},{"./adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/adjective.js","./bs_adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/bs_adjective.js","./bs_noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/bs_noun.js","./bs_verb":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/bs_verb.js","./descriptor":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/descriptor.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/name.js","./noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/noun.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name} #{suffix}",
   "#{Name.last_name}-#{Name.last_name}",
   "#{Name.last_name}, #{Name.last_name} and #{Name.last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/noun.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/noun.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/noun.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/noun.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Inc",
   "and Sons",
@@ -51709,19 +51709,19 @@ module["exports"] = [
   "Group"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/american_express.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/american_express.js":[function(require,module,exports){
 module["exports"] = [
   "/34##-######-####L/",
   "/37##-######-####L/"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/diners_club.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/diners_club.js":[function(require,module,exports){
 module["exports"] = [
   "/30[0-5]#-######-###L/",
   "/368#-######-###L/"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/discover.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/discover.js":[function(require,module,exports){
 module["exports"] = [
   "/6011-####-####-###L/",
   "/65##-####-####-###L/",
@@ -51731,7 +51731,7 @@ module["exports"] = [
   "/64[4-9]#-62##-####-####-###L/"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/index.js":[function(require,module,exports){
 var credit_card = {};
 module['exports'] = credit_card;
 credit_card.visa = require("./visa");
@@ -51745,14 +51745,14 @@ credit_card.solo = require("./solo");
 credit_card.maestro = require("./maestro");
 credit_card.laser = require("./laser");
 
-},{"./american_express":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/american_express.js","./diners_club":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/diners_club.js","./discover":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/discover.js","./jcb":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/jcb.js","./laser":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/laser.js","./maestro":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/maestro.js","./mastercard":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/mastercard.js","./solo":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/solo.js","./switch":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/switch.js","./visa":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/visa.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/jcb.js":[function(require,module,exports){
+},{"./american_express":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/american_express.js","./diners_club":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/diners_club.js","./discover":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/discover.js","./jcb":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/jcb.js","./laser":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/laser.js","./maestro":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/maestro.js","./mastercard":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/mastercard.js","./solo":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/solo.js","./switch":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/switch.js","./visa":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/visa.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/jcb.js":[function(require,module,exports){
 module["exports"] = [
   "/3528-####-####-###L/",
   "/3529-####-####-###L/",
   "/35[3-8]#-####-####-###L/"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/laser.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/laser.js":[function(require,module,exports){
 module["exports"] = [
   "/6304###########L/",
   "/6706###########L/",
@@ -51764,40 +51764,40 @@ module["exports"] = [
   "/6709#########{5,6}L/"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/maestro.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/maestro.js":[function(require,module,exports){
 module["exports"] = [
   "/50#{9,16}L/",
   "/5[6-8]#{9,16}L/",
   "/56##{9,16}L/"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/mastercard.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/mastercard.js":[function(require,module,exports){
 module["exports"] = [
   "/5[1-5]##-####-####-###L/",
   "/6771-89##-####-###L/"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/solo.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/solo.js":[function(require,module,exports){
 module["exports"] = [
   "/6767-####-####-###L/",
   "/6767-####-####-####-#L/",
   "/6767-####-####-####-##L/"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/switch.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/switch.js":[function(require,module,exports){
 module["exports"] = [
   "/6759-####-####-###L/",
   "/6759-####-####-####-#L/",
   "/6759-####-####-####-##L/"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/visa.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/visa.js":[function(require,module,exports){
 module["exports"] = [
   "/4###########L/",
   "/4###-####-####-###L/"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/database/collation.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/database/collation.js":[function(require,module,exports){
 module["exports"] = [
   "utf8_unicode_ci",
   "utf8_general_ci",
@@ -51808,7 +51808,7 @@ module["exports"] = [
   "cp1250_general_ci"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/database/column.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/database/column.js":[function(require,module,exports){
 module["exports"] = [
   "id",
   "title",
@@ -51826,7 +51826,7 @@ module["exports"] = [
   "updatedAt"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/database/engine.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/database/engine.js":[function(require,module,exports){
 module["exports"] = [
   "InnoDB",
   "MyISAM",
@@ -51836,14 +51836,14 @@ module["exports"] = [
   "ARCHIVE"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/database/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/database/index.js":[function(require,module,exports){
 var database = {};
 module['exports'] = database;
 database.collation = require("./collation");
 database.column = require("./column");
 database.engine = require("./engine");
 database.type = require("./type");
-},{"./collation":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/database/collation.js","./column":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/database/column.js","./engine":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/database/engine.js","./type":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/database/type.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/database/type.js":[function(require,module,exports){
+},{"./collation":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/database/collation.js","./column":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/database/column.js","./engine":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/database/engine.js","./type":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/database/type.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/database/type.js":[function(require,module,exports){
 module["exports"] = [
   "int",
   "varchar",
@@ -51871,9 +51871,9 @@ module["exports"] = [
   "point"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/date/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/index.js"][0].apply(exports,arguments)
-},{"./month":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/date/month.js","./weekday":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/date/weekday.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/date/month.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/date/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/index.js"][0].apply(exports,arguments)
+},{"./month":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/date/month.js","./weekday":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/date/weekday.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/date/month.js":[function(require,module,exports){
 // Source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/en.xml#L1799
 module["exports"] = {
   wide: [
@@ -51938,7 +51938,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/date/weekday.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/date/weekday.js":[function(require,module,exports){
 // Source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/en.xml#L1847
 module["exports"] = {
   wide: [
@@ -51983,7 +51983,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/finance/account_type.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/finance/account_type.js":[function(require,module,exports){
 module["exports"] = [
   "Checking",
   "Savings",
@@ -51995,7 +51995,7 @@ module["exports"] = [
   "Personal Loan"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/finance/currency.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/finance/currency.js":[function(require,module,exports){
 module["exports"] = {
   "UAE Dirham": {
     "code": "AED",
@@ -52675,14 +52675,14 @@ module["exports"] = {
   }
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/finance/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/finance/index.js":[function(require,module,exports){
 var finance = {};
 module['exports'] = finance;
 finance.account_type = require("./account_type");
 finance.transaction_type = require("./transaction_type");
 finance.currency = require("./currency");
 
-},{"./account_type":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/finance/account_type.js","./currency":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/finance/currency.js","./transaction_type":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/finance/transaction_type.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/finance/transaction_type.js":[function(require,module,exports){
+},{"./account_type":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/finance/account_type.js","./currency":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/finance/currency.js","./transaction_type":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/finance/transaction_type.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/finance/transaction_type.js":[function(require,module,exports){
 module["exports"] = [
   "deposit",
   "withdrawal",
@@ -52690,7 +52690,7 @@ module["exports"] = [
   "invoice"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/abbreviation.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/abbreviation.js":[function(require,module,exports){
 module["exports"] = [
   "TCP",
   "HTTP",
@@ -52723,7 +52723,7 @@ module["exports"] = [
   "JBOD"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/adjective.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/adjective.js":[function(require,module,exports){
 module["exports"] = [
   "auxiliary",
   "primary",
@@ -52745,7 +52745,7 @@ module["exports"] = [
   "mobile"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/index.js":[function(require,module,exports){
 var hacker = {};
 module['exports'] = hacker;
 hacker.abbreviation = require("./abbreviation");
@@ -52754,7 +52754,7 @@ hacker.noun = require("./noun");
 hacker.verb = require("./verb");
 hacker.ingverb = require("./ingverb");
 
-},{"./abbreviation":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/abbreviation.js","./adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/adjective.js","./ingverb":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/ingverb.js","./noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/noun.js","./verb":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/verb.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/ingverb.js":[function(require,module,exports){
+},{"./abbreviation":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/abbreviation.js","./adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/adjective.js","./ingverb":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/ingverb.js","./noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/noun.js","./verb":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/verb.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/ingverb.js":[function(require,module,exports){
 module["exports"] = [
   "backing up",
   "bypassing",
@@ -52774,7 +52774,7 @@ module["exports"] = [
   "parsing"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/noun.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/noun.js":[function(require,module,exports){
 module["exports"] = [
   "driver",
   "protocol",
@@ -52802,7 +52802,7 @@ module["exports"] = [
   "matrix"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/verb.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/verb.js":[function(require,module,exports){
 module["exports"] = [
   "back up",
   "bypass",
@@ -52824,7 +52824,7 @@ module["exports"] = [
   "parse"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/index.js":[function(require,module,exports){
 var en = {};
 module['exports'] = en;
 en.title = "English";
@@ -52847,7 +52847,7 @@ en.finance = require("./finance");
 en.date = require("./date");
 en.system = require("./system");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/index.js","./app":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/app/index.js","./business":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/business/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/cell_phone/index.js","./commerce":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/commerce/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/index.js","./credit_card":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/credit_card/index.js","./database":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/database/index.js","./date":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/date/index.js","./finance":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/finance/index.js","./hacker":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/hacker/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/phone_number/index.js","./system":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/system/index.js","./team":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/team/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/internet/avatar_uri.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/index.js","./app":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/app/index.js","./business":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/business/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/cell_phone/index.js","./commerce":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/commerce/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/index.js","./credit_card":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/credit_card/index.js","./database":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/database/index.js","./date":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/date/index.js","./finance":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/finance/index.js","./hacker":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/hacker/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/phone_number/index.js","./system":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/system/index.js","./team":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/team/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/internet/avatar_uri.js":[function(require,module,exports){
 module["exports"] = [
   "https://s3.amazonaws.com/uifaces/faces/twitter/jarjan/128.jpg",
   "https://s3.amazonaws.com/uifaces/faces/twitter/mahdif/128.jpg",
@@ -54108,7 +54108,7 @@ module["exports"] = [
   "https://s3.amazonaws.com/uifaces/faces/twitter/areandacom/128.jpg"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/internet/domain_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "biz",
@@ -54118,16 +54118,16 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/internet/example_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/internet/example_email.js":[function(require,module,exports){
 module["exports"] = [
   "example.org",
   "example.com",
   "example.net"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/internet/free_email.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/internet/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/internet/free_email.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/internet/index.js":[function(require,module,exports){
 var internet = {};
 module['exports'] = internet;
 internet.free_email = require("./free_email");
@@ -54135,13 +54135,13 @@ internet.example_email = require("./example_email");
 internet.domain_suffix = require("./domain_suffix");
 internet.avatar_uri = require("./avatar_uri");
 
-},{"./avatar_uri":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/internet/avatar_uri.js","./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/internet/domain_suffix.js","./example_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/internet/example_email.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
-},{"./supplemental":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/lorem/supplemental.js","./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/lorem/supplemental.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/lorem/words.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/first_name.js":[function(require,module,exports){
+},{"./avatar_uri":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/internet/avatar_uri.js","./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/internet/domain_suffix.js","./example_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/internet/example_email.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
+},{"./supplemental":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/lorem/supplemental.js","./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/lorem/supplemental.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/lorem/words.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Aaliyah",
   "Aaron",
@@ -57152,7 +57152,7 @@ module["exports"] = [
   "Zula"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
@@ -57162,7 +57162,7 @@ name.suffix = require("./suffix");
 name.title = require("./title");
 name.name = require("./name");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/suffix.js","./title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/suffix.js","./title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Abbott",
   "Abernathy",
@@ -57640,7 +57640,7 @@ module["exports"] = [
   "Zulauf"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{first_name} #{last_name}",
   "#{first_name} #{last_name} #{suffix}",
@@ -57650,7 +57650,7 @@ module["exports"] = [
   "#{first_name} #{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Mr.",
   "Mrs.",
@@ -57659,7 +57659,7 @@ module["exports"] = [
   "Dr."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Jr.",
   "Sr.",
@@ -57674,7 +57674,7 @@ module["exports"] = [
   "DVM"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/title.js":[function(require,module,exports){
 module["exports"] = {
   "descriptor": [
     "Lead",
@@ -57768,7 +57768,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "###-###-####",
   "(###) ###-####",
@@ -57792,13 +57792,13 @@ module["exports"] = [
   "###.###.#### x#####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/system/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/system/index.js":[function(require,module,exports){
 var system = {};
 module['exports'] = system;
 system.mimeTypes = require("./mimeTypes");
-},{"./mimeTypes":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/system/mimeTypes.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/system/mimeTypes.js":[function(require,module,exports){
+},{"./mimeTypes":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/system/mimeTypes.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/system/mimeTypes.js":[function(require,module,exports){
 /*
 
 The MIT License (MIT)
@@ -64380,7 +64380,7 @@ module['exports'] = {
     "compressible": true
   }
 }
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/team/creature.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/team/creature.js":[function(require,module,exports){
 module["exports"] = [
   "ants",
   "bats",
@@ -64451,30 +64451,30 @@ module["exports"] = [
   "druids"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/team/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/team/index.js":[function(require,module,exports){
 var team = {};
 module['exports'] = team;
 team.creature = require("./creature");
 team.name = require("./name");
 
-},{"./creature":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/team/creature.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/team/name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/team/name.js":[function(require,module,exports){
+},{"./creature":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/team/creature.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/team/name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/team/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Address.state} #{creature}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   "####",
   "###",
   "##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Australia"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.state_abbr = require("./state_abbr");
@@ -64484,7 +64484,7 @@ address.building_number = require("./building_number");
 address.street_suffix = require("./street_suffix");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/building_number.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/postcode.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/state_abbr.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/building_number.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/postcode.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/state_abbr.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "0###",
   "2###",
@@ -64495,7 +64495,7 @@ module["exports"] = [
   "7###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "New South Wales",
   "Queensland",
@@ -64507,7 +64507,7 @@ module["exports"] = [
   "Victoria"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "NSW",
   "QLD",
@@ -64519,7 +64519,7 @@ module["exports"] = [
   "VIC"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Avenue",
   "Boulevard",
@@ -64560,12 +64560,12 @@ module["exports"] = [
   "Way"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.suffix = require("./suffix");
 
-},{"./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/company/suffix.js":[function(require,module,exports){
+},{"./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Pty Ltd",
   "and Sons",
@@ -64575,7 +64575,7 @@ module["exports"] = [
   "Partners"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/index.js":[function(require,module,exports){
 var en_AU = {};
 module['exports'] = en_AU;
 en_AU.title = "Australia (English)";
@@ -64585,7 +64585,7 @@ en_AU.internet = require("./internet");
 en_AU.address = require("./address");
 en_AU.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com.au",
   "com",
@@ -64595,9 +64595,9 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/internet/domain_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/internet/domain_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "William",
   "Jack",
@@ -64801,13 +64801,13 @@ module["exports"] = [
   "Kiara"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
 name.last_name = require("./last_name");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/name/last_name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/name/last_name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Smith",
   "Jones",
@@ -65097,7 +65097,7 @@ module["exports"] = [
   "Wolf"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "0# #### ####",
   "+61 # #### ####",
@@ -65105,17 +65105,17 @@ module["exports"] = [
   "+61 4## ### ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_BORK/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_BORK/index.js":[function(require,module,exports){
 var en_BORK = {};
 module['exports'] = en_BORK;
 en_BORK.title = "Bork (English)";
 en_BORK.lorem = require("./lorem");
 
-},{"./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_BORK/lorem/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_BORK/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/lorem/index.js"][0].apply(exports,arguments)
-},{"./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_BORK/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_BORK/lorem/words.js":[function(require,module,exports){
+},{"./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_BORK/lorem/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_BORK/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/lorem/index.js"][0].apply(exports,arguments)
+},{"./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_BORK/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_BORK/lorem/words.js":[function(require,module,exports){
 module["exports"] = [
   "Boot",
   "I",
@@ -65222,12 +65222,12 @@ module["exports"] = [
   "zeere-a"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Canada"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.state = require("./state");
@@ -65235,12 +65235,12 @@ address.state_abbr = require("./state_abbr");
 address.default_country = require("./default_country");
 address.postcode = require('./postcode.js');
 
-},{"./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/default_country.js","./postcode.js":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/postcode.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/state_abbr.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/postcode.js":[function(require,module,exports){
+},{"./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/default_country.js","./postcode.js":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/postcode.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/state_abbr.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "?#? #?#"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Alberta",
   "British Columbia",
@@ -65257,7 +65257,7 @@ module["exports"] = [
   "Yukon"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "AB",
   "BC",
@@ -65274,7 +65274,7 @@ module["exports"] = [
   "YT"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/index.js":[function(require,module,exports){
 var en_CA = {};
 module['exports'] = en_CA;
 en_CA.title = "Canada (English)";
@@ -65282,7 +65282,7 @@ en_CA.address = require("./address");
 en_CA.internet = require("./internet");
 en_CA.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/internet/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/internet/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "ca",
   "com",
@@ -65293,16 +65293,16 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "yahoo.ca",
   "hotmail.com"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "###-###-####",
   "(###)###-####",
@@ -65322,9 +65322,9 @@ module["exports"] = [
   "###.###.#### x#####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/county.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/county.js":[function(require,module,exports){
 module["exports"] = [
   "Avon",
   "Bedfordshire",
@@ -65398,7 +65398,7 @@ module["exports"] = [
   "Worcestershire"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "England",
   "Scotland",
@@ -65406,7 +65406,7 @@ module["exports"] = [
   "Northern Ireland"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.county = require("./county");
@@ -65414,15 +65414,15 @@ address.uk_country = require("./uk_country");
 address.default_country = require("./default_country");
 address.postcode = require("./postcode");
 
-},{"./county":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/county.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/postcode.js","./uk_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/uk_country.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/postcode.js":[function(require,module,exports){
+},{"./county":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/county.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/postcode.js","./uk_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/uk_country.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "??# #??",
   "??## #??",
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/uk_country.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/default_country.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/cell_phone/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/uk_country.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/default_country.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "074## ######",
   "075## ######",
@@ -65432,9 +65432,9 @@ module["exports"] = [
   "079## ######"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/index.js":[function(require,module,exports){
 var en_GB = {};
 module['exports'] = en_GB;
 en_GB.title = "Great Britain (English)";
@@ -65443,7 +65443,7 @@ en_GB.internet = require("./internet");
 en_GB.phone_number = require("./phone_number");
 en_GB.cell_phone = require("./cell_phone");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/cell_phone/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/internet/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/cell_phone/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/internet/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "co.uk",
   "com",
@@ -65452,9 +65452,9 @@ module["exports"] = [
   "name"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/internet/domain_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/internet/domain_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "01#### #####",
   "01### ######",
@@ -65473,9 +65473,9 @@ module["exports"] = [
   "0800 ######"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/address/county.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/address/county.js":[function(require,module,exports){
 module["exports"] = [
   "Carlow",
   "Cavan",
@@ -65505,18 +65505,18 @@ module["exports"] = [
   "Wicklow"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Ireland"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.county = require("./county");
 address.default_country = require("./default_country");
 
-},{"./county":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/address/county.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/address/default_country.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/cell_phone/formats.js":[function(require,module,exports){
+},{"./county":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/address/county.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/address/default_country.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "082 ### ####",
   "083 ### ####",
@@ -65526,9 +65526,9 @@ module["exports"] = [
   "089 ### ####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/index.js":[function(require,module,exports){
 var en_IE = {};
 module['exports'] = en_IE;
 en_IE.title = "Ireland (English)";
@@ -65537,7 +65537,7 @@ en_IE.internet = require("./internet");
 en_IE.phone_number = require("./phone_number");
 en_IE.cell_phone = require("./cell_phone");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/cell_phone/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/internet/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/cell_phone/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/internet/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "ie",
   "com",
@@ -65546,9 +65546,9 @@ module["exports"] = [
   "eu"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/internet/domain_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/internet/domain_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "01 #######",
   "021 #######",
@@ -65601,9 +65601,9 @@ module["exports"] = [
   "099 #######"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IE/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IE/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "India",
   "Indian Republic",
@@ -65611,7 +65611,7 @@ module["exports"] = [
   "Hindustan"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.postcode = require("./postcode");
@@ -65619,9 +65619,9 @@ address.state = require("./state");
 address.state_abbr = require("./state_abbr");
 address.default_country = require("./default_country");
 
-},{"./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/postcode.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/state_abbr.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/state.js":[function(require,module,exports){
+},{"./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/postcode.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/state_abbr.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Andra Pradesh",
   "Arunachal Pradesh",
@@ -65660,7 +65660,7 @@ module["exports"] = [
   "Pondicherry"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "AP",
   "AR",
@@ -65699,9 +65699,9 @@ module["exports"] = [
   "PY"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js"][0].apply(exports,arguments)
-},{"./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js"][0].apply(exports,arguments)
+},{"./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Pvt Ltd",
   "Limited",
@@ -65712,7 +65712,7 @@ module["exports"] = [
   "Brothers"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/index.js":[function(require,module,exports){
 var en_IND = {};
 module['exports'] = en_IND;
 en_IND.title = "India (English)";
@@ -65722,7 +65722,7 @@ en_IND.internet = require("./internet");
 en_IND.company = require("./company");
 en_IND.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "in",
   "com",
@@ -65734,16 +65734,16 @@ module["exports"] = [
   "co.in"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "yahoo.co.in",
   "hotmail.com"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Aadrika",
   "Aanandinii",
@@ -66509,9 +66509,9 @@ module["exports"] = [
   "Yogesh"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/name/last_name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/name/last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/name/last_name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Abbott",
   "Achari",
@@ -66604,29 +66604,29 @@ module["exports"] = [
   "Verma"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "+91###-###-####",
   "+91##########",
   "+91-###-#######"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "United States",
   "United States of America",
   "USA"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.default_country = require("./default_country");
 address.postcode_by_state = require("./postcode_by_state");
 
-},{"./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/address/default_country.js","./postcode_by_state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/address/postcode_by_state.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/address/postcode_by_state.js":[function(require,module,exports){
+},{"./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/address/default_country.js","./postcode_by_state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/address/postcode_by_state.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/address/postcode_by_state.js":[function(require,module,exports){
 module["exports"] = {
   "AL": "350##",
   "AK": "995##",
@@ -66682,7 +66682,7 @@ module["exports"] = {
   "WY": "831##"
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/index.js":[function(require,module,exports){
 var en_US = {};
 module['exports'] = en_US;
 en_US.title = "United States (English)";
@@ -66690,7 +66690,7 @@ en_US.internet = require("./internet");
 en_US.address = require("./address");
 en_US.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/address/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/internet/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/address/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/internet/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "us",
@@ -66701,9 +66701,9 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/internet/domain_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/phone_number/area_code.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/internet/domain_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/phone_number/area_code.js":[function(require,module,exports){
 module["exports"] = [
   "201",
   "202",
@@ -66990,22 +66990,22 @@ module["exports"] = [
   "989"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/phone_number/exchange_code.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/phone_number/area_code.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/phone_number/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/phone_number/exchange_code.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/phone_number/area_code.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/phone_number/index.js":[function(require,module,exports){
 var phone_number = {};
 module['exports'] = phone_number;
 phone_number.area_code = require("./area_code");
 phone_number.exchange_code = require("./exchange_code");
 
-},{"./area_code":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/phone_number/area_code.js","./exchange_code":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_US/phone_number/exchange_code.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city.js":[function(require,module,exports){
+},{"./area_code":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/phone_number/area_code.js","./exchange_code":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_US/phone_number/exchange_code.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_prefix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Bondi",
   "Burleigh Heads",
@@ -67021,9 +67021,9 @@ module["exports"] = [
   "Yarra Valley"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/default_country.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/default_country.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/default_country.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/default_country.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.street_root = require("./street_root");
@@ -67038,9 +67038,9 @@ address.building_number = require("./building_number");
 address.street_suffix = require("./street_suffix");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city_prefix.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/postcode.js","./region":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/region.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/state_abbr.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_name.js","./street_root":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_root.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/region.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city_prefix.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/postcode.js","./region":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/region.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/state_abbr.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_name.js","./street_root":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_root.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/region.js":[function(require,module,exports){
 module["exports"] = [
   "South East Queensland",
   "Wide Bay Burnett",
@@ -67051,13 +67051,13 @@ module["exports"] = [
   "Barossa"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/state.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/state.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/state_abbr.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/state_abbr.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/street_name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_root.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/state.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/state.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/state_abbr.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/state_abbr.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/street_name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_root.js":[function(require,module,exports){
 module["exports"] = [
   "Ramsay Street",
   "Bonnie Doon",
@@ -67065,13 +67065,13 @@ module["exports"] = [
   "Queen Street"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/address/street_suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js"][0].apply(exports,arguments)
-},{"./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/company/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/company/suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/street_suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/address/street_suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js"][0].apply(exports,arguments)
+},{"./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/company/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/company/suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/index.js":[function(require,module,exports){
 var en_au_ocker = {};
 module['exports'] = en_au_ocker;
 en_au_ocker.title = "Australia Ocker (English)";
@@ -67081,11 +67081,11 @@ en_au_ocker.internet = require("./internet");
 en_au_ocker.address = require("./address");
 en_au_ocker.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/internet/domain_suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/internet/domain_suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/internet/domain_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/first_name.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/internet/domain_suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/internet/domain_suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/internet/domain_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Charlotte",
   "Ava",
@@ -67193,14 +67193,14 @@ module["exports"] = [
   "Sean"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
 name.last_name = require("./last_name");
 name.ocker_first_name = require("./ocker_first_name");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/last_name.js","./ocker_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/ocker_first_name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/last_name.js","./ocker_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/ocker_first_name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Smith",
   "Jones",
@@ -67228,7 +67228,7 @@ module["exports"] = [
   "LeQuesne"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/ocker_first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/name/ocker_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Bazza",
   "Bluey",
@@ -67238,11 +67238,11 @@ module["exports"] = [
   "Shazza"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/phone_number/formats.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/phone_number/formats.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/phone_number/formats.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/phone_number/formats.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   " s/n.",
   ", #",
@@ -67251,9 +67251,9 @@ module["exports"] = [
   " ##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Parla",
   "Telde",
@@ -67386,7 +67386,7 @@ module["exports"] = [
   "Inca"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Afganistán",
   "Albania",
@@ -67570,12 +67570,12 @@ module["exports"] = [
   "Zimbabwe"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "España"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -67593,12 +67593,12 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/city_prefix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/postcode.js","./province":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/province.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/state_abbr.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/street_name.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/street_suffix.js","./time_zone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/time_zone.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/city_prefix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/postcode.js","./province":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/province.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/state_abbr.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/street_name.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/street_suffix.js","./time_zone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/time_zone.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "#####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/province.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/province.js":[function(require,module,exports){
 module["exports"] = [
   "Álava",
   "Albacete",
@@ -67652,13 +67652,13 @@ module["exports"] = [
   "Zaragoza"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/secondary_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "Esc. ###",
   "Puerta ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Andalucía",
   "Aragón",
@@ -67679,7 +67679,7 @@ module["exports"] = [
   "Región de Murcia"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "And",
   "Ara",
@@ -67700,19 +67700,19 @@ module["exports"] = [
   "Mur"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/street_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/street_address.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_name}#{building_number}",
   "#{street_name}#{building_number} #{secondary_address}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_suffix} #{Name.first_name}",
   "#{street_suffix} #{Name.first_name} #{Name.last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Aldea",
   "Apartamento",
@@ -67786,7 +67786,7 @@ module["exports"] = [
   "Vía Pública"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/time_zone.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/time_zone.js":[function(require,module,exports){
 module["exports"] = [
   "Pacífico/Midway",
   "Pacífico/Pago_Pago",
@@ -67933,7 +67933,7 @@ module["exports"] = [
   "Pacífico/Apia"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/cell_phone/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "6##-###-###",
   "6##.###.###",
@@ -67941,9 +67941,9 @@ module["exports"] = [
   "6########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/adjective.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/adjective.js":[function(require,module,exports){
 module["exports"] = [
   "Adaptativo",
   "Avanzado",
@@ -68032,7 +68032,7 @@ module["exports"] = [
   "Visionario"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/descriptor.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/descriptor.js":[function(require,module,exports){
 module["exports"] = [
   "24 horas",
   "24/7",
@@ -68117,7 +68117,7 @@ module["exports"] = [
   "tolerancia cero"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.suffix = require("./suffix");
@@ -68126,7 +68126,7 @@ company.descriptor = require("./descriptor");
 company.adjective = require("./adjective");
 company.name = require("./name");
 
-},{"./adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/adjective.js","./descriptor":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/descriptor.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/name.js","./noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/noun.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/name.js":[function(require,module,exports){
+},{"./adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/adjective.js","./descriptor":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/descriptor.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/name.js","./noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/noun.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name} #{suffix}",
   "#{Name.last_name} y #{Name.last_name}",
@@ -68134,7 +68134,7 @@ module["exports"] = [
   "#{Name.last_name}, #{Name.last_name} y #{Name.last_name} Asociados"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/noun.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/noun.js":[function(require,module,exports){
 module["exports"] = [
   "habilidad",
   "acceso",
@@ -68231,7 +68231,7 @@ module["exports"] = [
   "fuerza de trabajo"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "S.L.",
   "e Hijos",
@@ -68239,7 +68239,7 @@ module["exports"] = [
   "Hermanos"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/index.js":[function(require,module,exports){
 var es = {};
 module['exports'] = es;
 es.title = "Spanish";
@@ -68250,7 +68250,7 @@ es.name = require("./name");
 es.phone_number = require("./phone_number");
 es.cell_phone = require("./cell_phone");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/cell_phone/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/cell_phone/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "es",
@@ -68259,11 +68259,11 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/internet/free_email.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/internet/free_email.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Adán",
   "Agustín",
@@ -68479,9 +68479,9 @@ module["exports"] = [
   "Yolanda"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/suffix.js","./title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/suffix.js","./title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Abeyta",
   "Abrego",
@@ -69123,7 +69123,7 @@ module["exports"] = [
   "Zúñiga"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{first_name} #{last_name} #{last_name}",
   "#{first_name} #{last_name} #{last_name}",
@@ -69132,16 +69132,16 @@ module["exports"] = [
   "#{first_name} #{last_name} #{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Sr.",
   "Sra.",
   "Sta."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/title.js":[function(require,module,exports){
 module["exports"] = {
   "descriptor": [
     "Jefe",
@@ -69233,7 +69233,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "9##-###-###",
   "9##.###.###",
@@ -69241,9 +69241,9 @@ module["exports"] = [
   "9########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   " s/n.",
   ", #",
@@ -69254,9 +69254,9 @@ module["exports"] = [
   " ####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_au_ocker/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Aguascalientes",
   "Apodaca",
@@ -69390,9 +69390,9 @@ module["exports"] = [
   "Zitacuaro"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/city_suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/city_suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/city_suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/city_suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Afganistán",
   "Albania",
@@ -69576,12 +69576,12 @@ module["exports"] = [
   "Zimbabwe"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "México"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -69599,16 +69599,16 @@ address.street = require("./street");
 address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/city_suffix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/state_abbr.js","./street":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/street.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/street_name.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/street_suffix.js","./time_zone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/time_zone.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/secondary_address.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/city_suffix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/state_abbr.js","./street":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/street.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/street_name.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/street_suffix.js","./time_zone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/time_zone.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "Esc. ###",
   "Puerta ###",
   "Edificio #"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Aguascalientes",
   "Baja California Norte",
@@ -69643,7 +69643,7 @@ module["exports"] = [
   "Zacatecas"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "AS",
   "BC",
@@ -69679,7 +69679,7 @@ module["exports"] = [
   "ZS"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/street.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/street.js":[function(require,module,exports){
 module["exports"] = [
 	"20 de Noviembre",
 	"Cinco de Mayo",
@@ -69721,9 +69721,9 @@ module["exports"] = [
 	"Jalisco",
 	"Avena"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_suffix} #{Name.first_name}",
   "#{street_suffix} #{Name.first_name} #{Name.last_name}",
@@ -69734,9 +69734,9 @@ module["exports"] = [
 
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/street_suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/street_suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/time_zone.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/street_suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/street_suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/time_zone.js":[function(require,module,exports){
 module["exports"] = [
   "Pacífico/Midway",
   "Pacífico/Pago_Pago",
@@ -69882,7 +69882,7 @@ module["exports"] = [
   "Pacífico/Apia"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/cell_phone/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "5##-###-###",
   "5##.###.###",
@@ -69890,9 +69890,9 @@ module["exports"] = [
   "5########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/commerce/color.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/commerce/color.js":[function(require,module,exports){
 module["exports"] = [
    "rojo",
    "verde",
@@ -69927,7 +69927,7 @@ module["exports"] = [
    "plata"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/commerce/department.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/commerce/department.js":[function(require,module,exports){
 module["exports"] = [
    "Libros",
    "Películas",
@@ -69953,9 +69953,9 @@ module["exports"] = [
    "Industrial"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/commerce/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/index.js"][0].apply(exports,arguments)
-},{"./color":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/commerce/color.js","./department":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/commerce/department.js","./product_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/commerce/product_name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/commerce/product_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/commerce/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/index.js"][0].apply(exports,arguments)
+},{"./color":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/commerce/color.js","./department":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/commerce/department.js","./product_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/commerce/product_name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/commerce/product_name.js":[function(require,module,exports){
 module["exports"] = {
 "adjective": [
      "Pequeño",
@@ -70016,9 +70016,9 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/adjective.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/adjective.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_adjective.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/adjective.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/adjective.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_adjective.js":[function(require,module,exports){
 module["exports"] = [
   "Clics y mortero",
   "Valor añadido",
@@ -70087,7 +70087,7 @@ module["exports"] = [
   "Ricos"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_noun.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_noun.js":[function(require,module,exports){
 module["exports"] = [
    "sinergias",
    "web-readiness",
@@ -70135,7 +70135,7 @@ module["exports"] = [
    "metodologías"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_verb.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_verb.js":[function(require,module,exports){
 module["exports"] = [
    "poner en práctica",
    "utilizar",
@@ -70199,9 +70199,9 @@ module["exports"] = [
    "recontextualizar"
 ]
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/descriptor.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/descriptor.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/descriptor.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/descriptor.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.suffix = require("./suffix");
@@ -70213,13 +70213,13 @@ company.name = require("./name");
 company.bs_adjective = require("./bs_adjective");
 company.bs_noun = require("./bs_noun");
 
-},{"./adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/adjective.js","./bs_adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_adjective.js","./bs_noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_noun.js","./bs_verb":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_verb.js","./descriptor":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/descriptor.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/name.js","./noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/noun.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/noun.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/noun.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/company/suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/index.js":[function(require,module,exports){
+},{"./adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/adjective.js","./bs_adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_adjective.js","./bs_noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_noun.js","./bs_verb":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/bs_verb.js","./descriptor":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/descriptor.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/name.js","./noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/noun.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/noun.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/noun.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/company/suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/index.js":[function(require,module,exports){
 var es_MX = {};
 module['exports'] = es_MX;
 es_MX.title = "Spanish Mexico";
@@ -70233,7 +70233,7 @@ es_MX.cell_phone = require("./cell_phone");
 es_MX.lorem = require("./lorem");
 es_MX.commerce = require("./commerce");
 es_MX.team = require("./team");
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/cell_phone/index.js","./commerce":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/commerce/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/phone_number/index.js","./team":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/team/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/cell_phone/index.js","./commerce":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/commerce/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/phone_number/index.js","./team":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/team/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "mx",
@@ -70243,7 +70243,7 @@ module["exports"] = [
   "gob.mx"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "yahoo.com",
@@ -70252,13 +70252,13 @@ module["exports"] = [
   "corpfolder.com"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
-},{"./supplemental":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/lorem/supplemental.js","./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/lorem/supplemental.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/lorem/words.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
+},{"./supplemental":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/lorem/supplemental.js","./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/lorem/supplemental.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/lorem/words.js":[function(require,module,exports){
 module["exports"] = [
 "Abacalero",
 "Abacería",
@@ -70530,7 +70530,7 @@ module["exports"] = [
 "Incrustación"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
 "Aarón",
 "Abraham",
@@ -70837,9 +70837,9 @@ module["exports"] = [
 "Yaretzi",
 "Zoe"
 ]
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/suffix.js","./title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/suffix.js","./title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Abeyta",
 "Abrego",
@@ -71530,7 +71530,7 @@ module["exports"] = [
 "Zúñiga"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{first_name} #{last_name} #{last_name}",
   "#{first_name} #{last_name} de #{last_name}",
@@ -71539,9 +71539,9 @@ module["exports"] = [
   "#{first_name} #{last_name} #{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/prefix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/name/prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/prefix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/name/prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Jr.",
   "Sr.",
@@ -71560,7 +71560,7 @@ module["exports"] = [
   "Mtro."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/name/title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/name/title.js":[function(require,module,exports){
  module["exports"] = {
   "descriptor": [
     "Jefe",
@@ -71657,7 +71657,7 @@ module["exports"] = [
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "5###-###-###",
   "5##.###.###",
@@ -71665,9 +71665,9 @@ module["exports"] = [
   "5########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/team/creature.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/team/creature.js":[function(require,module,exports){
 module["exports"] = [
   "hormigas",
    "murciélagos",
@@ -71738,17 +71738,17 @@ module["exports"] = [
    "druidas"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/team/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/team/index.js"][0].apply(exports,arguments)
-},{"./creature":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/team/creature.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/team/name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es_MX/team/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/team/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fa/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/team/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/team/index.js"][0].apply(exports,arguments)
+},{"./creature":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/team/creature.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/team/name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es_MX/team/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/team/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fa/index.js":[function(require,module,exports){
 var fa = {};
 module['exports'] = fa;
 fa.title = "Farsi";
 fa.name = require("./name");
 
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fa/name/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fa/name/first_name.js":[function(require,module,exports){
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fa/name/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fa/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "آبان دخت",
   "آبتین",
@@ -72474,14 +72474,14 @@ module["exports"] = [
   "یوشیتا"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fa/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fa/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
 name.last_name = require("./last_name");
 name.prefix = require("./prefix");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fa/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fa/name/last_name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fa/name/prefix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fa/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fa/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fa/name/last_name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fa/name/prefix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fa/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "عارف",
   "عاشوری",
@@ -72629,14 +72629,14 @@ module["exports"] = [
   "یلدا"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fa/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fa/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "آقای",
   "خانم",
   "دکتر"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   "####",
   "###",
@@ -72644,9 +72644,9 @@ module["exports"] = [
   "#"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "Paris",
   "Marseille",
@@ -72750,12 +72750,12 @@ module["exports"] = [
   "Cholet"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "France"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.building_number = require("./building_number");
@@ -72770,15 +72770,15 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/city_name.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/state.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/street_name.js","./street_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/street_prefix.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/secondary_address.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/city_name.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/state.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/street_name.js","./street_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/street_prefix.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "Apt. ###",
   "# étage"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Alsace",
   "Aquitaine",
@@ -72804,14 +72804,14 @@ module["exports"] = [
   "Rhône-Alpes"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_prefix} #{street_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/street_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/street_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Allée, Voie",
   "Rue",
@@ -72823,7 +72823,7 @@ module["exports"] = [
   "Place"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "de l'Abbaye",
   "Adolphe Mille",
@@ -72893,27 +72893,27 @@ module["exports"] = [
   "Zadkine"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/adjective.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/bs_adjective.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/bs_adjective.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/bs_noun.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/bs_noun.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/bs_verb.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/descriptor.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/index.js"][0].apply(exports,arguments)
-},{"./adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/adjective.js","./bs_adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/bs_adjective.js","./bs_noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/bs_noun.js","./bs_verb":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/bs_verb.js","./descriptor":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/descriptor.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/name.js","./noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/noun.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/adjective.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/bs_adjective.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/bs_adjective.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/bs_noun.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/bs_noun.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/bs_verb.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/descriptor.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/index.js"][0].apply(exports,arguments)
+},{"./adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/adjective.js","./bs_adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/bs_adjective.js","./bs_noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/bs_noun.js","./bs_verb":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/bs_verb.js","./descriptor":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/descriptor.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/name.js","./noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/noun.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name} #{suffix}",
   "#{Name.last_name} et #{Name.last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/noun.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/noun.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/noun.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/noun.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "SARL",
   "SA",
@@ -72925,7 +72925,7 @@ module["exports"] = [
   "EI"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/index.js":[function(require,module,exports){
 var fr = {};
 module['exports'] = fr;
 fr.title = "French";
@@ -72936,7 +72936,7 @@ fr.lorem = require("./lorem");
 fr.name = require("./name");
 fr.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "fr",
@@ -72947,22 +72947,22 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "yahoo.fr",
   "hotmail.fr"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
-},{"./supplemental":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/lorem/supplemental.js","./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/lorem/supplemental.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/lorem/words.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
+},{"./supplemental":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/lorem/supplemental.js","./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/lorem/supplemental.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/lorem/words.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Enzo",
   "Lucas",
@@ -73055,7 +73055,7 @@ module["exports"] = [
   "Mélissa"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
@@ -73064,7 +73064,7 @@ name.prefix = require("./prefix");
 name.title = require("./title");
 name.name = require("./name");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/prefix.js","./title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/prefix.js","./title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Martin",
   "Bernard",
@@ -73218,14 +73218,14 @@ module["exports"] = [
   "Cousin"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{first_name} #{last_name}",
   "#{first_name} #{last_name}",
   "#{last_name} #{first_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "M",
   "Mme",
@@ -73234,7 +73234,7 @@ module["exports"] = [
   "Prof"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/title.js":[function(require,module,exports){
 module["exports"] = {
   "job": [
     "Superviseur",
@@ -73258,7 +73258,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "01########",
   "02########",
@@ -73276,15 +73276,15 @@ module["exports"] = [
   "+33 7########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/address/default_country.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/default_country.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/address/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_IND/address/index.js"][0].apply(exports,arguments)
-},{"./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/address/postcode.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/address/state_abbr.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/address/default_country.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/default_country.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/address/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_IND/address/index.js"][0].apply(exports,arguments)
+},{"./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/address/postcode.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/address/state_abbr.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Alberta",
   "Colombie-Britannique",
@@ -73301,7 +73301,7 @@ module["exports"] = [
   "Yukon"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "AB",
   "BC",
@@ -73318,7 +73318,7 @@ module["exports"] = [
   "YK"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/index.js":[function(require,module,exports){
 var fr_CA = {};
 module['exports'] = fr_CA;
 fr_CA.title = "Canada (French)";
@@ -73326,7 +73326,7 @@ fr_CA.address = require("./address");
 fr_CA.internet = require("./internet");
 fr_CA.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/address/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/internet/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/address/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/internet/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "qc.ca",
   "ca",
@@ -73338,27 +73338,27 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/internet/free_email.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_CA/internet/free_email.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/internet/free_email.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_CA/internet/free_email.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "### ###-####",
   "1 ### ###-####",
   "### ###-####, poste ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr_CA/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr_CA/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   "###",
   "##",
   "#"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_prefix} #{Name.first_name}#{city_suffix}",
   "#{city_prefix} #{Name.first_name}",
@@ -73368,7 +73368,7 @@ module["exports"] = [
   "#{Name.last_name}#{city_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "აბასთუმანი",
   "აბაშა",
@@ -73460,7 +73460,7 @@ module["exports"] = [
   "ხულო"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "ახალი",
   "ძველი",
@@ -73468,7 +73468,7 @@ module["exports"] = [
   "ქვემო"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "სოფელი",
   "ძირი",
@@ -73476,7 +73476,7 @@ module["exports"] = [
   "დაბა"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "ავსტრალია",
   "ავსტრია",
@@ -73793,12 +73793,12 @@ module["exports"] = [
   "ჰონკონგი"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "საქართველო"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -73815,25 +73815,25 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/city_name.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/city_suffix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/secondary_address.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/street_name.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/street_suffix.js","./street_title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/street_title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/city_name.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/city_suffix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/secondary_address.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/street_name.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/street_suffix.js","./street_title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/street_title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "01##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/secondary_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "კორპ. ##",
   "შენობა ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_title} #{street_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "გამზ.",
   "გამზირი",
@@ -73843,7 +73843,7 @@ module["exports"] = [
   "ხეივანი"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/street_title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/street_title.js":[function(require,module,exports){
 module["exports"] = [
   "აბაშიძის",
   "აბესაძის",
@@ -74263,7 +74263,7 @@ module["exports"] = [
   "ჯორჯიაშვილის"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/cell_phone/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "(+995 32) 2-##-##-##",
   "032-2-##-##-##",
@@ -74276,11 +74276,11 @@ module["exports"] = [
   "2 ### ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/index.js"][0].apply(exports,arguments)
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/company/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/company/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/company/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/index.js"][0].apply(exports,arguments)
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/company/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/company/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{Name.first_name}",
   "#{prefix} #{Name.last_name}",
@@ -74289,7 +74289,7 @@ module["exports"] = [
   "#{prefix} #{Name.last_name}-#{Name.last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/company/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/company/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "შპს",
   "სს",
@@ -74297,7 +74297,7 @@ module["exports"] = [
   "სსიპ"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "ჯგუფი",
   "და კომპანია",
@@ -74305,7 +74305,7 @@ module["exports"] = [
   "გრუპი"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/index.js":[function(require,module,exports){
 var ge = {};
 module['exports'] = ge;
 ge.title = "Georgian";
@@ -74317,7 +74317,7 @@ ge.company = require("./company");
 ge.phone_number = require("./phone_number");
 ge.cell_phone = require("./cell_phone");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/cell_phone/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/cell_phone/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "ge",
   "com",
@@ -74327,16 +74327,16 @@ module["exports"] = [
   "org.ge"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "yahoo.com",
   "posta.ge"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "აგული",
   "აგუნა",
@@ -74839,9 +74839,9 @@ module["exports"] = [
   "ჰამლეტ"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/prefix.js","./title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/prefix.js","./title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "აბაზაძე",
   "აბაშიძე",
@@ -75014,7 +75014,7 @@ module["exports"] = [
   "ჯუღაშვილი"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{first_name} #{last_name}",
   "#{first_name} #{last_name}",
@@ -75024,7 +75024,7 @@ module["exports"] = [
   "#{first_name} #{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "ბ-ნი",
   "ბატონი",
@@ -75032,7 +75032,7 @@ module["exports"] = [
   "ქალბატონი"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/title.js":[function(require,module,exports){
 module["exports"] = {
   "descriptor": [
     "გენერალური",
@@ -75110,7 +75110,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "5##-###-###",
   "5########",
@@ -75134,17 +75134,17 @@ module["exports"] = [
   "(+995) 5## ### ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/building_number.js":[function(require,module,exports){
 module["exports"] = [  
   "##",
   "#"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "Airmadidi",
   "Ampana",
@@ -75374,12 +75374,12 @@ module["exports"] = [
   "Tabanan",
   "Bangli"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Indonesia"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.building_number = require("./building_number");
@@ -75392,11 +75392,11 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/city_name.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/postcode.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/state.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/street_name.js","./street_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/street_prefix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/city_name.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/postcode.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/state.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/street_name.js","./street_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/street_prefix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "#####"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Aceh",
   "Sumatera Utara",
@@ -75433,16 +75433,16 @@ module["exports"] = [
   "Papua Barat",
   "Papua"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/street_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/street_address.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_name} no #{building_number}"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_prefix} #{Name.first_name}",
   "#{street_prefix} #{Name.last_name}"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/street_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/street_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Ds.",
   "Dk.",
@@ -75453,16 +75453,16 @@ module["exports"] = [
   "Ki.",
   "Psr."
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/index.js"][0].apply(exports,arguments)
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/company/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/company/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/company/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/index.js"][0].apply(exports,arguments)
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/company/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/company/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{Name.last_name}",
   "#{Name.last_name} #{suffix}",
   "#{prefix} #{Name.last_name} #{suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/company/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/company/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "PT",
   "CV",
@@ -75470,14 +75470,14 @@ module["exports"] = [
   "PD",
   "Perum"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "(Persero) Tbk",
   "Tbk"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/date/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/index.js"][0].apply(exports,arguments)
-},{"./month":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/date/month.js","./weekday":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/date/weekday.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/date/month.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/date/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/index.js"][0].apply(exports,arguments)
+},{"./month":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/date/month.js","./weekday":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/date/weekday.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/date/month.js":[function(require,module,exports){
 module["exports"] = {
   wide: [
     "Januari",
@@ -75537,7 +75537,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/date/weekday.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/date/weekday.js":[function(require,module,exports){
 module["exports"] = {
   wide: [
     "Minggu",
@@ -75577,7 +75577,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/index.js":[function(require,module,exports){
 var id = {};
 module['exports'] = id;
 id.title = "Indonesia";
@@ -75588,7 +75588,7 @@ id.date = require("./date");
 id.name = require("./name");
 id.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/company/index.js","./date":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/date/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/company/index.js","./date":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/date/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "net",
@@ -75611,16 +75611,16 @@ module["exports"] = [
   "biz.id",
   "desa.id"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   'gmail.com',
   'yahoo.com',
   'gmail.co.id',
   'yahoo.co.id'
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/female_first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/female_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Ade",
   "Agnes",
@@ -75844,7 +75844,7 @@ module["exports"] = [
   "Zelda",
   "Zelaya"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/female_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/female_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Agustina",
   "Andriani",
@@ -75916,9 +75916,9 @@ module["exports"] = [
   "Wastuti",
   "Zulaika"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/index.js"][0].apply(exports,arguments)
-},{"./female_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/female_first_name.js","./female_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/female_last_name.js","./male_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/male_first_name.js","./male_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/male_last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/male_first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/index.js"][0].apply(exports,arguments)
+},{"./female_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/female_first_name.js","./female_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/female_last_name.js","./male_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/male_first_name.js","./male_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/male_last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/male_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Abyasa",
   "Ade",
@@ -76415,7 +76415,7 @@ module["exports"] = [
   "Yono",
   "Yoga"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/male_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/male_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Adriansyah",
   "Ardianto",
@@ -76524,7 +76524,7 @@ module["exports"] = [
   "Wasita",
   "Zulkarnain"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{male_first_name} #{male_last_name}",
   "#{male_last_name} #{male_first_name}",
@@ -76535,9 +76535,9 @@ module["exports"] = [
   "#{female_first_name} #{female_first_name} #{female_last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/prefix.js":[function(require,module,exports){
 module["exports"] = [];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/name/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/name/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "S.Ked",
   "S.Gz",
@@ -76560,7 +76560,7 @@ module["exports"] = [
   "M.Farm",
   "M.Ak"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "02# #### ###",
   "02## #### ###",
@@ -76601,11 +76601,11 @@ module["exports"] = [
   "(+62) 8## #### ####",
   "(+62) 9## #### ####"
 ];
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/id_ID/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/id_ID/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_prefix} #{Name.first_name} #{city_suffix}",
   "#{city_prefix} #{Name.first_name}",
@@ -76613,7 +76613,7 @@ module["exports"] = [
   "#{Name.last_name} #{city_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "San",
   "Borgo",
@@ -76622,7 +76622,7 @@ module["exports"] = [
   "Settimo"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "a mare",
   "lido",
@@ -76638,7 +76638,7 @@ module["exports"] = [
   "sardo"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Afghanistan",
   "Albania",
@@ -76883,12 +76883,12 @@ module["exports"] = [
   "Zimbabwe"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Italia"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -76905,15 +76905,15 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/city_suffix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/state_abbr.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/street_name.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/secondary_address.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/city_suffix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/state_abbr.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/street_name.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "Appartamento ##",
   "Piano #"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Agrigento",
   "Alessandria",
@@ -77027,7 +77027,7 @@ module["exports"] = [
   "Viterbo"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "AG",
   "AL",
@@ -77141,19 +77141,19 @@ module["exports"] = [
   "VT"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/street_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/street_address.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_name} #{building_number}",
   "#{street_name} #{building_number}, #{secondary_address}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_suffix} #{Name.first_name}",
   "#{street_suffix} #{Name.last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Piazza",
   "Strada",
@@ -77164,7 +77164,7 @@ module["exports"] = [
   "Incrocio"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/adjective.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/adjective.js":[function(require,module,exports){
 module["exports"] = [
   "24 ore",
   "24/7",
@@ -77238,7 +77238,7 @@ module["exports"] = [
   "valore aggiunto"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/bs_adjective.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/bs_adjective.js":[function(require,module,exports){
 module["exports"] = [
   "valore aggiunto",
   "verticalizzate",
@@ -77288,7 +77288,7 @@ module["exports"] = [
   "ricche"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/bs_noun.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/bs_noun.js":[function(require,module,exports){
 module["exports"] = [
   "partnerships",
   "comunità",
@@ -77318,7 +77318,7 @@ module["exports"] = [
   "metodologie"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/bs_verb.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/bs_verb.js":[function(require,module,exports){
 module["exports"] = [
   "implementate",
   "utilizzo",
@@ -77350,7 +77350,7 @@ module["exports"] = [
   "ricontestualizzate"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/descriptor.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/descriptor.js":[function(require,module,exports){
 module["exports"] = [
   "adattiva",
   "avanzata",
@@ -77411,7 +77411,7 @@ module["exports"] = [
   "visionaria"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.suffix = require("./suffix");
@@ -77423,14 +77423,14 @@ company.bs_verb = require("./bs_verb");
 company.bs_adjective = require("./bs_adjective");
 company.name = require("./name");
 
-},{"./adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/adjective.js","./bs_adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/bs_adjective.js","./bs_noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/bs_noun.js","./bs_verb":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/bs_verb.js","./descriptor":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/descriptor.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/name.js","./noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/noun.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/name.js":[function(require,module,exports){
+},{"./adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/adjective.js","./bs_adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/bs_adjective.js","./bs_noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/bs_noun.js","./bs_verb":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/bs_verb.js","./descriptor":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/descriptor.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/name.js","./noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/noun.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name} #{suffix}",
   "#{Name.last_name}-#{Name.last_name} #{suffix}",
   "#{Name.last_name}, #{Name.last_name} e #{Name.last_name} #{suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/noun.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/noun.js":[function(require,module,exports){
 module["exports"] = [
   "Abilità",
   "Access",
@@ -77523,7 +77523,7 @@ module["exports"] = [
   "Forza lavoro"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "SPA",
   "e figli",
@@ -77531,7 +77531,7 @@ module["exports"] = [
   "s.r.l."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/index.js":[function(require,module,exports){
 var it = {};
 module['exports'] = it;
 it.title = "Italian";
@@ -77541,7 +77541,7 @@ it.internet = require("./internet");
 it.name = require("./name");
 it.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "com",
@@ -77553,7 +77553,7 @@ module["exports"] = [
   "it"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "yahoo.com",
@@ -77563,9 +77563,9 @@ module["exports"] = [
   "yahoo.it"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Aaron",
   "Akira",
@@ -77931,7 +77931,7 @@ module["exports"] = [
   "Zelida"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
@@ -77940,7 +77940,7 @@ name.prefix = require("./prefix");
 name.suffix = require("./suffix");
 name.name = require("./name");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Amato",
   "Barbieri",
@@ -78044,9 +78044,9 @@ module["exports"] = [
   "Vitali"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Sig.",
   "Dott.",
@@ -78054,9 +78054,9 @@ module["exports"] = [
   "Ing."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/name/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/name/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "+## ### ## ## ####",
   "+## ## #######",
@@ -78071,9 +78071,9 @@ module["exports"] = [
   "+39 3## ### ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/it/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/it/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_prefix}#{Name.first_name}#{city_suffix}",
   "#{Name.first_name}#{city_suffix}",
@@ -78081,7 +78081,7 @@ module["exports"] = [
   "#{Name.last_name}#{city_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "北",
   "東",
@@ -78092,7 +78092,7 @@ module["exports"] = [
   "港"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "市",
   "区",
@@ -78100,7 +78100,7 @@ module["exports"] = [
   "村"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.postcode = require("./postcode");
@@ -78111,12 +78111,12 @@ address.city_suffix = require("./city_suffix");
 address.city = require("./city");
 address.street_name = require("./street_name");
 
-},{"./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/city_suffix.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/postcode.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/state_abbr.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/street_name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/postcode.js":[function(require,module,exports){
+},{"./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/city_suffix.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/postcode.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/state_abbr.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/street_name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "###-####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "北海道",
   "青森県",
@@ -78167,7 +78167,7 @@ module["exports"] = [
   "沖縄県"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "1",
   "2",
@@ -78218,22 +78218,22 @@ module["exports"] = [
   "47"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.first_name}#{street_suffix}",
   "#{Name.last_name}#{street_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/cell_phone/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "090-####-####",
   "080-####-####",
   "070-####-####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/index.js":[function(require,module,exports){
 var ja = {};
 module['exports'] = ja;
 ja.title = "Japanese";
@@ -78242,7 +78242,7 @@ ja.phone_number = require("./phone_number");
 ja.cell_phone = require("./cell_phone");
 ja.name = require("./name");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/cell_phone/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/name/first_name.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/cell_phone/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "大翔",
   "蓮",
@@ -78267,14 +78267,14 @@ module["exports"] = [
   "美咲"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.last_name = require("./last_name");
 name.first_name = require("./first_name");
 name.name = require("./name");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/name/name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/name/name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "佐藤",
   "鈴木",
@@ -78298,12 +78298,12 @@ module["exports"] = [
   "清水"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{last_name} #{first_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "0####-#-####",
   "0###-##-####",
@@ -78311,14 +78311,14 @@ module["exports"] = [
   "0#-####-####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_name}#{city_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "강릉",
   "양양",
@@ -78350,14 +78350,14 @@ module["exports"] = [
   "수성"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "구",
   "시",
   "군"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.postcode = require("./postcode");
@@ -78370,12 +78370,12 @@ address.street_root = require("./street_root");
 address.street_suffix = require("./street_suffix");
 address.street_name = require("./street_name");
 
-},{"./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/city_name.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/city_suffix.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/postcode.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/state_abbr.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/street_name.js","./street_root":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/street_root.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/postcode.js":[function(require,module,exports){
+},{"./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/city_name.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/city_suffix.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/postcode.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/state_abbr.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/street_name.js","./street_root":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/street_root.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "###-###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "강원",
   "경기",
@@ -78396,14 +78396,14 @@ module["exports"] = [
   "세종"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/state_abbr.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/state.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/state_abbr.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/state.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_root}#{street_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/street_root.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/street_root.js":[function(require,module,exports){
 module["exports"] = [
   "상계",
   "화곡",
@@ -78435,33 +78435,33 @@ module["exports"] = [
   "동탄"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "읍",
   "면",
   "동"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/company/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.suffix = require("./suffix");
 company.prefix = require("./prefix");
 company.name = require("./name");
 
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/company/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/company/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/company/name.js":[function(require,module,exports){
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/company/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/company/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{Name.first_name}",
   "#{Name.first_name} #{suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/company/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/company/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "주식회사",
   "한국"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "연구소",
   "게임즈",
@@ -78471,7 +78471,7 @@ module["exports"] = [
   "코리아"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/index.js":[function(require,module,exports){
 var ko = {};
 module['exports'] = ko;
 ko.title = "Korean";
@@ -78482,7 +78482,7 @@ ko.internet = require("./internet");
 ko.lorem = require("./lorem");
 ko.name = require("./name");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "co.kr",
   "com",
@@ -78494,7 +78494,7 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "yahoo.co.kr",
@@ -78502,11 +78502,11 @@ module["exports"] = [
   "naver.com"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/lorem/index.js"][0].apply(exports,arguments)
-},{"./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/lorem/words.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/lorem/index.js"][0].apply(exports,arguments)
+},{"./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/lorem/words.js":[function(require,module,exports){
 module["exports"] = [
   "국가는",
   "법률이",
@@ -78638,7 +78638,7 @@ module["exports"] = [
   "가진다."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "서연",
   "민서",
@@ -78663,9 +78663,9 @@ module["exports"] = [
   "은주"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/name/name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/name/last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/name/name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "김",
   "이",
@@ -78689,29 +78689,29 @@ module["exports"] = [
   "홍"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/name/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/name/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/name/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/name/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "0#-#####-####",
   "0##-###-####",
   "0##-####-####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ko/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ko/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   "#",
   "##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_root}#{city_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/city_root.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/city_root.js":[function(require,module,exports){
 module["exports"] = [
   "Fet",
   "Gjes",
@@ -78732,7 +78732,7 @@ module["exports"] = [
   "Vest"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "berg",
   "borg",
@@ -78764,7 +78764,7 @@ module["exports"] = [
   "ås"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/common_street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/common_street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "sgate",
   "svei",
@@ -78774,12 +78774,12 @@ module["exports"] = [
   "veien"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Norge"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_root = require("./city_root");
@@ -78797,7 +78797,7 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/city.js","./city_root":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/city_root.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/city_suffix.js","./common_street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/common_street_suffix.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/state.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_name.js","./street_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_prefix.js","./street_root":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_root.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/city.js","./city_root":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/city_root.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/city_suffix.js","./common_street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/common_street_suffix.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/state.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_name.js","./street_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_prefix.js","./street_root":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_root.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "####",
   "####",
@@ -78805,21 +78805,21 @@ module["exports"] = [
   "0###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/secondary_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "Leil. ###",
   "Oppgang A",
   "Oppgang B"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/state.js":[function(require,module,exports){
 module["exports"] = [
   ""
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_root}#{street_suffix}",
   "#{street_prefix} #{street_root}#{street_suffix}",
@@ -78827,7 +78827,7 @@ module["exports"] = [
   "#{Name.last_name}#{common_street_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Øvre",
   "Nedre",
@@ -78837,7 +78837,7 @@ module["exports"] = [
   "Vestre"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_root.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_root.js":[function(require,module,exports){
 module["exports"] = [
   "Eike",
   "Bjørke",
@@ -78874,7 +78874,7 @@ module["exports"] = [
   "Sjø"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "alléen",
   "bakken",
@@ -78924,16 +78924,16 @@ module["exports"] = [
   "åsen"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/company/index.js"][0].apply(exports,arguments)
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/company/name.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/company/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/company/index.js"][0].apply(exports,arguments)
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/company/name.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name} #{suffix}",
   "#{Name.last_name}-#{Name.last_name}",
   "#{Name.last_name}, #{Name.last_name} og #{Name.last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Gruppen",
   "AS",
@@ -78943,7 +78943,7 @@ module["exports"] = [
   "og Sønner"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/index.js":[function(require,module,exports){
 var nb_NO = {};
 module['exports'] = nb_NO;
 nb_NO.title = "Norwegian";
@@ -78953,7 +78953,7 @@ nb_NO.internet = require("./internet");
 nb_NO.name = require("./name");
 nb_NO.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "no",
   "com",
@@ -78961,9 +78961,9 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/internet/domain_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/feminine_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/internet/domain_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/feminine_name.js":[function(require,module,exports){
 module["exports"] = [
   "Emma",
   "Sara",
@@ -79017,7 +79017,7 @@ module["exports"] = [
   "Madeleine"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Emma",
   "Sara",
@@ -79121,7 +79121,7 @@ module["exports"] = [
   "Aksel"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
@@ -79132,7 +79132,7 @@ name.prefix = require("./prefix");
 name.suffix = require("./suffix");
 name.name = require("./name");
 
-},{"./feminine_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/feminine_name.js","./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/last_name.js","./masculine_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/masculine_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/last_name.js":[function(require,module,exports){
+},{"./feminine_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/feminine_name.js","./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/last_name.js","./masculine_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/masculine_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Johansen",
   "Hansen",
@@ -79236,7 +79236,7 @@ module["exports"] = [
   "Edvardsen"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/masculine_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/masculine_name.js":[function(require,module,exports){
 module["exports"] = [
   "Markus",
   "Mathias",
@@ -79290,7 +79290,7 @@ module["exports"] = [
   "Aksel"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{first_name} #{last_name}",
   "#{first_name} #{last_name} #{suffix}",
@@ -79300,13 +79300,13 @@ module["exports"] = [
   "#{first_name} #{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Dr.",
   "Prof."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Jr.",
   "Sr.",
@@ -79317,7 +79317,7 @@ module["exports"] = [
   "V"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "########",
   "## ## ## ##",
@@ -79325,9 +79325,9 @@ module["exports"] = [
   "+47 ## ## ## ##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "Bhaktapur",
   "Biratnagar",
@@ -79347,12 +79347,12 @@ module["exports"] = [
   "Pokhara"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Nepal"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.postcode = require("./postcode");
@@ -79360,12 +79360,12 @@ address.state = require("./state");
 address.city = require("./city");
 address.default_country = require("./default_country");
 
-},{"./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/address/city.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/address/postcode.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/address/state.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/address/postcode.js":[function(require,module,exports){
+},{"./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/address/city.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/address/postcode.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/address/state.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   0
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Baglung",
   "Banke",
@@ -79422,9 +79422,9 @@ module["exports"] = [
   "Terhathum"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js"][0].apply(exports,arguments)
-},{"./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js"][0].apply(exports,arguments)
+},{"./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Pvt Ltd",
   "Group",
@@ -79432,7 +79432,7 @@ module["exports"] = [
   "Limited"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/index.js":[function(require,module,exports){
 var nep = {};
 module['exports'] = nep;
 nep.title = "Nepalese";
@@ -79442,7 +79442,7 @@ nep.internet = require("./internet");
 nep.company = require("./company");
 nep.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "np",
   "com",
@@ -79451,7 +79451,7 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "worldlink.com.np",
   "gmail.com",
@@ -79459,9 +79459,9 @@ module["exports"] = [
   "hotmail.com"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Aarav",
   "Ajita",
@@ -79520,9 +79520,9 @@ module["exports"] = [
   "Sushant"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/name/last_name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/name/last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/name/last_name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Adhikari",
   "Aryal",
@@ -79565,16 +79565,16 @@ module["exports"] = [
   "Thapa"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "##-#######",
   "+977-#-#######",
   "+977########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nep/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nep/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   "#",
   "##",
@@ -79587,13 +79587,13 @@ module["exports"] = [
   "### III"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_prefix}#{city_suffix}",
   "#{city_prefix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Aagte",
   "Aal",
@@ -82098,7 +82098,7 @@ module["exports"] = [
   "Zwolle"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   " aan de IJssel",
   " aan de Rijn",
@@ -82149,7 +82149,7 @@ module["exports"] = [
   ""
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Afghanistan",
   "Akrotiri",
@@ -82409,12 +82409,12 @@ module["exports"] = [
   "Zwitserland"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Nederland"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -82430,19 +82430,19 @@ address.postcode = require("./postcode");
 address.state = require("./state");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/city_suffix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/state.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/street_name.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/city_suffix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/state.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/street_name.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "#### ??"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/secondary_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "1 hoog",
   "2 hoog",
   "3 hoog"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Noord-Holland",
   "Zuid-Holland",
@@ -82458,11 +82458,11 @@ module["exports"] = [
   "Flevoland"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/street_name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ja/address/street_name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/street_name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ja/address/street_name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "straat",
   "laan",
@@ -82471,9 +82471,9 @@ module["exports"] = [
   "park"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js"][0].apply(exports,arguments)
-},{"./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_AU/company/index.js"][0].apply(exports,arguments)
+},{"./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "BV",
   "V.O.F.",
@@ -82481,7 +82481,7 @@ module["exports"] = [
   "en Zonen"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/index.js":[function(require,module,exports){
 var nl = {};
 module['exports'] = nl;
 nl.title = "Dutch";
@@ -82492,7 +82492,7 @@ nl.lorem = require("./lorem");
 nl.name = require("./name");
 nl.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "nl",
   "com",
@@ -82500,17 +82500,17 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/internet/free_email.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
-},{"./supplemental":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/lorem/supplemental.js","./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/lorem/supplemental.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/lorem/words.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/internet/free_email.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
+},{"./supplemental":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/lorem/supplemental.js","./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/lorem/supplemental.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/lorem/words.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Amber",
   "Anna",
@@ -82564,7 +82564,7 @@ module["exports"] = [
   "Tom"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
@@ -82574,7 +82574,7 @@ name.prefix = require("./prefix");
 name.suffix = require("./suffix");
 name.name = require("./name");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/suffix.js","./tussenvoegsel":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/tussenvoegsel.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/suffix.js","./tussenvoegsel":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/tussenvoegsel.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Bakker",
   "Beek",
@@ -82628,7 +82628,7 @@ module["exports"] = [
   "Wit"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{first_name} #{last_name}",
   "#{first_name} #{last_name} #{suffix}",
@@ -82638,7 +82638,7 @@ module["exports"] = [
   "#{first_name} #{tussenvoegsel} #{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Dhr.",
   "Mevr. Dr.",
@@ -82647,9 +82647,9 @@ module["exports"] = [
   "Prof."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/name/suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/name/tussenvoegsel.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/name/suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/name/tussenvoegsel.js":[function(require,module,exports){
 module["exports"] = [
   "van",
   "van de",
@@ -82660,7 +82660,7 @@ module["exports"] = [
   "den"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "(####) ######",
   "##########",
@@ -82668,13 +82668,13 @@ module["exports"] = [
   "06 #### ####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nl/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nl/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "Aleksandrów Kujawski",
   "Aleksandrów Łódzki",
@@ -83586,7 +83586,7 @@ module["exports"] = [
   "Żywiec"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Afganistan",
   "Albania",
@@ -83789,12 +83789,12 @@ module["exports"] = [
   "Zjednoczone Emiraty Arabskie"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Polska"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.country = require("./country");
@@ -83810,14 +83810,14 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/city_name.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/state_abbr.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/street_name.js","./street_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/street_prefix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/city_name.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/state_abbr.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/street_name.js","./street_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/street_prefix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "##-###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/secondary_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/secondary_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/secondary_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/secondary_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Dolnośląskie",
   "Kujawsko-pomorskie",
@@ -83837,7 +83837,7 @@ module["exports"] = [
   "Zachodniopomorskie"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "DŚ",
   "KP",
@@ -83857,20 +83857,20 @@ module["exports"] = [
   "ZP"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_prefix} #{Name.last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/street_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/street_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "ul.",
   "al."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/cell_phone/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "50-###-##-##",
   "51-###-##-##",
@@ -83886,19 +83886,19 @@ module["exports"] = [
   "88-###-##-##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/adjetive.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/bs_adjective.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/bs_adjective.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/bs_noun.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/bs_noun.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/bs_verb.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/descriptor.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/adjetive.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/bs_adjective.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/bs_adjective.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/bs_noun.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/bs_noun.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/bs_verb.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/descriptor.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.suffix = require("./suffix");
@@ -83910,13 +83910,13 @@ company.bs_adjective = require("./bs_adjective");
 company.bs_noun = require("./bs_noun");
 company.name = require("./name");
 
-},{"./adjetive":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/adjetive.js","./bs_adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/bs_adjective.js","./bs_noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/bs_noun.js","./bs_verb":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/bs_verb.js","./descriptor":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/descriptor.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/name.js","./noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/noun.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/noun.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/noun.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/company/suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/index.js":[function(require,module,exports){
+},{"./adjetive":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/adjetive.js","./bs_adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/bs_adjective.js","./bs_noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/bs_noun.js","./bs_verb":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/bs_verb.js","./descriptor":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/descriptor.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/name.js","./noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/noun.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/noun.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/noun.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/company/suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/index.js":[function(require,module,exports){
 var pl = {};
 module['exports'] = pl;
 pl.title = "Polish";
@@ -83928,7 +83928,7 @@ pl.lorem = require("./lorem");
 pl.phone_number = require("./phone_number");
 pl.cell_phone = require("./cell_phone");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/cell_phone/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/cell_phone/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "pl",
@@ -83937,17 +83937,17 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/internet/free_email.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
-},{"./supplemental":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/lorem/supplemental.js","./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/lorem/supplemental.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/lorem/words.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/internet/free_email.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/internet/free_email.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
+},{"./supplemental":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/lorem/supplemental.js","./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/lorem/supplemental.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/lorem/words.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Aaron",
   "Abraham",
@@ -84360,9 +84360,9 @@ module["exports"] = [
   "Zoe"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/prefix.js","./title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/prefix.js","./title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Adamczak",
   "Adamczyk",
@@ -85070,17 +85070,17 @@ module["exports"] = [
   "Żyła"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Pan",
   "Pani"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/name/title.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/title.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/name/title.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/title.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "12-###-##-##",
   "13-###-##-##",
@@ -85133,11 +85133,11 @@ module["exports"] = [
   "95-###-##-##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pl/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pl/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Nova",
   "Velha",
@@ -85146,7 +85146,7 @@ module["exports"] = [
   "Município de"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "do Descoberto",
   "de Nossa Senhora",
@@ -85154,7 +85154,7 @@ module["exports"] = [
   "do Sul"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Afeganistão",
   "Albânia",
@@ -85395,12 +85395,12 @@ module["exports"] = [
   "Zimbábue"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Brasil"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -85414,13 +85414,13 @@ address.state = require("./state");
 address.state_abbr = require("./state_abbr");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/building_number.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/city_suffix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/state_abbr.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/building_number.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/city_suffix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/state_abbr.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "#####",
   "#####-###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/secondary_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "Apto. ###",
   "Sobrado ##",
@@ -85429,7 +85429,7 @@ module["exports"] = [
   "Quadra ##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Acre",
   "Alagoas",
@@ -85460,7 +85460,7 @@ module["exports"] = [
   "Tocantins"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "AC",
   "AL",
@@ -85488,7 +85488,7 @@ module["exports"] = [
   "SP"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Rua",
   "Avenida",
@@ -85500,16 +85500,16 @@ module["exports"] = [
   "Rodovia"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/company/index.js"][0].apply(exports,arguments)
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/company/name.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/company/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/company/index.js"][0].apply(exports,arguments)
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/company/name.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name} #{suffix}",
   "#{Name.last_name}-#{Name.last_name}",
   "#{Name.last_name}, #{Name.last_name} e #{Name.last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "S.A.",
   "LTDA",
@@ -85517,7 +85517,7 @@ module["exports"] = [
   "Comércio"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/index.js":[function(require,module,exports){
 var pt_BR = {};
 module['exports'] = pt_BR;
 pt_BR.title = "Portuguese (Brazil)";
@@ -85528,7 +85528,7 @@ pt_BR.lorem = require("./lorem");
 pt_BR.name = require("./name");
 pt_BR.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "br",
   "com",
@@ -85539,7 +85539,7 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "yahoo.com",
@@ -85548,13 +85548,13 @@ module["exports"] = [
   "bol.com.br"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/lorem/index.js"][0].apply(exports,arguments)
-},{"./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/lorem/words.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/lorem/index.js"][0].apply(exports,arguments)
+},{"./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/lorem/words.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Alessandro",
   "Alessandra",
@@ -85649,7 +85649,7 @@ module["exports"] = [
   "Warley"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
@@ -85657,7 +85657,7 @@ name.last_name = require("./last_name");
 name.prefix = require("./prefix");
 name.suffix = require("./suffix");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/name/last_name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/name/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/name/last_name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/name/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Silva",
   "Souza",
@@ -85683,7 +85683,7 @@ module["exports"] = [
   "Albuquerque"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Sr.",
   "Sra.",
@@ -85691,27 +85691,27 @@ module["exports"] = [
   "Dr."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/name/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/name/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Jr.",
   "Neto",
   "Filho"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "(##) ####-####",
   "+55 (##) ####-####",
   "(##) #####-####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/pt_BR/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/pt_BR/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "Москва",
   "Владимир",
@@ -85761,7 +85761,7 @@ module["exports"] = [
   "Сочи"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Австралия",
   "Австрия",
@@ -85975,24 +85975,24 @@ module["exports"] = [
   "Япония"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Россия"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/index.js"][0].apply(exports,arguments)
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/city_name.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/state.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/street_name.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/street_suffix.js","./street_title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/street_title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/postcode.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/index.js"][0].apply(exports,arguments)
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/city_name.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/state.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/street_name.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/street_suffix.js","./street_title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/street_title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "######"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/secondary_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "кв. ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Республика Адыгея",
   "Республика Башкортостан",
@@ -86082,11 +86082,11 @@ module["exports"] = [
   "Чеченская Республика"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/street_name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/street_name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "ул.",
   "улица",
@@ -86096,7 +86096,7 @@ module["exports"] = [
   "пл."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/street_title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/street_title.js":[function(require,module,exports){
 module["exports"] = [
   "Советская",
   "Молодежная",
@@ -86201,7 +86201,7 @@ module["exports"] = [
   "Майская"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/commerce/color.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/commerce/color.js":[function(require,module,exports){
 module["exports"] = [
   "красный",
   "зеленый",
@@ -86236,7 +86236,7 @@ module["exports"] = [
   "серебряный"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/commerce/department.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/commerce/department.js":[function(require,module,exports){
 module["exports"] = [
   "Книги",
   "Фильмы",
@@ -86261,9 +86261,9 @@ module["exports"] = [
   "промышленное"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/commerce/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/index.js"][0].apply(exports,arguments)
-},{"./color":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/commerce/color.js","./department":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/commerce/department.js","./product_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/commerce/product_name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/commerce/product_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/commerce/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/index.js"][0].apply(exports,arguments)
+},{"./color":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/commerce/color.js","./department":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/commerce/department.js","./product_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/commerce/product_name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/commerce/product_name.js":[function(require,module,exports){
 module["exports"] = {
   "adjective": [
     "Маленький",
@@ -86299,11 +86299,11 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/index.js"][0].apply(exports,arguments)
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/company/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/company/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/company/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/company/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/index.js"][0].apply(exports,arguments)
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/company/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/company/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/company/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/company/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "ИП",
   "ООО",
@@ -86314,7 +86314,7 @@ module["exports"] = [
   "ОП"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Снаб",
   "Торг",
@@ -86323,9 +86323,9 @@ module["exports"] = [
   "Сбыт"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/date/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/index.js"][0].apply(exports,arguments)
-},{"./month":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/date/month.js","./weekday":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/date/weekday.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/date/month.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/date/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/index.js"][0].apply(exports,arguments)
+},{"./month":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/date/month.js","./weekday":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/date/weekday.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/date/month.js":[function(require,module,exports){
 // source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/ru.xml#L1734
 module["exports"] = {
   wide: [
@@ -86386,7 +86386,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/date/weekday.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/date/weekday.js":[function(require,module,exports){
 // source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/ru.xml#L1825
 module["exports"] = {
   wide: [
@@ -86427,7 +86427,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/index.js":[function(require,module,exports){
 var ru = {};
 module['exports'] = ru;
 ru.title = "Russian";
@@ -86440,7 +86440,7 @@ ru.commerce = require("./commerce");
 ru.company = require("./company");
 ru.date = require("./date");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/index.js","./commerce":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/commerce/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/company/index.js","./date":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/date/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/index.js","./commerce":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/commerce/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/company/index.js","./date":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/date/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "ru",
@@ -86450,7 +86450,7 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "yandex.ru",
   "ya.ru",
@@ -86460,9 +86460,9 @@ module["exports"] = [
   "hotmail.com"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/female_first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/female_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Анна",
   "Алёна",
@@ -86522,7 +86522,7 @@ module["exports"] = [
   "Юлия"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/female_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/female_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Смирнова",
   "Иванова",
@@ -86776,7 +86776,7 @@ module["exports"] = [
   "Турова"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/female_middle_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/female_middle_name.js":[function(require,module,exports){
 module["exports"] = [
   "Александровна",
   "Алексеевна",
@@ -86831,7 +86831,7 @@ module["exports"] = [
   "Ярославовна"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.male_first_name = require("./male_first_name");
@@ -86844,7 +86844,7 @@ name.prefix = require("./prefix");
 name.suffix = require("./suffix");
 name.name = require("./name");
 
-},{"./female_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/female_first_name.js","./female_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/female_last_name.js","./female_middle_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/female_middle_name.js","./male_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/male_first_name.js","./male_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/male_last_name.js","./male_middle_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/male_middle_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/male_first_name.js":[function(require,module,exports){
+},{"./female_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/female_first_name.js","./female_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/female_last_name.js","./female_middle_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/female_middle_name.js","./male_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/male_first_name.js","./male_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/male_last_name.js","./male_middle_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/male_middle_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/male_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Александр",
   "Алексей",
@@ -86900,7 +86900,7 @@ module["exports"] = [
   "Ярослав"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/male_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/male_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Смирнов",
   "Иванов",
@@ -87154,7 +87154,7 @@ module["exports"] = [
   "Туров"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/male_middle_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/male_middle_name.js":[function(require,module,exports){
 module["exports"] = [
   "Александрович",
   "Алексеевич",
@@ -87210,7 +87210,7 @@ module["exports"] = [
   "Ярославович"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{male_first_name} #{male_last_name}",
   "#{male_last_name} #{male_first_name}",
@@ -87222,19 +87222,19 @@ module["exports"] = [
   "#{female_last_name} #{female_first_name} #{female_middle_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/prefix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/phone_number/formats.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/formats.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/prefix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/phone_number/formats.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/formats.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "Bánovce nad Bebravou",
   "Banská Bystrica",
@@ -87317,11 +87317,11 @@ module["exports"] = [
   "Zvolen"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/city_prefix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/city_prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/city_suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/address/city_suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/city_prefix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/city_prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/city_suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/address/city_suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Afganistan",
   "Afgánsky islamský štát",
@@ -87707,12 +87707,12 @@ module["exports"] = [
   "Zimbabwianska republika"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Slovensko"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -87731,20 +87731,20 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/city_name.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/city_suffix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/state_abbr.js","./street":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/street.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/street_name.js","./time_zone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/time_zone.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/postcode.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/city_name.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/city_suffix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/state_abbr.js","./street":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/street.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/street_name.js","./time_zone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/time_zone.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/postcode.js":[function(require,module,exports){
 module["exports"] = [
   "#####",
   "### ##",
   "## ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/secondary_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/secondary_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/state.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/state_abbr.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/street.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/secondary_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/secondary_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/state.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/state_abbr.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/name/prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/street.js":[function(require,module,exports){
 module["exports"] = [
   "Adámiho",
   "Ahoj",
@@ -88908,29 +88908,29 @@ module["exports"] = [
   "Župné námestie"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/street_name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/time_zone.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/time_zone.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/adjective.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/bs_noun.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/bs_noun.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/bs_verb.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/descriptor.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/index.js"][0].apply(exports,arguments)
-},{"./adjective":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/adjective.js","./bs_noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/bs_noun.js","./bs_verb":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/bs_verb.js","./descriptor":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/descriptor.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/name.js","./noun":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/noun.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/noun.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/noun.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/company/suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/street_name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/time_zone.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/time_zone.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/adjective.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/adjective.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/bs_noun.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/bs_noun.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/bs_verb.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/bs_verb.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/descriptor.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/descriptor.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/index.js"][0].apply(exports,arguments)
+},{"./adjective":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/adjective.js","./bs_noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/bs_noun.js","./bs_verb":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/bs_verb.js","./descriptor":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/descriptor.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/name.js","./noun":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/noun.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/noun.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/noun.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/company/suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/index.js":[function(require,module,exports){
 var sk = {};
 module['exports'] = sk;
 sk.title = "Slovakian";
@@ -88941,7 +88941,7 @@ sk.lorem = require("./lorem");
 sk.name = require("./name");
 sk.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "sk",
   "com",
@@ -88950,22 +88950,22 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "gmail.com",
   "zoznam.sk",
   "azet.sk"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
-},{"./supplemental":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/lorem/supplemental.js","./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/lorem/supplemental.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/lorem/words.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/female_first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/index.js"][0].apply(exports,arguments)
+},{"./supplemental":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/lorem/supplemental.js","./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/lorem/supplemental.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/supplemental.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/lorem/words.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/female_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Alexandra",
   "Karina",
@@ -89169,7 +89169,7 @@ module["exports"] = [
   "Milada"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/female_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/female_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Antalová",
   "Babková",
@@ -89424,9 +89424,9 @@ module["exports"] = [
   "Šťastná"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/index.js"][0].apply(exports,arguments)
-},{"./female_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/female_first_name.js","./female_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/female_last_name.js","./male_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/male_first_name.js","./male_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/male_last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/suffix.js","./title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/male_first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/index.js"][0].apply(exports,arguments)
+},{"./female_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/female_first_name.js","./female_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/female_last_name.js","./male_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/male_first_name.js","./male_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/male_last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/suffix.js","./title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/male_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Drahoslav",
   "Severín",
@@ -89622,7 +89622,7 @@ module["exports"] = [
   "Silvester"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/male_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/male_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Antal",
   "Babka",
@@ -89883,15 +89883,15 @@ module["exports"] = [
   "Šťastný"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/prefix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/prefix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/suffix.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/name/suffix.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/name/title.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/title.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/prefix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/prefix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/suffix.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/name/suffix.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/name/title.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/title.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "09## ### ###",
   "0## #### ####",
@@ -89899,16 +89899,16 @@ module["exports"] = [
   "+421 ### ### ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sk/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sk/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_prefix}#{city_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Söder",
   "Norr",
@@ -89937,7 +89937,7 @@ module["exports"] = [
   "Ny"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "stad",
   "land",
@@ -89960,13 +89960,13 @@ module["exports"] = [
   "vik"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/common_street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/common_street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "s Väg",
   "s Gata"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Ryssland",
   "Kanada",
@@ -90175,12 +90175,12 @@ module["exports"] = [
   "Vatikanstaten"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Sverige"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -90199,15 +90199,15 @@ address.secondary_address = require("./secondary_address");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/city_suffix.js","./common_street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/common_street_suffix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/state.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/street_name.js","./street_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/street_prefix.js","./street_root":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/street_root.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/secondary_address.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/city_suffix.js","./common_street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/common_street_suffix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/state.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/street_name.js","./street_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/street_prefix.js","./street_root":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/street_root.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/secondary_address.js":[function(require,module,exports){
 module["exports"] = [
   "Lgh. ###",
   "Hus ###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "Blekinge",
   "Dalarna",
@@ -90234,11 +90234,11 @@ module["exports"] = [
   "Östergötland"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/street_name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/street_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/street_name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/nb_NO/address/street_name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/street_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Västra",
   "Östra",
@@ -90248,7 +90248,7 @@ module["exports"] = [
   "Undre"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/street_root.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/street_root.js":[function(require,module,exports){
 module["exports"] = [
   "Björk",
   "Järnvägs",
@@ -90280,7 +90280,7 @@ module["exports"] = [
   "Asp"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "vägen",
   "gatan",
@@ -90289,25 +90289,25 @@ module["exports"] = [
   "allén"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/cell_phone/common_cell_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/cell_phone/common_cell_prefix.js":[function(require,module,exports){
 module["exports"] = [
   56,
   62,
   59
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/cell_phone/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "#{common_cell_prefix}-###-####"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/cell_phone/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/cell_phone/index.js":[function(require,module,exports){
 var cell_phone = {};
 module['exports'] = cell_phone;
 cell_phone.common_cell_prefix = require("./common_cell_prefix");
 cell_phone.formats = require("./formats");
 
-},{"./common_cell_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/cell_phone/common_cell_prefix.js","./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/commerce/color.js":[function(require,module,exports){
+},{"./common_cell_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/cell_phone/common_cell_prefix.js","./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/commerce/color.js":[function(require,module,exports){
 module["exports"] = [
   "vit",
   "silver",
@@ -90326,7 +90326,7 @@ module["exports"] = [
   "korall"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/commerce/department.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/commerce/department.js":[function(require,module,exports){
 module["exports"] = [
   "Böcker",
   "Filmer",
@@ -90347,9 +90347,9 @@ module["exports"] = [
   "Sport"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/commerce/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/commerce/index.js"][0].apply(exports,arguments)
-},{"./color":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/commerce/color.js","./department":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/commerce/department.js","./product_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/commerce/product_name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/commerce/product_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/commerce/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/commerce/index.js"][0].apply(exports,arguments)
+},{"./color":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/commerce/color.js","./department":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/commerce/department.js","./product_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/commerce/product_name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/commerce/product_name.js":[function(require,module,exports){
 module["exports"] = {
   "adjective": [
     "Liten",
@@ -90387,16 +90387,16 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/company/index.js"][0].apply(exports,arguments)
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/company/name.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/company/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/company/index.js"][0].apply(exports,arguments)
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/company/name.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name} #{suffix}",
   "#{Name.last_name}-#{Name.last_name}",
   "#{Name.last_name}, #{Name.last_name} #{suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Gruppen",
   "AB",
@@ -90407,9 +90407,9 @@ module["exports"] = [
   "Aktiebolag"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/date/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/date/index.js"][0].apply(exports,arguments)
-},{"./month":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/date/month.js","./weekday":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/date/weekday.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/date/month.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/date/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/date/index.js"][0].apply(exports,arguments)
+},{"./month":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/date/month.js","./weekday":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/date/weekday.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/date/month.js":[function(require,module,exports){
 // Source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/en.xml#L1799
 module["exports"] = {
   wide: [
@@ -90442,7 +90442,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/date/weekday.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/date/weekday.js":[function(require,module,exports){
 // Source: http://unicode.org/cldr/trac/browser/tags/release-27/common/main/en.xml#L1847
 module["exports"] = {
   wide: [
@@ -90465,7 +90465,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/index.js":[function(require,module,exports){
 var sv = {};
 module['exports'] = sv;
 sv.title = "Swedish";
@@ -90479,7 +90479,7 @@ sv.commerce = require("./commerce");
 sv.team = require("./team");
 sv.date = require("./date");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/cell_phone/index.js","./commerce":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/commerce/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/company/index.js","./date":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/date/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/phone_number/index.js","./team":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/team/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/cell_phone/index.js","./commerce":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/commerce/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/company/index.js","./date":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/date/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/phone_number/index.js","./team":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/team/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "se",
   "nu",
@@ -90488,9 +90488,9 @@ module["exports"] = [
   "org"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/internet/domain_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/first_name_men.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/internet/domain_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/first_name_men.js":[function(require,module,exports){
 module["exports"] = [
   "Erik",
   "Lars",
@@ -90504,7 +90504,7 @@ module["exports"] = [
   "Hans"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/first_name_women.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/first_name_women.js":[function(require,module,exports){
 module["exports"] = [
   "Maria",
   "Anna",
@@ -90518,7 +90518,7 @@ module["exports"] = [
   "Marie"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name_women = require("./first_name_women");
@@ -90528,7 +90528,7 @@ name.prefix = require("./prefix");
 name.title = require("./title");
 name.name = require("./name");
 
-},{"./first_name_men":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/first_name_men.js","./first_name_women":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/first_name_women.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/prefix.js","./title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/last_name.js":[function(require,module,exports){
+},{"./first_name_men":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/first_name_men.js","./first_name_women":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/first_name_women.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/prefix.js","./title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Johansson",
   "Andersson",
@@ -90542,7 +90542,7 @@ module["exports"] = [
   "Gustafsson"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{first_name_women} #{last_name}",
   "#{first_name_men} #{last_name}",
@@ -90554,35 +90554,35 @@ module["exports"] = [
   "#{prefix} #{first_name_women} #{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Dr.",
   "Prof.",
   "PhD."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/name/title.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en/name/title.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/name/title.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en/name/title.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "####-#####",
   "####-######"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/team/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/team/index.js":[function(require,module,exports){
 var team = {};
 module['exports'] = team;
 team.suffix = require("./suffix");
 team.name = require("./name");
 
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/team/name.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/team/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/team/name.js":[function(require,module,exports){
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/team/name.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/team/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/team/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Address.city} #{suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/team/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/team/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "IF",
   "FF",
@@ -90599,9 +90599,9 @@ module["exports"] = [
   "IK"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "Adana",
   "Adıyaman",
@@ -90686,7 +90686,7 @@ module["exports"] = [
   "Düzce"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Afganistan",
   "Almanya",
@@ -90926,12 +90926,12 @@ module["exports"] = [
   "Zimbabve"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Türkiye"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city = require("./city");
@@ -90943,13 +90943,13 @@ address.building_number = require("./building_number");
 address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/city.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/postcode.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/street_name.js","./street_root":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/street_root.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/street_name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/address/street_name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/street_root.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/city.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/postcode.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/street_name.js","./street_root":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/street_root.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/street_name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/address/street_name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/street_root.js":[function(require,module,exports){
 module["exports"] = [
   "Atatürk Bulvarı",
   "Alparslan Türkeş Bulvarı",
@@ -90994,7 +90994,7 @@ module["exports"] = [
   "Bandak Sokak"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/cell_phone/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/cell_phone/formats.js":[function(require,module,exports){
 module["exports"] = [
   "+90-53#-###-##-##",
   "+90-54#-###-##-##",
@@ -91002,9 +91002,9 @@ module["exports"] = [
   "+90-50#-###-##-##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/index.js":[function(require,module,exports){
 var tr = {};
 module['exports'] = tr;
 tr.title = "Turkish";
@@ -91015,7 +91015,7 @@ tr.phone_number = require("./phone_number");
 tr.cell_phone = require("./cell_phone");
 tr.name = require("./name");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/cell_phone/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/cell_phone/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com.tr",
   "com",
@@ -91025,13 +91025,13 @@ module["exports"] = [
   "gov.tr"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/internet/domain_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/lorem/index.js"][0].apply(exports,arguments)
-},{"./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/lorem/words.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/internet/domain_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/lorem/index.js"][0].apply(exports,arguments)
+},{"./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/lorem/words.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/lorem/words.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Aba",
   "Abak",
@@ -91766,9 +91766,9 @@ module["exports"] = [
   "Kızılalma"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/name/prefix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/name/last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/name/prefix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Abacı",
   "Abadan",
@@ -91970,9 +91970,9 @@ module["exports"] = [
   "Öztuna"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/name/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ge/name/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/name/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ge/name/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Bay",
   "Bayan",
@@ -91980,7 +91980,7 @@ module["exports"] = [
   "Prof. Dr."
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/phone_number/area_code.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/phone_number/area_code.js":[function(require,module,exports){
 module["exports"] = [
   "392",
   "510",
@@ -92081,27 +92081,27 @@ module["exports"] = [
   "372"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "+90-###-###-##-##",
   "+90-###-###-#-###"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/phone_number/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/phone_number/index.js":[function(require,module,exports){
 var phone_number = {};
 module['exports'] = phone_number;
 phone_number.area_code = require("./area_code");
 phone_number.formats = require("./formats");
 
-},{"./area_code":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/phone_number/area_code.js","./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/tr/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/cz/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/city.js":[function(require,module,exports){
+},{"./area_code":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/phone_number/area_code.js","./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/tr/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/cz/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_name}",
   "#{city_prefix} #{Name.male_first_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/city_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/city_name.js":[function(require,module,exports){
 module["exports"] = [
   "Алчевськ",
   "Артемівськ",
@@ -92162,7 +92162,7 @@ module["exports"] = [
   "Ялта"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Південний",
   "Північний",
@@ -92170,12 +92170,12 @@ module["exports"] = [
   "Західний"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "град"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/country.js":[function(require,module,exports){
 module["exports"] = [
   "Австралія",
   "Австрія",
@@ -92372,12 +92372,12 @@ module["exports"] = [
   "Японія"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Україна"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.country = require("./country");
@@ -92396,11 +92396,11 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/city.js","./city_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/city_name.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/city_suffix.js","./country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/country.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/postcode.js","./secondary_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/secondary_address.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/state.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/street_name.js","./street_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/street_prefix.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/street_suffix.js","./street_title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/street_title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/secondary_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/secondary_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/state.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/city.js","./city_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/city_name.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/city_suffix.js","./country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/country.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/postcode.js","./secondary_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/secondary_address.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/state.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/street_name.js","./street_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/street_prefix.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/street_suffix.js","./street_title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/street_title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/es/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/secondary_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/secondary_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "АР Крим",
   "Вінницька область",
@@ -92431,15 +92431,15 @@ module["exports"] = [
   "Севастополь"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/street_address.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/address/street_address.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/street_address.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/address/street_address.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_prefix} #{Address.street_title}",
   "#{Address.street_title} #{street_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/street_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/street_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "вул.",
   "вулиця",
@@ -92451,12 +92451,12 @@ module["exports"] = [
   "провулок"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "майдан"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/street_title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/street_title.js":[function(require,module,exports){
 module["exports"] = [
   "Зелена",
   "Молодіжна",
@@ -92473,11 +92473,11 @@ module["exports"] = [
   "Коліївщини"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/company/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/index.js"][0].apply(exports,arguments)
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/company/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/company/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/company/suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/company/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/company/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/company/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/company/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/index.js"][0].apply(exports,arguments)
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/company/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/company/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/company/suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/company/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/company/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/company/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "ТОВ",
   "ПАТ",
@@ -92489,7 +92489,7 @@ module["exports"] = [
   "ФОП"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/company/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/company/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "Постач",
   "Торг",
@@ -92498,7 +92498,7 @@ module["exports"] = [
   "Збут"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/index.js":[function(require,module,exports){
 var uk = {};
 module['exports'] = uk;
 uk.title = "Ukrainian";
@@ -92508,7 +92508,7 @@ uk.internet = require("./internet");
 uk.name = require("./name");
 uk.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/address/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/internet/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/address/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/internet/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "cherkassy.ua",
   "cherkasy.ua",
@@ -92572,7 +92572,7 @@ module["exports"] = [
   "укр"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/internet/free_email.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/internet/free_email.js":[function(require,module,exports){
 module["exports"] = [
   "ukr.net",
   "ex.ua",
@@ -92583,9 +92583,9 @@ module["exports"] = [
   "gmail.com"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/internet/domain_suffix.js","./free_email":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/internet/free_email.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/female_first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/internet/domain_suffix.js","./free_email":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/internet/free_email.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/female_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Аврелія",
   "Аврора",
@@ -92782,7 +92782,7 @@ module["exports"] = [
   "Ярослава"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/female_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/female_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Андрухович",
   "Бабух",
@@ -93016,7 +93016,7 @@ module["exports"] = [
   "Ящук"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/female_middle_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/female_middle_name.js":[function(require,module,exports){
 module["exports"] = [
   "Адамівна",
   "Азарівна",
@@ -93136,7 +93136,7 @@ module["exports"] = [
   "Ярославівна"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.male_first_name = require("./male_first_name");
@@ -93150,7 +93150,7 @@ name.suffix = require("./suffix");
 name.title = require("./title");
 name.name = require("./name");
 
-},{"./female_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/female_first_name.js","./female_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/female_last_name.js","./female_middle_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/female_middle_name.js","./male_first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/male_first_name.js","./male_last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/male_last_name.js","./male_middle_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/male_middle_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/prefix.js","./suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/suffix.js","./title":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/title.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/male_first_name.js":[function(require,module,exports){
+},{"./female_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/female_first_name.js","./female_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/female_last_name.js","./female_middle_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/female_middle_name.js","./male_first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/male_first_name.js","./male_last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/male_last_name.js","./male_middle_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/male_middle_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/prefix.js","./suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/suffix.js","./title":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/title.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/male_first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Августин",
   "Аврелій",
@@ -93349,7 +93349,7 @@ module["exports"] = [
   "Ярослав"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/male_last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/male_last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Андрухович",
   "Бабух",
@@ -93592,7 +93592,7 @@ module["exports"] = [
   "Ящук"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/male_middle_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/male_middle_name.js":[function(require,module,exports){
 module["exports"] = [
   "Адамович",
   "Азарович",
@@ -93712,15 +93712,15 @@ module["exports"] = [
   "Ярославович"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/name/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/name/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Пан",
   "Пані"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/suffix.js":[function(require,module,exports){
 module["exports"] = [
   "проф.",
   "доц.",
@@ -93742,7 +93742,7 @@ module["exports"] = [
   "канд. психол. наук"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/name/title.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/name/title.js":[function(require,module,exports){
 module["exports"] = {
   "descriptor": [
     "Головний",
@@ -93784,7 +93784,7 @@ module["exports"] = {
   ]
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "(044) ###-##-##",
   "(050) ###-##-##",
@@ -93802,14 +93802,14 @@ module["exports"] = [
   "(099) ###-##-##"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/uk/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/address/city.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/uk/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/address/city.js":[function(require,module,exports){
 module["exports"] = [
   "#{city_root}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/address/city_root.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/address/city_root.js":[function(require,module,exports){
 module["exports"] = [
   "Bắc Giang",
   "Bắc Kạn",
@@ -93876,7 +93876,7 @@ module["exports"] = [
   "Vĩnh Long"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/address/county.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/address/county.js":[function(require,module,exports){
 module["exports"] = [
   "Avon",
   "Bedfordshire",
@@ -93951,12 +93951,12 @@ module["exports"] = [
   "Worcestershire"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Việt Nam"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_root = require("./city_root");
@@ -93964,22 +93964,22 @@ address.city = require("./city");
 address.county = require("./county");
 address.default_country = require("./default_country");
 
-},{"./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/address/city.js","./city_root":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/address/city_root.js","./county":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/address/county.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/address/default_country.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/cell_phone/formats.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/cell_phone/formats.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/cell_phone/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/cell_phone/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/company/index.js":[function(require,module,exports){
+},{"./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/address/city.js","./city_root":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/address/city_root.js","./county":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/address/county.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/address/default_country.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/cell_phone/formats.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/cell_phone/formats.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/cell_phone/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/cell_phone/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/cell_phone/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/company/index.js":[function(require,module,exports){
 var company = {};
 module['exports'] = company;
 company.prefix = require("./prefix");
 company.name = require("./name");
 
-},{"./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/company/name.js","./prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/company/prefix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/company/name.js":[function(require,module,exports){
+},{"./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/company/name.js","./prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/company/prefix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/company/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{prefix} #{Name.last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/company/prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/company/prefix.js":[function(require,module,exports){
 module["exports"] = [
   "Công ty",
   "Cty TNHH",
@@ -93989,7 +93989,7 @@ module["exports"] = [
   "Chi nhánh"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/index.js":[function(require,module,exports){
 var vi = {};
 module['exports'] = vi;
 vi.title = "Vietnamese";
@@ -94001,7 +94001,7 @@ vi.name = require("./name");
 vi.company = require("./company");
 vi.lorem = require("./lorem");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/address/index.js","./cell_phone":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/cell_phone/index.js","./company":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/company/index.js","./internet":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/internet/index.js","./lorem":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/lorem/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/internet/domain_suffix.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/address/index.js","./cell_phone":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/cell_phone/index.js","./company":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/company/index.js","./internet":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/internet/index.js","./lorem":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/lorem/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/internet/domain_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "com",
   "net",
@@ -94010,11 +94010,11 @@ module["exports"] = [
   "com.vn"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/internet/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
-},{"./domain_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/internet/domain_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/lorem/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/de/lorem/index.js"][0].apply(exports,arguments)
-},{"./words":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/lorem/words.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/lorem/words.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/internet/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de_CH/internet/index.js"][0].apply(exports,arguments)
+},{"./domain_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/internet/domain_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/lorem/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/de/lorem/index.js"][0].apply(exports,arguments)
+},{"./words":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/lorem/words.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/lorem/words.js":[function(require,module,exports){
 module["exports"] = [
   "đã",
   "đang",
@@ -94121,7 +94121,7 @@ module["exports"] = [
   "hương"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/name/first_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "Phạm",
   "Nguyễn",
@@ -94151,14 +94151,14 @@ module["exports"] = [
   "Hà"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/name/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/name/index.js":[function(require,module,exports){
 var name = {};
 module['exports'] = name;
 name.first_name = require("./first_name");
 name.last_name = require("./last_name");
 name.name = require("./name");
 
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/name/name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/name/last_name.js":[function(require,module,exports){
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/name/name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "Nam",
   "Trung",
@@ -94235,18 +94235,18 @@ module["exports"] = [
   "Nhàn"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{first_name} #{last_name}",
   "#{first_name} #{last_name} #{last_name}",
   "#{first_name} #{last_name} #{last_name} #{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/phone_number/formats.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/en_GB/phone_number/formats.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/building_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/phone_number/formats.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/en_GB/phone_number/formats.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/building_number.js":[function(require,module,exports){
 module["exports"] = [
   "#####",
   "####",
@@ -94255,9 +94255,9 @@ module["exports"] = [
   "#"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "长",
   "上",
@@ -94282,7 +94282,7 @@ module["exports"] = [
   "包"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "沙市",
   "京市",
@@ -94305,12 +94305,12 @@ module["exports"] = [
   "头市"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "中国"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/index.js":[function(require,module,exports){
 var address = {};
 module['exports'] = address;
 address.city_prefix = require("./city_prefix");
@@ -94325,9 +94325,9 @@ address.street_name = require("./street_name");
 address.street_address = require("./street_address");
 address.default_country = require("./default_country");
 
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/city_suffix.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/postcode.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/state_abbr.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_name.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/state.js":[function(require,module,exports){
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/city_suffix.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/postcode.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/state_abbr.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_name.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "北京市",
   "上海市",
@@ -94365,7 +94365,7 @@ module["exports"] = [
   "澳门"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "京",
   "沪",
@@ -94403,17 +94403,17 @@ module["exports"] = [
   "澳"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_address.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_name}#{building_number}号"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_name.js":[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name}#{street_suffix}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "巷",
   "街",
@@ -94425,7 +94425,7 @@ module["exports"] = [
   "栋"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/index.js":[function(require,module,exports){
 var zh_CN = {};
 module['exports'] = zh_CN;
 zh_CN.title = "Chinese";
@@ -94433,7 +94433,7 @@ zh_CN.address = require("./address");
 zh_CN.name = require("./name");
 zh_CN.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/name/first_name.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "王",
   "李",
@@ -94537,9 +94537,9 @@ module["exports"] = [
   "孔"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/name/name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/name/last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/name/name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "绍齐",
   "博文",
@@ -94677,25 +94677,25 @@ module["exports"] = [
   "彬"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/name/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/name/name.js":[function(require,module,exports){
 module["exports"] = [
   "#{first_name}#{last_name}"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "###-########",
   "####-########",
   "###########"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/building_number.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/fr/address/building_number.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/city.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/sv/address/city.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/city_prefix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/building_number.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/fr/address/building_number.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/city.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/sv/address/city.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/city_prefix.js":[function(require,module,exports){
 module["exports"] = [
   "臺北",
   "新北",
@@ -94719,28 +94719,28 @@ module["exports"] = [
   "連江"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/city_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/city_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "縣",
   "市"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/default_country.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/default_country.js":[function(require,module,exports){
 module["exports"] = [
   "Taiwan (R.O.C.)"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/index.js"][0].apply(exports,arguments)
-},{"./building_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/building_number.js","./city":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/city.js","./city_prefix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/city_prefix.js","./city_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/city_suffix.js","./default_country":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/default_country.js","./postcode":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/postcode.js","./state":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/state.js","./state_abbr":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/state_abbr.js","./street_address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_address.js","./street_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_name.js","./street_suffix":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_suffix.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/postcode.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/ru/address/postcode.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/state.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/index.js"][0].apply(exports,arguments)
+},{"./building_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/building_number.js","./city":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/city.js","./city_prefix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/city_prefix.js","./city_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/city_suffix.js","./default_country":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/default_country.js","./postcode":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/postcode.js","./state":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/state.js","./state_abbr":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/state_abbr.js","./street_address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_address.js","./street_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_name.js","./street_suffix":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_suffix.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/postcode.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/ru/address/postcode.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/state.js":[function(require,module,exports){
 module["exports"] = [
   "福建省",
   "台灣省"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/state_abbr.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/state_abbr.js":[function(require,module,exports){
 module["exports"] = [
   "北",
   "新北",
@@ -94765,14 +94765,14 @@ module["exports"] = [
   "馬"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_address.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_address.js":[function(require,module,exports){
 module["exports"] = [
   "#{street_name}#{building_number}號"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_suffix.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/address/street_name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/street_suffix.js":[function(require,module,exports){
 module["exports"] = [
   "街",
   "路",
@@ -94782,7 +94782,7 @@ module["exports"] = [
   "西路"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/index.js":[function(require,module,exports){
 var zh_TW = {};
 module['exports'] = zh_TW;
 zh_TW.title = "Chinese (Taiwan)";
@@ -94790,7 +94790,7 @@ zh_TW.address = require("./address");
 zh_TW.name = require("./name");
 zh_TW.phone_number = require("./phone_number");
 
-},{"./address":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/address/index.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/name/index.js","./phone_number":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/phone_number/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/name/first_name.js":[function(require,module,exports){
+},{"./address":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/address/index.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/name/index.js","./phone_number":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/phone_number/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/name/first_name.js":[function(require,module,exports){
 module["exports"] = [
   "王",
   "李",
@@ -94894,9 +94894,9 @@ module["exports"] = [
   "孔"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/name/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/vi/name/index.js"][0].apply(exports,arguments)
-},{"./first_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/name/first_name.js","./last_name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/name/last_name.js","./name":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/name/name.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/name/last_name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/name/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/vi/name/index.js"][0].apply(exports,arguments)
+},{"./first_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/name/first_name.js","./last_name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/name/last_name.js","./name":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/name/name.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/name/last_name.js":[function(require,module,exports){
 module["exports"] = [
   "紹齊",
   "博文",
@@ -95023,18 +95023,18 @@ module["exports"] = [
   "聰健"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/name/name.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_CN/name/name.js"][0].apply(exports,arguments)
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/phone_number/formats.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/name/name.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_CN/name/name.js"][0].apply(exports,arguments)
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/phone_number/formats.js":[function(require,module,exports){
 module["exports"] = [
   "0#-#######",
   "02-########",
   "09##-######"
 ];
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/phone_number/index.js":[function(require,module,exports){
-arguments[4]["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
-},{"./formats":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/locales/zh_TW/phone_number/formats.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/lorem.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/phone_number/index.js":[function(require,module,exports){
+arguments[4]["/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/az/phone_number/index.js"][0].apply(exports,arguments)
+},{"./formats":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/locales/zh_TW/phone_number/formats.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/lorem.js":[function(require,module,exports){
 
 /**
  *
@@ -95174,7 +95174,7 @@ var Lorem = function (faker) {
 
 module["exports"] = Lorem;
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/name.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/name.js":[function(require,module,exports){
 /**
  *
  * @namespace faker.name
@@ -95353,7 +95353,7 @@ function Name (faker) {
 
 module['exports'] = Name;
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/phone_number.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/phone_number.js":[function(require,module,exports){
 /**
  *
  * @namespace faker.phone
@@ -95398,7 +95398,7 @@ var Phone = function (faker) {
 };
 
 module['exports'] = Phone;
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/random.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/random.js":[function(require,module,exports){
 var mersenne = require('../vendor/mersenne');
 
 /**
@@ -95615,7 +95615,7 @@ function Random (faker, seed) {
 
 module['exports'] = Random;
 
-},{"../vendor/mersenne":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/vendor/mersenne.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/lib/system.js":[function(require,module,exports){
+},{"../vendor/mersenne":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/vendor/mersenne.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/lib/system.js":[function(require,module,exports){
 // generates fake data for many computer systems properties
 
 /**
@@ -95777,7 +95777,7 @@ function System (faker) {
 
 module['exports'] = System;
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/vendor/mersenne.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/vendor/mersenne.js":[function(require,module,exports){
 // this program is a JavaScript version of Mersenne Twister, with concealment and encapsulation in class,
 // an almost straight conversion from the original program, mt19937ar.c,
 // translated by y. okada on July 17, 2006.
@@ -96065,7 +96065,7 @@ exports.seed_array = function(A) {
     gen.init_by_array(A);
 }
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/vendor/user-agent.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/vendor/user-agent.js":[function(require,module,exports){
 /*
 
 Copyright (c) 2012-2014 Jeffrey Mealo
@@ -96276,7 +96276,7 @@ exports.generate = function generate() {
     return browser[random[0]](random[1]);
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/global/document.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/global/document.js":[function(require,module,exports){
 (function (global){
 var topLevel = typeof global !== 'undefined' ? global :
     typeof window !== 'undefined' ? window : {}
@@ -96297,7 +96297,7 @@ if (typeof document !== 'undefined') {
 module.exports = doccy;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"min-document":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/browser-resolve/empty.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/global/window.js":[function(require,module,exports){
+},{"min-document":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/browser-resolve/empty.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/global/window.js":[function(require,module,exports){
 (function (global){
 var win;
 
@@ -96314,7 +96314,7 @@ if (typeof window !== "undefined") {
 module.exports = win;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/hyperscript-attribute-to-property/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/hyperscript-attribute-to-property/index.js":[function(require,module,exports){
 module.exports = attributeToProperty
 
 var transform = {
@@ -96335,7 +96335,7 @@ function attributeToProperty (h) {
   }
 }
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/hyperx/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/hyperx/index.js":[function(require,module,exports){
 var attrToProp = require('hyperscript-attribute-to-property')
 
 var VAR = 0, TEXT = 1, OPEN = 2, CLOSE = 3, ATTR = 4
@@ -96632,7 +96632,7 @@ var closeRE = RegExp('^(' + [
 ].join('|') + ')(?:[\.#][a-zA-Z0-9\u007F-\uFFFF_:-]+)*$')
 function selfClosing (tag) { return closeRE.test(tag) }
 
-},{"hyperscript-attribute-to-property":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/hyperscript-attribute-to-property/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/insert-css/index.js":[function(require,module,exports){
+},{"hyperscript-attribute-to-property":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/hyperscript-attribute-to-property/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/insert-css/index.js":[function(require,module,exports){
 var inserted = {};
 
 module.exports = function (css, options) {
@@ -96656,7 +96656,7 @@ module.exports = function (css, options) {
     }
 };
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/lodash/lodash.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/lodash/lodash.js":[function(require,module,exports){
 (function (global){
 /**
  * @license
@@ -113767,7 +113767,7 @@ module.exports = function (css, options) {
 }.call(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/marked/lib/marked.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/marked/lib/marked.js":[function(require,module,exports){
 (function (global){
 /**
  * marked - a markdown parser
@@ -115159,7 +115159,7 @@ if (typeof module !== 'undefined' && typeof exports === 'object') {
 })(this || (typeof window !== 'undefined' ? window : global));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/nanoassert/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/nanoassert/index.js":[function(require,module,exports){
 assert.notEqual = notEqual
 assert.notOk = notOk
 assert.equal = equal
@@ -115183,7 +115183,7 @@ function assert (t, m) {
   if (!t) throw new Error(m || 'AssertionError')
 }
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/on-load/index.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/on-load/index.js":[function(require,module,exports){
 /* global MutationObserver */
 var document = require('global/document')
 var window = require('global/window')
@@ -115287,7 +115287,7 @@ function eachMutation (nodes, fn) {
   }
 }
 
-},{"assert":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/nanoassert/index.js","global/document":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/global/document.js","global/window":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/global/window.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/skilltree.js/src/index.js":[function(require,module,exports){
+},{"assert":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/nanoassert/index.js","global/document":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/global/document.js","global/window":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/global/window.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/skilltree.js/src/index.js":[function(require,module,exports){
 const faker = require('faker')
 const _ = require('lodash')
 
@@ -115567,7 +115567,7 @@ async function start(rootElemntName, dag_data, id) {
 
 module.exports = start
 
-},{"d3":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3/dist/d3.node.js","d3-dag":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/d3-dag/dist/d3-dag.js","faker":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/faker/index.js","lodash":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/lodash/lodash.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_get-url.js":[function(require,module,exports){
+},{"d3":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3/dist/d3.node.js","d3-dag":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/d3-dag/dist/d3-dag.js","faker":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/faker/index.js","lodash":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/lodash/lodash.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/node_modules/_get-url.js":[function(require,module,exports){
 const cors = 'https://cors-anywhere.herokuapp.com/'
 const absoluteURLregex = /(?:^[a-z][a-z0-9+.-]*:|\/\/)/
 
@@ -115585,7 +115585,7 @@ function getURL (url) {
   return url  
 }
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_svg2favicon.js":[function(require,module,exports){
+},{}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/node_modules/_svg2favicon.js":[function(require,module,exports){
 const getURL = require('_get-url')
 /******************************************************************************
   INTERFACE
@@ -115659,46 +115659,61 @@ const drawTriangles = (ctx, dim) => {
   }
 }
 
-},{"_get-url":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_get-url.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/crawl-workshop.js":[function(require,module,exports){
+},{"_get-url":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/node_modules/_get-url.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/node_modules/crawl-workshop.js":[function(require,module,exports){
+const get_url = require('_get-url')
 
 module.exports = crawlworkshop
 
 async function crawlworkshop (data, href) {
+  // @TODO: cache workshop data to not fetch it over and over again
+  // @TODO: add robust error handling - e.g. if links are broken
   if (href) {
-    const needs = data.needs.map((x, i) => {
+    const needs = []
+    const unlocks = []
+    for (var i = 0, len = data.needs.length; i < len; i++) {
+      var x = data.needs[i]
       x = x.split('?')[0]
       if (!x.includes('://')) x = 'https://' + x
       if (!x.endsWith('.html') && !x.endsWith('/')) x = x + '/'
-      return {
-        url: new URL('./workshop.json', x).href,
+      var workshop_url = get_url(new URL('./workshop.json', x).href)
+      var workshop = await fetch(workshop_url).then(x => x.json())
+      needs.push({
+        url: new URL(x).href,
         parentIds: [],
-        id: `needs_${i + 1}`, // @TODO: make something unique, like `href + i`?
-        title: `foobar_${i + 1}` // @TODO: fetch from workshop.json
-      }
-    })
-    const unlocks = data.unlocks.map((x, i) => {
+        id: workshop_url,
+        title: workshop.title,
+        icon: get_url(workshop.icon)
+      })
+    }
+    for (var i = 0, len = data.unlocks.length; i < len; i++) {
+      var x = data.unlocks[i]
       x = x.split('?')[0]
       if (!x.includes('://')) x = 'https://' + x
       if (!x.endsWith('.html') && !x.endsWith('/')) x = x + '/'
-      return {
-        url: new URL('./workshop.json', x).href,
-        parentIds: ['0'],
-        id: `unlocks_${i + 1}`, // @TODO: make something unique, like `href + i`?
-        title: `barbaz_${i + 1}` // @TODO: fetch from workshop.json
-      }
-    })
+      var url = new URL(x).href
+      var workshop_url = get_url(new URL('./workshop.json', url).href)
+      var workshop = await fetch(workshop_url).then(x => x.json())
+      unlocks.push({
+        url: url,
+        parentIds: [location.href],
+        id: url,
+        title: workshop.title,
+        icon: get_url(workshop.icon)
+      })
+    }
     return [{
       url: href,
       parentIds: [...needs].map(x => x.id),
+      id: location.href,
       title: data.title,
-      id: '0'
+      icon: get_url(data.icon)
     }, ...needs, ...unlocks]
   } else {
     throw new Error('@TODO: implement "infinite crawling"')
   }
 }
 
-},{}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/skilltrees.js":[function(require,module,exports){
+},{"_get-url":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/node_modules/_get-url.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/node_modules/skilltrees.js":[function(require,module,exports){
 const skilltree = require('skilltree.js')
 const crawl = require('crawl-workshop')
 const bel = require('bel')
@@ -115720,7 +115735,7 @@ const css = csjs`
   width: 100%;
 }`
 
-},{"bel":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/bel/browser.js","crawl-workshop":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/crawl-workshop.js","csjs-inject":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/index.js","skilltree.js":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/skilltree.js/src/index.js"}],"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/workshopping.js":[function(require,module,exports){
+},{"bel":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/bel/browser.js","crawl-workshop":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/node_modules/crawl-workshop.js","csjs-inject":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs-inject/index.js","skilltree.js":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/skilltree.js/src/index.js"}],"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/workshopping.js":[function(require,module,exports){
 const csjs = require('csjs-inject')
 const bel = require('bel') // @TODO: replace with `elb`
 const belmark = require('belmark') // @TODO: replace with `elbmark`
@@ -116372,4 +116387,4 @@ function default_css () {
   return Object.freeze({ css: '@TODO: make available' })
 }
 
-},{"_get-url":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_get-url.js","_svg2favicon":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/_svg2favicon.js","bel":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/bel/browser.js","belmark":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/belmark/source/belmark.js","csjs-inject":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/node_modules/csjs-inject/index.js","skilltrees":"/home/serapath/Desktop/dev/code/@docs/repo/workshopping/src/node_modules/skilltrees.js"}]},{},["/home/serapath/Desktop/dev/code/@docs/repo/workshopping/demo/demo.js"]);
+},{"_get-url":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/node_modules/_get-url.js","_svg2favicon":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/node_modules/_svg2favicon.js","bel":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/bel/browser.js","belmark":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/belmark/source/belmark.js","csjs-inject":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/node_modules/csjs-inject/index.js","skilltrees":"/home/ninabreznik/Documents/code/ethereum/play/workshopping/src/node_modules/skilltrees.js"}]},{},["/home/ninabreznik/Documents/code/ethereum/play/workshopping/demo/demo.js"]);
