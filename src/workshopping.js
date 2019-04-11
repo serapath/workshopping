@@ -562,7 +562,7 @@ function styles (font_url, theme) {
       align-self: flex-start;
       width: 166.4%;
       height: 176.5%;
-      transform: translate(-19.95%, -23.35%) scale(0.6);
+      transform: translate(-10.95%, -32.35%) scale(0.8);
     }
     .welcome code {
       white-space: pre-wrap;
