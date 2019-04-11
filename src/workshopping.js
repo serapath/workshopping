@@ -1,6 +1,7 @@
 const csjs = require('csjs-inject')
 const bel = require('bel') // @TODO: replace with `elb`
 const belmark = require('belmark') // @TODO: replace with `elbmark`
+const registry = require('url-registry')
 const skilltree = require('skilltrees')
 
 const getURL = require('_get-url')
@@ -63,6 +64,20 @@ async function _workshopping ({ config, theme, css }) {
 
   // @TODO: store "DEFAULTS" in default objects, so that data passed to:
   // _workshopping() is already in "perfect state"
+
+  try {
+    const db = await registry(`r70vo-1554993396`, () => true)
+    // e.g. if (typeof url === 'string') return true
+    // // @TODO: check that the "URL" actually makes sense - otherwise, filter it out
+    // // @TODO: design or update `url-registry` so that data is always bound the URL
+    // // which issues the `put` command and if that url (=location.href) is illegal
+    // // don't make the request! - ...maybe allow disabeling via `validate(...)` ?
+    const workshop_url = new URL(location.href)
+    workshop_url.search = ''
+    workshop_url.hash = ''
+    const result = await db.put(workshop_url.href)
+    console.log('publish', result)
+  } catch (e) {}
 
   var font_url = theme['--font']
   var css = styles(font_url || 'arial', theme)
